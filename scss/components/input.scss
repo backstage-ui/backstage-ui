@@ -1,0 +1,66 @@
+@import '../_base.scss';
+
+.bs-ui-input {
+    position: relative;
+
+    &__field {
+        background-color: $color-white;
+        border: solid 2px $color-gray-4;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: $color-gray-8;
+        font-family: $font-default;
+        font-size: 14px;
+        height: 40px;
+        padding: 7px 8px 8px 8px;
+        outline: 0;
+        transition: border-color .15s cubic-bezier(0, 0, 0.2, 1);
+        width: 100%;
+
+        &:hover {
+            border-color: $color-gray-5;
+        }
+
+        &:focus {
+            border-color: $color-hit;
+        }
+    }
+
+    &--error {
+        .bs-ui-input__field {
+            border-color: $color-critical;
+            color: $color-critical;
+
+            &:hover {
+                border-color: $color-critical-dark;
+            }
+            &:focus {
+                border-color: $color-critical-light;
+            }
+        }
+    }
+
+    &--required {
+        .bs-ui-input__label:before {
+            content: '*';
+            position: absolute;
+            top: 0;
+            left: -12px;
+            color: #e83f26;
+        }
+    }
+
+    &__field-error {
+        font-family: $font-default;
+        font-weight: bold;
+        margin-top: $spacer-y-0;
+        padding: 0;
+        color: $color-critical;
+    }
+
+    &__label {
+        @extend .font-14;
+        display: block;
+        margin-bottom: 10px;
+    }
+}

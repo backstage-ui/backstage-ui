@@ -1,0 +1,47 @@
+.code-sample {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: $border-radius;
+  overflow: hidden;
+  margin: $spacer-y-3 0;
+
+  &__head {
+    padding: $spacer-y-1 $spacer-x-2;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-gray-2;
+  }
+  &__title {
+    // @extend .font-20;
+  }
+  &__button {
+    color: $color-gray-5;
+    padding: 0 $spacer-x-0;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &--active {
+      color: $color-hit;
+      transition: color ease-in-out .20s;
+    }
+  }
+  &__content {
+    padding: $spacer-y-1 $spacer-x-2;
+    background-color: $color-white;
+  }
+  &__snippet {
+    border-bottom: 1px solid $color-gray-2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .8s ease-in-out;
+    &--active {
+        max-height: 1000px;
+    }
+  }
+  &__description {
+    padding-bottom: $spacer-y-1;
+  }
+  pre[class*="language-"] {
+    margin: 0;
+  }
+}

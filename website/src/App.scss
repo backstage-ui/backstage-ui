@@ -1,0 +1,20 @@
+@import '../../scss/backstage-ui.scss';
+@import '../../scss/_base.scss';
+
+@import './scss/_Home.scss';
+@import './scss/_Page.scss';
+@import './scss/_SideMenu.scss';
+@import './scss/_Demo.scss';
+@import './scss/_Header.scss';
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $color-gray-1;
+  color: $color-gray-6;
+}

@@ -1,0 +1,35 @@
+@import 'variables';
+
+/*
+  this each will create all classes
+  .font-<size>, .font-<size>--bold,
+  .font-<size>--long-bold, .font-<size>--long,
+  based on _variables.scss@$font-sizes.
+
+  IE: .font-10, .font-10--bold, .font-10--long,
+      .font-10--long-bold, .font-12,
+      .font-12--bold, font-12--long,
+      .font-12--long-bold, .font-14,
+      .font-14--bold, font-14--long,
+      .font-14--long-bold, etc
+
+*/
+@each $size, $props in $font-sizes {
+  $font-size: map-get($props, font-size);
+  $letter-spacing: map-get($props, letter-spacing);
+  $line-height-long-text: map-get($props, line-height-long-text);
+  $line-height: map-get($props, line-height);
+
+  .font-#{$size} {
+    font-family: $font-default;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    -webkit-font-smoothing: antialiased;
+
+    &--long {
+      @extend .font-#{$size};
+      line-height: $line-height-long-text;
+    }
+  }
+}

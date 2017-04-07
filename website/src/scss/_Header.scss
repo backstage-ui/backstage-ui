@@ -1,0 +1,17 @@
+.bs-header-bar {
+  background-color: #FFFFFF;
+  height: 70px;
+  color: black;
+  padding: 0 30px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 499;
+
+  &__brand {
+    padding-top: 20px;
+    height: 70px;
+  }
+
+}

@@ -1,0 +1,62 @@
+.bs-ui-button {
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  outline: 0;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1);
+  font-size: 14px;
+  padding: 12px 16px; }
+  .bs-ui-button:hover {
+    color: #181818; }
+  .bs-ui-button:active {
+    color: #666666; }
+  .bs-ui-button.bs-ui-button--black {
+    background-color: #333333;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+    color: #FFF; }
+    .bs-ui-button.bs-ui-button--black:hover {
+      background-color: #181818; }
+    .bs-ui-button.bs-ui-button--black:active {
+      background-color: #666666; }
+    .bs-ui-button.bs-ui-button--black.disabled, .bs-ui-button.bs-ui-button--black.disabled:hover {
+      background-color: #DDD;
+      box-shadow: none; }
+  .bs-ui-button.bs-ui-button--red {
+    background-color: #e83f26;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+    color: #FFF; }
+    .bs-ui-button.bs-ui-button--red:hover {
+      background-color: #bc2e1b; }
+    .bs-ui-button.bs-ui-button--red:active {
+      background-color: #ee6a50; }
+    .bs-ui-button.bs-ui-button--red.disabled, .bs-ui-button.bs-ui-button--red.disabled:hover {
+      background-color: #DDD;
+      box-shadow: none; }
+  .bs-ui-button.bs-ui-button--blue {
+    background-color: #0769de;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+    color: #FFF; }
+    .bs-ui-button.bs-ui-button--blue:hover {
+      background-color: #2445b1; }
+    .bs-ui-button.bs-ui-button--blue:active {
+      background-color: #3192e7; }
+    .bs-ui-button.bs-ui-button--blue.disabled, .bs-ui-button.bs-ui-button--blue.disabled:hover {
+      background-color: #DDD;
+      box-shadow: none; }
+  .bs-ui-button.bs-ui-button--small {
+    font-size: 12px;
+    padding: 8px 16px; }
+  .bs-ui-button.bs-ui-button--large {
+    font-size: 16px;
+    padding: 14px 16px; }

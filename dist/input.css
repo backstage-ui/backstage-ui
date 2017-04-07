@@ -1,0 +1,17 @@
+.bs-ui-input {
+  background-color: #ffffff;
+  border: solid 2px #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: 40px;
+  padding: 7px 8px 8px 8px;
+  outline: 0;
+  transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1);
+  width: 100%; }
+  .bs-ui-input:hover {
+    border-color: #999999; }
+  .bs-ui-input:focus {
+    border-color: #0769de; }

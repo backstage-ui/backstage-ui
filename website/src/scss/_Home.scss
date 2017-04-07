@@ -1,0 +1,6 @@
+@import "../../../scss/_base.scss";
+
+.bs-styleguide-home__title {
+    @extend .font-34;
+    margin-bottom: $spacer-y-2;
+}

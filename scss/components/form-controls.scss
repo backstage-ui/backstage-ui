@@ -1,0 +1,182 @@
+@import '../_base.scss';
+
+.bs-ui-switch {
+    cursor: pointer;
+
+    label {
+        color: #666;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        letter-spacing: -0.2px;
+    }
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    &:hover {
+        .bs-ui-switch__lever {
+            background-color: #666;
+        }
+    }
+
+    &--blue {
+        .bs-ui-switch__lever {
+            background-color: #0669de;
+        }
+        &:hover .bs-ui-switch__lever {
+            background-color: #044cb3;
+        }
+    }
+
+    &__lever {
+        content: "";
+        display: inline-block;
+        position: relative;
+        width: 44px;
+        height: 24px;
+        background-color: #999;
+        border-radius: 24px;
+        margin-right: 10px;
+        transition: background .15s cubic-bezier(0, 0, 0.2, 1);
+        vertical-align: middle;
+        margin: 0 6px;
+        user-select: none;
+
+        &:after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #FFF;
+            border-radius: 20px;
+            left: 2px;
+            top: 2px;
+            transition: left .15s cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+
+    input[type=checkbox]:checked + .bs-ui-switch__lever:after {
+        left: 22px;
+    }
+
+    &--small {
+        .bs-ui-switch__lever {
+            height: 16px;
+            width: 28px;
+            &:after {
+                width: 12px;
+                height: 12px;
+            }
+        }
+        input[type=checkbox]:checked + .bs-ui-switch__lever:after {
+            left: 14px;
+        }
+    }
+}
+
+.bs-ui-checkbox {
+    position: relative;
+    cursor: pointer;
+    padding-left: 10px;
+
+    input {
+        visibility: hidden;
+    }
+
+    input:before {
+        visibility: visible;
+        position: absolute;
+        content: ' ';
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        background-color: $color-white;
+        border: solid 2px $color-gray-4;
+        top: -3px;
+        left: 0;
+        z-index: 5;
+        transition: border-color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    &:hover {
+        input:before {
+            border-color: $color-gray-5;
+        }
+    }
+
+    &:hover {
+        input[type=checkbox]:checked:before {
+            background-color: $color-hit-dark;
+            border-color: $color-hit-dark;
+        }
+    }
+
+    input[type=checkbox]:checked {
+        &:before {
+            background-color: $color-hit;
+            border-color: $color-hit;
+        }
+        &:after {
+            visibility: visible;
+            content: ' ';
+            position: absolute;
+            border-radius: 2px;
+            top: 0;
+            left: 7px;
+            width: 8px;
+            height: 15px;
+            border-right: 3px solid $color-white;
+            border-bottom: 3px solid $color-white;
+            transform: rotateZ(37deg);
+            z-index: 10
+        }
+    }
+}
+
+
+
+.bs-ui-radio {
+    position: relative;
+    cursor: pointer;
+    padding-left: 10px;
+
+    input {
+        visibility: hidden;
+    }
+
+    input:before {
+        visibility: visible;
+        position: absolute;
+        content: ' ';
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        background-color: $color-white;
+        border: solid 2px $color-gray-4;
+        top: -3px;
+        left: 0;
+        z-index: 5;
+        transition: border-color .15s cubic-bezier(0, 0, 0.2, 1), border-width .15s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    &:hover {
+        input:before {
+            border-color: $color-gray-5;
+        }
+    }
+
+    &:hover {
+        input[type=radio]:checked:before {
+            border-color: $color-hit-dark;
+        }
+    }
+
+    input[type=radio]:checked {
+        &:before {
+            border-color: $color-hit;
+            border-width: 7px;
+        }
+    }
+}

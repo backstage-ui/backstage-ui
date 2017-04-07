@@ -1,0 +1,76 @@
+@import "base";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  @extend .font-34;
+  font-weight: bold;
+  color: $color-black;
+}
+
+h2 {
+  @extend .font-26;
+  font-weight: bold;
+  color: $color-black;
+}
+
+h3 {
+  @extend .font-20;
+  font-weight: bold;
+  color: $color-black;
+}
+
+h4 {
+  @extend .font-16;
+  font-weight: bold;
+  color: $color-black;
+}
+
+h5 {
+  @extend .font-14;
+  font-weight: bold;
+  color: $color-black;
+}
+
+h6 {
+  @extend .font-12;
+  font-weight: bold;
+  color: $color-black;
+}
+
+a {
+  color: $color-hit;
+
+  &:hover {
+    color: $color-hit-dark;
+  }
+
+  &:focus {
+    color: $color-hit-light;
+  }
+}
+
+strong {
+  @extend .font-14;
+  font-weight: bold;
+}

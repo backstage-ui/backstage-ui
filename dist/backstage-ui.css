@@ -55,7 +55,7 @@
   .font-42--long {
     line-height: 3.5rem; }
 
-.font-34, .font-34--long, h1 {
+.font-34, .font-34--long {
   font-family: "Open Sans", sans-serif;
   font-size: 2.125rem;
   letter-spacing: -0.09375rem;
@@ -64,7 +64,7 @@
   .font-34--long {
     line-height: 3rem; }
 
-.font-26, .font-26--long, h2 {
+.font-26, .font-26--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.625rem;
   letter-spacing: -0.0625rem;
@@ -73,7 +73,7 @@
   .font-26--long {
     line-height: 2rem; }
 
-.font-20, .font-20--long, h3 {
+.font-20, .font-20--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   letter-spacing: -0.04688rem;
@@ -91,7 +91,7 @@
   .font-18--long {
     line-height: 1.75rem; }
 
-.font-16, .font-16--long, h4 {
+.font-16, .font-16--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   letter-spacing: -0.03125rem;
@@ -100,7 +100,7 @@
   .font-16--long {
     line-height: 1.5rem; }
 
-.font-14, .font-14--long, h5, strong, .bs-ui-input__label {
+.font-14, .font-14--long, .bs-ui-input__label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
@@ -109,7 +109,7 @@
   .font-14--long {
     line-height: 1.25rem; }
 
-.font-12, .font-12--long, h6 {
+.font-12, .font-12--long {
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0rem;
@@ -134,51 +134,6 @@ html {
 *::after,
 *::before {
   box-sizing: inherit; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  margin: 0;
-  padding: 0; }
-
-h1 {
-  font-weight: bold;
-  color: #000; }
-
-h2 {
-  font-weight: bold;
-  color: #000; }
-
-h3 {
-  font-weight: bold;
-  color: #000; }
-
-h4 {
-  font-weight: bold;
-  color: #000; }
-
-h5 {
-  font-weight: bold;
-  color: #000; }
-
-h6 {
-  font-weight: bold;
-  color: #000; }
-
-a {
-  color: #0769de; }
-  a:hover {
-    color: #044cb3; }
-  a:focus {
-    color: #3192e7; }
-
-strong {
-  font-weight: bold; }
 
 /*
   line height definitions above should to be
@@ -237,7 +192,7 @@ strong {
   .font-42--long {
     line-height: 3.5rem; }
 
-.font-34, .font-34--long, h1 {
+.font-34, .font-34--long {
   font-family: "Open Sans", sans-serif;
   font-size: 2.125rem;
   letter-spacing: -0.09375rem;
@@ -246,7 +201,7 @@ strong {
   .font-34--long {
     line-height: 3rem; }
 
-.font-26, .font-26--long, h2 {
+.font-26, .font-26--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.625rem;
   letter-spacing: -0.0625rem;
@@ -255,7 +210,7 @@ strong {
   .font-26--long {
     line-height: 2rem; }
 
-.font-20, .font-20--long, h3 {
+.font-20, .font-20--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   letter-spacing: -0.04688rem;
@@ -273,7 +228,7 @@ strong {
   .font-18--long {
     line-height: 1.75rem; }
 
-.font-16, .font-16--long, h4 {
+.font-16, .font-16--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   letter-spacing: -0.03125rem;
@@ -282,7 +237,7 @@ strong {
   .font-16--long {
     line-height: 1.5rem; }
 
-.font-14, .font-14--long, h5, strong, .bs-ui-input__label {
+.font-14, .font-14--long, .bs-ui-input__label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
@@ -291,7 +246,7 @@ strong {
   .font-14--long {
     line-height: 1.25rem; }
 
-.font-12, .font-12--long, h6 {
+.font-12, .font-12--long {
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0rem;
@@ -472,7 +427,7 @@ strong {
   .font-42--long {
     line-height: 3.5rem; }
 
-.font-34, .font-34--long, h1 {
+.font-34, .font-34--long {
   font-family: "Open Sans", sans-serif;
   font-size: 2.125rem;
   letter-spacing: -0.09375rem;
@@ -481,7 +436,7 @@ strong {
   .font-34--long {
     line-height: 3rem; }
 
-.font-26, .font-26--long, h2 {
+.font-26, .font-26--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.625rem;
   letter-spacing: -0.0625rem;
@@ -490,7 +445,7 @@ strong {
   .font-26--long {
     line-height: 2rem; }
 
-.font-20, .font-20--long, h3 {
+.font-20, .font-20--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   letter-spacing: -0.04688rem;
@@ -508,7 +463,7 @@ strong {
   .font-18--long {
     line-height: 1.75rem; }
 
-.font-16, .font-16--long, h4 {
+.font-16, .font-16--long {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   letter-spacing: -0.03125rem;
@@ -517,7 +472,7 @@ strong {
   .font-16--long {
     line-height: 1.5rem; }
 
-.font-14, .font-14--long, h5, strong, .bs-ui-input__label {
+.font-14, .font-14--long, .bs-ui-input__label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
@@ -526,7 +481,7 @@ strong {
   .font-14--long {
     line-height: 1.25rem; }
 
-.font-12, .font-12--long, h6 {
+.font-12, .font-12--long {
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0rem;

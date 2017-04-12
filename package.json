@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "build": "node-sass scss/backstage-ui.scss -o dist"
   }
 }

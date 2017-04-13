@@ -1,5 +1,22 @@
 {
   "devDependencies": {
     "node-sass": "^4.5.2"
-  }
+  },
+  "scripts": {
+    "build": "node-sass scss/backstage-ui.scss -o dist"
+  },
+  "name": "backstage-ui-styles",
+  "description": "Backstage UI frontend reusable components",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backstage-ui/backstage-ui.git"
+  },
+  "author": "globo.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backstage-ui/backstage-ui/issues"
+  },
+  "homepage": "https://github.com/backstage-ui/backstage-ui#readme"
 }

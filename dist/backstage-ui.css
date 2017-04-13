@@ -1,20 +1,310 @@
-.bs-ui-input {
-  background-color: #ffffff;
-  border: solid 2px #cccccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #333;
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  this each will create all classes
+  .font-<size>, .font-<size>--bold,
+  .font-<size>--long-bold, .font-<size>--long,
+  based on _variables.scss@$font-sizes.
+
+  IE: .font-10, .font-10--bold, .font-10--long,
+      .font-10--long-bold, .font-12,
+      .font-12--bold, font-12--long,
+      .font-12--long-bold, .font-14,
+      .font-14--bold, font-14--long,
+      .font-14--long-bold, etc
+
+*/
+.font-68, .font-68--long {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  height: 40px;
-  padding: 7px 8px 8px 8px;
-  outline: 0;
-  transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1);
-  width: 100%; }
-  .bs-ui-input:hover {
-    border-color: #999999; }
-  .bs-ui-input:focus {
-    border-color: #0769de; }
+  font-size: 4.25rem;
+  letter-spacing: -0.25rem;
+  line-height: 4.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-68--long {
+    line-height: 5rem; }
+
+.font-56, .font-56--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: -0.1875rem;
+  line-height: 3.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-56--long {
+    line-height: 4rem; }
+
+.font-42, .font-42--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.625rem;
+  letter-spacing: -0.125rem;
+  line-height: 3rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-42--long {
+    line-height: 3.5rem; }
+
+.font-34, .font-34--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.125rem;
+  letter-spacing: -0.09375rem;
+  line-height: 2.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-34--long {
+    line-height: 3rem; }
+
+.font-26, .font-26--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-26--long {
+    line-height: 2rem; }
+
+.font-20, .font-20--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-20--long {
+    line-height: 1.75rem; }
+
+.font-18, .font-18--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.037rem;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-18--long {
+    line-height: 1.75rem; }
+
+.font-16, .font-16--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-16--long {
+    line-height: 1.5rem; }
+
+.font-14, .font-14--long, .bs-ui-input__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-14--long {
+    line-height: 1.25rem; }
+
+.font-12, .font-12--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-12--long {
+    line-height: 0; }
+
+.font-10, .font-10--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0.01562rem;
+  line-height: 0.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-10--long {
+    line-height: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  this each will create all classes
+  .font-<size>, .font-<size>--bold,
+  .font-<size>--long-bold, .font-<size>--long,
+  based on _variables.scss@$font-sizes.
+
+  IE: .font-10, .font-10--bold, .font-10--long,
+      .font-10--long-bold, .font-12,
+      .font-12--bold, font-12--long,
+      .font-12--long-bold, .font-14,
+      .font-14--bold, font-14--long,
+      .font-14--long-bold, etc
+
+*/
+.font-68, .font-68--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4.25rem;
+  letter-spacing: -0.25rem;
+  line-height: 4.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-68--long {
+    line-height: 5rem; }
+
+.font-56, .font-56--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: -0.1875rem;
+  line-height: 3.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-56--long {
+    line-height: 4rem; }
+
+.font-42, .font-42--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.625rem;
+  letter-spacing: -0.125rem;
+  line-height: 3rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-42--long {
+    line-height: 3.5rem; }
+
+.font-34, .font-34--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.125rem;
+  letter-spacing: -0.09375rem;
+  line-height: 2.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-34--long {
+    line-height: 3rem; }
+
+.font-26, .font-26--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-26--long {
+    line-height: 2rem; }
+
+.font-20, .font-20--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-20--long {
+    line-height: 1.75rem; }
+
+.font-18, .font-18--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.037rem;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-18--long {
+    line-height: 1.75rem; }
+
+.font-16, .font-16--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-16--long {
+    line-height: 1.5rem; }
+
+.font-14, .font-14--long, .bs-ui-input__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-14--long {
+    line-height: 1.25rem; }
+
+.font-12, .font-12--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-12--long {
+    line-height: 0; }
+
+.font-10, .font-10--long {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0.01562rem;
+  line-height: 0.75rem;
+  -webkit-font-smoothing: antialiased; }
+  .font-10--long {
+    line-height: 0; }
+
+.bs-ui-input {
+  position: relative; }
+  .bs-ui-input__field {
+    background-color: #fff;
+    border: solid 2px #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: 40px;
+    padding: 7px 8px 8px 8px;
+    outline: 0;
+    transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1);
+    width: 100%; }
+    .bs-ui-input__field:hover {
+      border-color: #999; }
+    .bs-ui-input__field:focus {
+      border-color: #0769de; }
+  .bs-ui-input--error .bs-ui-input__field {
+    border-color: #e83f26;
+    color: #e83f26; }
+    .bs-ui-input--error .bs-ui-input__field:hover {
+      border-color: #bc2e1e; }
+    .bs-ui-input--error .bs-ui-input__field:focus {
+      border-color: #ee6a50; }
+  .bs-ui-input--required .bs-ui-input__label:before {
+    content: '*';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    color: #e83f26; }
+  .bs-ui-input__field-error {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding: 0;
+    color: #e83f26; }
+  .bs-ui-input__label {
+    display: block;
+    margin-bottom: 10px; }
 
 .bs-ui-button {
   border-radius: 4px;
@@ -29,6 +319,7 @@
   line-height: 1.33;
   outline: 0;
   padding: 8px 16px;
+  text-decoration: none;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -79,63 +370,6 @@
     font-size: 16px;
     padding: 14px 16px; }
 
-.bs-ui-switch label {
-  color: #666;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.2px; }
-
-.bs-ui-switch input[type=checkbox] {
-  display: none; }
-
-.bs-ui-switch:hover .bs-ui-switch__lever {
-  background-color: #666; }
-
-.bs-ui-switch--blue .bs-ui-switch__lever {
-  background-color: #0669de; }
-
-.bs-ui-switch--blue:hover .bs-ui-switch__lever {
-  background-color: #044cb3; }
-
-.bs-ui-switch__lever {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 44px;
-  height: 24px;
-  background-color: #999;
-  border-radius: 24px;
-  margin-right: 10px;
-  transition: background 0.15s cubic-bezier(0, 0, 0.2, 1);
-  vertical-align: middle;
-  margin: 0 6px;
-  cursor: pointer;
-  user-select: none; }
-  .bs-ui-switch__lever:after {
-    content: "";
-    position: absolute;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #FFF;
-    border-radius: 20px;
-    left: 2px;
-    top: 2px;
-    transition: left 0.15s cubic-bezier(0, 0, 0.2, 1); }
-
-.bs-ui-switch input[type=checkbox]:checked + .bs-ui-switch__lever:after {
-  left: 22px; }
-
-.bs-ui-switch--small .bs-ui-switch__lever {
-  height: 16px;
-  width: 28px; }
-  .bs-ui-switch--small .bs-ui-switch__lever:after {
-    width: 12px;
-    height: 12px; }
-
-.bs-ui-switch--small input[type=checkbox]:checked + .bs-ui-switch__lever:after {
-  left: 14px; }
-
 /*
   line height definitions above should to be
   used in a long text context
@@ -152,16 +386,6 @@
   line height definitions above should to be
   used in a long text context
  */
-@font-face {
-  font-family: "opensans-regular-webfont";
-  src: url("//s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.eot");
-  src: url("//s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.woff") format("woff"), url("//s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.ttf") format("truetype"), url("//s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.svg#opensans-regular-webfont") format("svg"); }
-
-@font-face {
-  font-family: "opensans-bold-webfont";
-  src: url("//s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.eot");
-  src: url("//s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("//s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.woff") format("woff"), url("//s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.ttf") format("truetype"), url("//s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.svg#opensans-bold-webfont") format("svg"); }
-
 /*
   this each will create all classes
   .font-<size>, .font-<size>--bold,
@@ -176,229 +400,219 @@
       .font-14--long-bold, etc
 
 */
-.font-68, .font-68--bold, .font-68--long-bold, .font-68--long {
-  font-family: "opensans-regular-webfont";
+.font-68, .font-68--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 4.25rem;
   letter-spacing: -0.25rem;
   line-height: 4.5rem;
   -webkit-font-smoothing: antialiased; }
-  .font-68--bold, .font-68--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-68--long, .font-68--long-bold {
+  .font-68--long {
     line-height: 5rem; }
 
-.font-56, .font-56--bold, .font-56--long-bold, .font-56--long {
-  font-family: "opensans-regular-webfont";
+.font-56, .font-56--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 3.5rem;
   letter-spacing: -0.1875rem;
   line-height: 3.75rem;
   -webkit-font-smoothing: antialiased; }
-  .font-56--bold, .font-56--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-56--long, .font-56--long-bold {
+  .font-56--long {
     line-height: 4rem; }
 
-.font-42, .font-42--bold, .font-42--long-bold, .font-42--long {
-  font-family: "opensans-regular-webfont";
+.font-42, .font-42--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 2.625rem;
   letter-spacing: -0.125rem;
   line-height: 3rem;
   -webkit-font-smoothing: antialiased; }
-  .font-42--bold, .font-42--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-42--long, .font-42--long-bold {
+  .font-42--long {
     line-height: 3.5rem; }
 
-.font-34, .font-34--bold, .font-34--long-bold, .font-34--long {
-  font-family: "opensans-regular-webfont";
+.font-34, .font-34--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 2.125rem;
   letter-spacing: -0.09375rem;
   line-height: 2.5rem;
   -webkit-font-smoothing: antialiased; }
-  .font-34--bold, .font-34--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-34--long, .font-34--long-bold {
+  .font-34--long {
     line-height: 3rem; }
 
-.font-26, .font-26--bold, .font-26--long-bold, h1, .font-26--long {
-  font-family: "opensans-regular-webfont";
+.font-26, .font-26--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.625rem;
   letter-spacing: -0.0625rem;
   line-height: 1.75rem;
   -webkit-font-smoothing: antialiased; }
-  .font-26--bold, .font-26--long-bold, h1 {
-    font-family: "opensans-bold-webfont"; }
-  .font-26--long, .font-26--long-bold {
+  .font-26--long {
     line-height: 2rem; }
 
-.font-20, .font-20--bold, .font-20--long-bold, h2, .font-20--long {
-  font-family: "opensans-regular-webfont";
+.font-20, .font-20--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   letter-spacing: -0.04688rem;
   line-height: 1.5rem;
   -webkit-font-smoothing: antialiased; }
-  .font-20--bold, .font-20--long-bold, h2 {
-    font-family: "opensans-bold-webfont"; }
-  .font-20--long, .font-20--long-bold {
+  .font-20--long {
     line-height: 1.75rem; }
 
-.font-18, .font-18--bold, .font-18--long-bold, .font-18--long {
-  font-family: "opensans-regular-webfont";
+.font-18, .font-18--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   letter-spacing: 0.037rem;
   line-height: 1.5rem;
   -webkit-font-smoothing: antialiased; }
-  .font-18--bold, .font-18--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-18--long, .font-18--long-bold {
+  .font-18--long {
     line-height: 1.75rem; }
 
-.font-16, .font-16--bold, .font-16--long-bold, .font-16--long {
-  font-family: "opensans-regular-webfont";
+.font-16, .font-16--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   letter-spacing: -0.03125rem;
   line-height: 1.25rem;
   -webkit-font-smoothing: antialiased; }
-  .font-16--bold, .font-16--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-16--long, .font-16--long-bold {
+  .font-16--long {
     line-height: 1.5rem; }
 
-.font-14, .font-14--bold, .font-14--long-bold, strong, .font-14--long {
-  font-family: "opensans-regular-webfont";
+.font-14, .font-14--long, .bs-ui-input__label {
+  font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
-  .font-14--bold, .font-14--long-bold, strong {
-    font-family: "opensans-bold-webfont"; }
-  .font-14--long, .font-14--long-bold {
+  .font-14--long {
     line-height: 1.25rem; }
 
-.font-12, .font-12--bold, .font-12--long-bold, h3, .font-12--long {
-  font-family: "opensans-regular-webfont";
+.font-12, .font-12--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
-  .font-12--bold, .font-12--long-bold, h3 {
-    font-family: "opensans-bold-webfont"; }
-  .font-12--long, .font-12--long-bold {
+  .font-12--long {
     line-height: 0; }
 
-.font-10, .font-10--bold, .font-10--long-bold, .font-10--long, h4 {
-  font-family: "opensans-regular-webfont";
+.font-10, .font-10--long {
+  font-family: "Open Sans", sans-serif;
   font-size: 0.625rem;
   letter-spacing: 0.01562rem;
   line-height: 0.75rem;
   -webkit-font-smoothing: antialiased; }
-  .font-10--bold, .font-10--long-bold {
-    font-family: "opensans-bold-webfont"; }
-  .font-10--long, .font-10--long-bold {
+  .font-10--long {
     line-height: 0; }
 
-@font-face {
-  font-family: 'icons';
-  src: url("data:application/x-font-woff;charset=utf-8;base64,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") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.bs-ui-switch {
+  cursor: pointer; }
+  .bs-ui-switch label {
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.2px; }
+  .bs-ui-switch input[type=checkbox] {
+    display: none; }
+  .bs-ui-switch:hover .bs-ui-switch__lever {
+    background-color: #666; }
+  .bs-ui-switch--blue .bs-ui-switch__lever {
+    background-color: #0669de; }
+  .bs-ui-switch--blue:hover .bs-ui-switch__lever {
+    background-color: #044cb3; }
+  .bs-ui-switch__lever {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color: #999;
+    border-radius: 24px;
+    margin-right: 10px;
+    transition: background 0.15s cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    margin: 0 6px;
+    user-select: none; }
+    .bs-ui-switch__lever:after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #FFF;
+      border-radius: 20px;
+      left: 2px;
+      top: 2px;
+      transition: left 0.15s cubic-bezier(0, 0, 0.2, 1); }
+  .bs-ui-switch input[type=checkbox]:checked + .bs-ui-switch__lever:after {
+    left: 22px; }
+  .bs-ui-switch--small .bs-ui-switch__lever {
+    height: 16px;
+    width: 28px; }
+    .bs-ui-switch--small .bs-ui-switch__lever:after {
+      width: 12px;
+      height: 12px; }
+  .bs-ui-switch--small input[type=checkbox]:checked + .bs-ui-switch__lever:after {
+    left: 14px; }
 
-.icon {
-  font-family: "icons";
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 1;
-  font-weight: normal;
-  font-style: normal;
-  speak: none;
-  text-decoration: inherit;
-  text-transform: none;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+.bs-ui-checkbox {
+  position: relative;
+  cursor: pointer;
+  padding-left: 10px; }
+  .bs-ui-checkbox input {
+    visibility: hidden; }
+  .bs-ui-checkbox input:before {
+    visibility: visible;
+    position: absolute;
+    content: ' ';
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: solid 2px #ccc;
+    top: -3px;
+    left: 0;
+    z-index: 5;
+    transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
+  .bs-ui-checkbox:hover input:before {
+    border-color: #999; }
+  .bs-ui-checkbox:hover input[type=checkbox]:checked:before {
+    background-color: #044cb3;
+    border-color: #044cb3; }
+  .bs-ui-checkbox input[type=checkbox]:checked:before {
+    background-color: #0769de;
+    border-color: #0769de; }
+  .bs-ui-checkbox input[type=checkbox]:checked:after {
+    visibility: visible;
+    content: ' ';
+    position: absolute;
+    border-radius: 2px;
+    top: 0;
+    left: 7px;
+    width: 8px;
+    height: 15px;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: rotateZ(37deg);
+    z-index: 10; }
 
-.icon-arrow-down:before {
-  content: "\f101"; }
-
-.icon-arrow-left:before {
-  content: "\f102"; }
-
-.icon-arrow-right:before {
-  content: "\f103"; }
-
-.icon-arrow-up:before {
-  content: "\f104"; }
-
-.icon-check:before {
-  content: "\f105"; }
-
-.icon-cross-circle:before {
-  content: "\f106"; }
-
-.icon-cross:before {
-  content: "\f107"; }
-
-.icon-drag:before {
-  content: "\f108"; }
-
-.icon-image:before {
-  content: "\f109"; }
-
-.icon-info:before {
-  content: "\f10a"; }
-
-.icon-outside:before {
-  content: "\f10b"; }
-
-.icon-play-circle:before {
-  content: "\f10c"; }
-
-.icon-plus-circle:before {
-  content: "\f10d"; }
-
-.icon-plus:before {
-  content: "\f10e"; }
-
-.icon-search:before {
-  content: "\f10f"; }
-
-.icon-warn:before {
-  content: "\f110"; }
-
-html {
-  box-sizing: border-box; }
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit; }
-
-h1,
-h2,
-h3,
-h4,
-p,
-a {
-  margin: 0;
-  padding: 0; }
-
-h1 {
-  border-bottom: 1px solid #ccc;
-  color: #000; }
-
-h2 {
-  color: #000; }
-
-h3 {
-  color: #666; }
-
-h4 {
-  color: #333;
-  text-transform: uppercase; }
-
-a {
-  color: #0669de; }
-  a:hover {
-    color: #044cb3; }
-  a:focus {
-    color: #3192e7; }
+.bs-ui-radio {
+  position: relative;
+  cursor: pointer;
+  padding-left: 10px; }
+  .bs-ui-radio input {
+    visibility: hidden; }
+  .bs-ui-radio input:before {
+    visibility: visible;
+    position: absolute;
+    content: ' ';
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: #fff;
+    border: solid 2px #ccc;
+    top: -3px;
+    left: 0;
+    z-index: 5;
+    transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-width 0.15s cubic-bezier(0, 0, 0.2, 1); }
+  .bs-ui-radio:hover input:before {
+    border-color: #999; }
+  .bs-ui-radio:hover input[type=radio]:checked:before {
+    border-color: #044cb3; }
+  .bs-ui-radio input[type=radio]:checked:before {
+    border-color: #0769de;
+    border-width: 7px; }

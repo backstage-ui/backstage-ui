@@ -4,10 +4,10 @@
     cursor: pointer;
 
     label {
-        color: #666;
-        font-family: "Open Sans", sans-serif;
-        font-size: 14px;
-        letter-spacing: -0.2px;
+        color: $color-gray-6;
+        font-family: $font-default;
+        font-size: $font-size-14;
+        letter-spacing: $letter-spacing-14;
     }
 
     input[type=checkbox] {
@@ -16,16 +16,10 @@
 
     &:hover {
         .bs-ui-switch__lever {
-            background-color: #666;
+            background-color: $color-gray-6;
         }
-    }
-
-    &--blue {
-        .bs-ui-switch__lever {
-            background-color: #0669de;
-        }
-        &:hover .bs-ui-switch__lever {
-            background-color: #044cb3;
+        input[type=checkbox]:checked + .bs-ui-switch__lever {
+            background-color: $color-hit-dark;
         }
     }
 
@@ -34,10 +28,9 @@
         display: inline-block;
         position: relative;
         width: 44px;
-        height: 24px;
-        background-color: #999;
+        height: $spacer-x-2;
+        background-color: $color-gray-5;
         border-radius: 24px;
-        margin-right: 10px;
         transition: background .15s cubic-bezier(0, 0, 0.2, 1);
         vertical-align: middle;
         margin: 0 6px;
@@ -49,7 +42,7 @@
             display: inline-block;
             width: 20px;
             height: 20px;
-            background-color: #FFF;
+            background-color: $color-white;
             border-radius: 20px;
             left: 2px;
             top: 2px;
@@ -57,8 +50,14 @@
         }
     }
 
-    input[type=checkbox]:checked + .bs-ui-switch__lever:after {
-        left: 22px;
+    input[type=checkbox]:checked {
+        + .bs-ui-switch__lever:after {
+            left: 22px;
+        }
+
+        + .bs-ui-switch__lever {
+            background-color: $color-hit;
+        }
     }
 
     &--small {
@@ -76,6 +75,8 @@
     }
 }
 
+
+
 .bs-ui-checkbox {
     position: relative;
     cursor: pointer;
@@ -87,6 +88,7 @@
 
     input:before {
         visibility: visible;
+        cursor: pointer;
         position: absolute;
         content: ' ';
         width: 24px;
@@ -148,6 +150,7 @@
 
     input:before {
         visibility: visible;
+        cursor: pointer;
         position: absolute;
         content: ' ';
         width: 24px;

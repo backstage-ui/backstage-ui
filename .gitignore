@@ -58,3 +58,8 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Vim
+*.swp
+*.swo
+*.swn

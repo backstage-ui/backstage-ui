@@ -14,19 +14,9 @@ export default () => (
   <input type="checkbox">
   <span class="bs-ui-switch__lever"></span>
   Check?
-</label>
-<label class="bs-ui-switch bs-ui-switch--blue">
-  <input type="checkbox">
-  <span class="bs-ui-switch__lever"></span>
-  Check?
 </label>`} title="Switches">
     </Demo>
     <Demo title="Small size" code={`<label class="bs-ui-switch bs-ui-switch--small">
-  <input type="checkbox">
-  <span class="bs-ui-switch__lever"></span>
-  Check?
-</label>
-<label class="bs-ui-switch bs-ui-switch--small bs-ui-switch--blue">
   <input type="checkbox">
   <span class="bs-ui-switch__lever"></span>
   Check?

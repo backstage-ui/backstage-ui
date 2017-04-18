@@ -20,7 +20,7 @@
   $line-height-long-text: map-get($props, line-height-long-text);
   $line-height: map-get($props, line-height);
 
-  .font-#{$size} {
+  %font-#{$size} {
     font-family: $font-default;
     font-size: $font-size;
     letter-spacing: $letter-spacing;
@@ -28,7 +28,7 @@
     -webkit-font-smoothing: antialiased;
 
     &--long {
-      @extend .font-#{$size};
+      @extend %font-#{$size};
       line-height: $line-height-long-text;
     }
   }

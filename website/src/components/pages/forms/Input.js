@@ -10,20 +10,20 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       Lorem ipsum dolor sit amet.
     </p>
-    <Demo code={`<div class="bs-ui-input">
-  <label class="bs-ui-input__label">My Field</label>
-  <input type="text" class="bs-ui-input__field"/>
+    <Demo code={`<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">My Field</label>
+  <input type="text" class="bs-ui-form-control__field"/>
 </div>`}/>
-    <Demo code={`<div class="bs-ui-input">
-  <input type="text" placeholder="Just a placeholder" class="bs-ui-input__field"/>
+    <Demo code={`<div class="bs-ui-form-control">
+  <input type="text" placeholder="Just a placeholder" class="bs-ui-form-control__field"/>
 </div>`}/>
-    <Demo code={`<div class="bs-ui-input bs-ui-input--error">
-  <input type="text" placeholder="Just a placeholder" class="bs-ui-input__field" value="invalid"/>
-  <p class="bs-ui-input__field-error">This field is required.</p>
+    <Demo code={`<div class="bs-ui-form-control bs-ui-form-control--error">
+  <input type="text" placeholder="Just a placeholder" class="bs-ui-form-control__field" value="invalid"/>
+  <p class="bs-ui-form-control__field-error">This field is required.</p>
 </div>`}/>
-    <Demo code={`<div class="bs-ui-input bs-ui-input--required">
-  <label class="bs-ui-input__label">My Field</label>
-  <input type="text" placeholder="Required field" class="bs-ui-input__field"/>
+    <Demo code={`<div class="bs-ui-form-control bs-ui-form-control--required">
+  <label class="bs-ui-form-control__label">My Field</label>
+  <input type="text" placeholder="Required field" class="bs-ui-form-control__field"/>
 </div>`}/>
   </Page>
 );

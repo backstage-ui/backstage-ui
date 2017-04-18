@@ -28,245 +28,16 @@
       .font-14--long-bold, etc
 
 */
-.font-68, .font-68--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 4.25rem;
-  letter-spacing: -0.25rem;
-  line-height: 4.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-68--long {
-    line-height: 5rem; }
-
-.font-56, .font-56--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.5rem;
-  letter-spacing: -0.1875rem;
-  line-height: 3.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-56--long {
-    line-height: 4rem; }
-
-.font-42, .font-42--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.625rem;
-  letter-spacing: -0.125rem;
-  line-height: 3rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-42--long {
-    line-height: 3.5rem; }
-
-.font-34, .font-34--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.125rem;
-  letter-spacing: -0.09375rem;
-  line-height: 2.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-34--long {
-    line-height: 3rem; }
-
-.font-26, .font-26--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.625rem;
-  letter-spacing: -0.0625rem;
-  line-height: 1.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-26--long {
-    line-height: 2rem; }
-
-.font-20, .font-20--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: -0.04688rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-20--long {
-    line-height: 1.75rem; }
-
-.font-18, .font-18--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  letter-spacing: 0.037rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-18--long {
-    line-height: 1.75rem; }
-
-.font-16, .font-16--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  letter-spacing: -0.03125rem;
-  line-height: 1.25rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-16--long {
-    line-height: 1.5rem; }
-
-.font-14, .font-14--long, .bs-ui-input__label {
+.bs-ui-form-control__label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
-  .font-14--long {
-    line-height: 1.25rem; }
 
-.font-12, .font-12--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0rem;
-  line-height: 1rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-12--long {
-    line-height: 0; }
-
-.font-10, .font-10--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.625rem;
-  letter-spacing: 0.01562rem;
-  line-height: 0.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-10--long {
-    line-height: 0; }
-
-html {
-  box-sizing: border-box; }
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit; }
-
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  this each will create all classes
-  .font-<size>, .font-<size>--bold,
-  .font-<size>--long-bold, .font-<size>--long,
-  based on _variables.scss@$font-sizes.
-
-  IE: .font-10, .font-10--bold, .font-10--long,
-      .font-10--long-bold, .font-12,
-      .font-12--bold, font-12--long,
-      .font-12--long-bold, .font-14,
-      .font-14--bold, font-14--long,
-      .font-14--long-bold, etc
-
-*/
-.font-68, .font-68--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 4.25rem;
-  letter-spacing: -0.25rem;
-  line-height: 4.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-68--long {
-    line-height: 5rem; }
-
-.font-56, .font-56--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.5rem;
-  letter-spacing: -0.1875rem;
-  line-height: 3.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-56--long {
-    line-height: 4rem; }
-
-.font-42, .font-42--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.625rem;
-  letter-spacing: -0.125rem;
-  line-height: 3rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-42--long {
-    line-height: 3.5rem; }
-
-.font-34, .font-34--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.125rem;
-  letter-spacing: -0.09375rem;
-  line-height: 2.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-34--long {
-    line-height: 3rem; }
-
-.font-26, .font-26--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.625rem;
-  letter-spacing: -0.0625rem;
-  line-height: 1.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-26--long {
-    line-height: 2rem; }
-
-.font-20, .font-20--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: -0.04688rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-20--long {
-    line-height: 1.75rem; }
-
-.font-18, .font-18--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  letter-spacing: 0.037rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-18--long {
-    line-height: 1.75rem; }
-
-.font-16, .font-16--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  letter-spacing: -0.03125rem;
-  line-height: 1.25rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-16--long {
-    line-height: 1.5rem; }
-
-.font-14, .font-14--long, .bs-ui-input__label {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.875rem;
-  letter-spacing: -0.01562rem;
-  line-height: 1rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-14--long {
-    line-height: 1.25rem; }
-
-.font-12, .font-12--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0rem;
-  line-height: 1rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-12--long {
-    line-height: 0; }
-
-.font-10, .font-10--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.625rem;
-  letter-spacing: 0.01562rem;
-  line-height: 0.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-10--long {
-    line-height: 0; }
-
-.bs-ui-input {
+.bs-ui-form-control {
   position: relative; }
-  .bs-ui-input__field {
+  .bs-ui-form-control__field {
     background-color: #fff;
     border: solid 2px #ccc;
     border-radius: 4px;
@@ -279,30 +50,30 @@ html {
     outline: 0;
     transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1);
     width: 100%; }
-    .bs-ui-input__field:hover {
+    .bs-ui-form-control__field:hover {
       border-color: #999; }
-    .bs-ui-input__field:focus {
+    .bs-ui-form-control__field:focus {
       border-color: #0669De; }
-  .bs-ui-input--error .bs-ui-input__field {
+  .bs-ui-form-control--error .bs-ui-form-control__field {
     border-color: #e83f26;
     color: #e83f26; }
-    .bs-ui-input--error .bs-ui-input__field:hover {
+    .bs-ui-form-control--error .bs-ui-form-control__field:hover {
       border-color: #bc2e1e; }
-    .bs-ui-input--error .bs-ui-input__field:focus {
+    .bs-ui-form-control--error .bs-ui-form-control__field:focus {
       border-color: #ee6a50; }
-  .bs-ui-input--required .bs-ui-input__label:before {
+  .bs-ui-form-control--required .bs-ui-form-control__label:before {
     content: '*';
     position: absolute;
     top: 0;
     left: -12px;
     color: #e83f26; }
-  .bs-ui-input__field-error {
+  .bs-ui-form-control__field-error {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     margin-top: 0.5rem;
     padding: 0;
     color: #e83f26; }
-  .bs-ui-input__label {
+  .bs-ui-form-control__label {
     display: block;
     margin-bottom: 10px; }
 
@@ -427,104 +198,12 @@ html {
       .font-14--long-bold, etc
 
 */
-.font-68, .font-68--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 4.25rem;
-  letter-spacing: -0.25rem;
-  line-height: 4.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-68--long {
-    line-height: 5rem; }
-
-.font-56, .font-56--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.5rem;
-  letter-spacing: -0.1875rem;
-  line-height: 3.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-56--long {
-    line-height: 4rem; }
-
-.font-42, .font-42--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.625rem;
-  letter-spacing: -0.125rem;
-  line-height: 3rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-42--long {
-    line-height: 3.5rem; }
-
-.font-34, .font-34--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.125rem;
-  letter-spacing: -0.09375rem;
-  line-height: 2.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-34--long {
-    line-height: 3rem; }
-
-.font-26, .font-26--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.625rem;
-  letter-spacing: -0.0625rem;
-  line-height: 1.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-26--long {
-    line-height: 2rem; }
-
-.font-20, .font-20--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: -0.04688rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-20--long {
-    line-height: 1.75rem; }
-
-.font-18, .font-18--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  letter-spacing: 0.037rem;
-  line-height: 1.5rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-18--long {
-    line-height: 1.75rem; }
-
-.font-16, .font-16--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  letter-spacing: -0.03125rem;
-  line-height: 1.25rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-16--long {
-    line-height: 1.5rem; }
-
-.font-14, .font-14--long, .bs-ui-input__label {
+.bs-ui-form-control__label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
-  .font-14--long {
-    line-height: 1.25rem; }
-
-.font-12, .font-12--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0rem;
-  line-height: 1rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-12--long {
-    line-height: 0; }
-
-.font-10, .font-10--long {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.625rem;
-  letter-spacing: 0.01562rem;
-  line-height: 0.75rem;
-  -webkit-font-smoothing: antialiased; }
-  .font-10--long {
-    line-height: 0; }
 
 .bs-ui-switch {
   cursor: pointer; }
@@ -624,6 +303,7 @@ html {
   .bs-ui-radio input {
     visibility: hidden; }
   .bs-ui-radio input:before {
+    box-sizing: border-box;
     visibility: visible;
     cursor: pointer;
     position: absolute;

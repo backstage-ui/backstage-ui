@@ -157,7 +157,6 @@
 }
 
 
-
 .bs-ui-radio {
     position: relative;
     cursor: pointer;
@@ -168,6 +167,7 @@
     }
 
     input:before {
+        box-sizing: border-box;
         visibility: visible;
         cursor: pointer;
         position: absolute;

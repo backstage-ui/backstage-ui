@@ -1,6 +1,6 @@
 @import '../_base.scss';
 
-.bs-ui-input {
+.bs-ui-form-control {
     position: relative;
 
     &__field {
@@ -27,7 +27,7 @@
     }
 
     &--error {
-        .bs-ui-input__field {
+        .bs-ui-form-control__field {
             border-color: $color-critical;
             color: $color-critical;
 
@@ -41,7 +41,7 @@
     }
 
     &--required {
-        .bs-ui-input__label:before {
+        .bs-ui-form-control__label:before {
             content: '*';
             position: absolute;
             top: 0;
@@ -59,7 +59,7 @@
     }
 
     &__label {
-        @extend .font-14;
+        @extend %font-14;
         display: block;
         margin-bottom: 10px;
     }

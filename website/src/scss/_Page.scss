@@ -1,6 +1,6 @@
 .bs-styleguide {
   &__body {
-    @extend .font-14;
+    @extend %font-14;
     padding-left: 300px;
     padding-top: 70px;
   }

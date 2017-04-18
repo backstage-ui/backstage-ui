@@ -32,8 +32,15 @@ export default () => (
   <label class="bs-ui-checkbox">
     <input type="checkbox" checked>Check?
   </label>
-</div>`} title="Radio">
-    </Demo>
+</div>`} title="Checkbox" />
+    <Demo title="Small size" code={`<div class="bs-ui-input">
+  <label class="bs-ui-checkbox bs-ui-checkbox--small">
+    <input type="checkbox">Check?
+  </label>
+  <label class="bs-ui-checkbox bs-ui-checkbox--small">
+    <input type="checkbox" checked>Check?
+  </label>
+</div>`} />
     <h2 className="bs-styleguide-page__subtitle">Radio buttons</h2>
     <p className="bs-styleguide-page__lead">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sed.
@@ -47,5 +54,13 @@ export default () => (
   </label>
 </div>`} title="Radio">
     </Demo>
+    <Demo code={`<div class="bs-ui-input">
+      <label class="bs-ui-radio bs-ui-radio--small">
+        <input type="radio" checked name="demo-small">Check?
+      </label>
+      <label class="bs-ui-radio bs-ui-radio--small">
+        <input type="radio" name="demo-small">Check?
+      </label>
+    </div>`} title="Small size" />
   </Page>
 );

@@ -135,6 +135,25 @@
             z-index: 10
         }
     }
+
+    &--small {
+        padding-left: 2px;
+
+        input:before {
+            height: 16px;
+            width: 16px;
+            top: 2px;
+        }
+
+        input[type=checkbox]:checked {
+            &:after {
+                top: 4px;
+                left: 5px;
+                width: 6px;
+                height: 11px;
+            }
+        }
+    }
 }
 
 
@@ -180,6 +199,22 @@
         &:before {
             border-color: $color-hit;
             border-width: 7px;
+        }
+    }
+
+    &--small {
+        padding-left: 2px;
+
+        input:before {
+          width: 16px;
+          height: 16px;
+          top: 2px;
+        }
+
+        input[type=radio]:checked {
+            &:before {
+                border-width: 5px;
+            }
         }
     }
 }

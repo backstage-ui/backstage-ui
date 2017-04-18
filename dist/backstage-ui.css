@@ -74,6 +74,7 @@
     padding: 0;
     color: #e83f26; }
   .bs-ui-form-control__label {
+    color: #666;
     display: block;
     margin-bottom: 10px; }
 
@@ -295,6 +296,17 @@
     border-bottom: 3px solid #fff;
     transform: rotateZ(37deg);
     z-index: 10; }
+  .bs-ui-checkbox--small {
+    padding-left: 2px; }
+    .bs-ui-checkbox--small input:before {
+      height: 16px;
+      width: 16px;
+      top: 2px; }
+    .bs-ui-checkbox--small input[type=checkbox]:checked:after {
+      top: 4px;
+      left: 5px;
+      width: 6px;
+      height: 11px; }
 
 .bs-ui-radio {
   position: relative;
@@ -324,3 +336,11 @@
   .bs-ui-radio input[type=radio]:checked:before {
     border-color: #0669De;
     border-width: 7px; }
+  .bs-ui-radio--small {
+    padding-left: 2px; }
+    .bs-ui-radio--small input:before {
+      width: 16px;
+      height: 16px;
+      top: 2px; }
+    .bs-ui-radio--small input[type=radio]:checked:before {
+      border-width: 5px; }

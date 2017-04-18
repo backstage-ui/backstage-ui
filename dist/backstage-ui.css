@@ -28,8 +28,54 @@
       .font-14--long-bold, etc
 
 */
-.bs-ui-input {
+.bs-ui-form-control__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+
+.bs-ui-form-control {
   position: relative; }
+  .bs-ui-form-control__field {
+    background-color: #fff;
+    border: solid 2px #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: 40px;
+    padding: 7px 8px 8px 8px;
+    outline: 0;
+    transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1);
+    width: 100%; }
+    .bs-ui-form-control__field:hover {
+      border-color: #999; }
+    .bs-ui-form-control__field:focus {
+      border-color: #0669De; }
+  .bs-ui-form-control--error .bs-ui-form-control__field {
+    border-color: #e83f26;
+    color: #e83f26; }
+    .bs-ui-form-control--error .bs-ui-form-control__field:hover {
+      border-color: #bc2e1e; }
+    .bs-ui-form-control--error .bs-ui-form-control__field:focus {
+      border-color: #ee6a50; }
+  .bs-ui-form-control--required .bs-ui-form-control__label:before {
+    content: '*';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    color: #e83f26; }
+  .bs-ui-form-control__field-error {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding: 0;
+    color: #e83f26; }
+  .bs-ui-form-control__label {
+    display: block;
+    margin-bottom: 10px; }
 
 .bs-ui-button {
   border-radius: 4px;
@@ -152,6 +198,13 @@
       .font-14--long-bold, etc
 
 */
+.bs-ui-form-control__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+
 .bs-ui-switch {
   cursor: pointer; }
   .bs-ui-switch label {

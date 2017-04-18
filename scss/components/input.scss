@@ -60,6 +60,7 @@
 
     &__label {
         @extend .font-14;
+        color: $color-gray-6;
         display: block;
         margin-bottom: 10px;
     }

@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
 import React from "react";
 
 import Demo from "../../Demo";

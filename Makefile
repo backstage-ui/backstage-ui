@@ -3,3 +3,6 @@ run:
 
 build:
 	@cd website && yarn build && yarn build-css
+
+setup:
+	yarn

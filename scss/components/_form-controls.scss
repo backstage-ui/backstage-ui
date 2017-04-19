@@ -80,7 +80,7 @@
 .bs-ui-checkbox {
     position: relative;
     cursor: pointer;
-    padding-left: 10px;
+    padding-left: 18px;
 
     input {
         visibility: hidden;
@@ -96,7 +96,7 @@
         border-radius: 4px;
         background-color: $color-white;
         border: solid 2px $color-gray-4;
-        top: -3px;
+        top: -4px;
         left: 0;
         z-index: 5;
         transition: border-color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
@@ -125,7 +125,7 @@
             content: ' ';
             position: absolute;
             border-radius: 2px;
-            top: 0;
+            top: -1px;
             left: 7px;
             width: 8px;
             height: 15px;
@@ -137,17 +137,17 @@
     }
 
     &--small {
-        padding-left: 2px;
+        padding-left: 8px;
 
         input:before {
             height: 16px;
             width: 16px;
-            top: 2px;
+            top: 0;
         }
 
         input[type=checkbox]:checked {
             &:after {
-                top: 4px;
+                top: 2px;
                 left: 5px;
                 width: 6px;
                 height: 11px;

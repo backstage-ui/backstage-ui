@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
 import React, {Component} from "react";
 import {PrismCode} from "react-prism";
 

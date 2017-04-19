@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/backstage-ui/backstage-ui.git"
   },
-  "author": "globo.com",
+  "author": "Globo.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/backstage-ui/backstage-ui/issues"

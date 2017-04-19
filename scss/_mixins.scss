@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
 @mixin placeholder-style {
   &::-webkit-input-placeholder { /* WebKit browsers */
     @content

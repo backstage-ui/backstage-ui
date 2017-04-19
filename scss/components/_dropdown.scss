@@ -9,7 +9,7 @@ $item-height: 40px;
   font-size: 16px;
   position: relative;
   width: 100%;
-  user-select: none; 
+  user-select: none;
 
   &__item {
     background-color: $color-white;
@@ -19,7 +19,7 @@ $item-height: 40px;
     padding: 0 14px;
 
     &:hover {
-      border-color: $color-gray-5; 
+      border-color: $color-gray-5;
 
       &:after {
         border-top: 4px solid $color-gray-5;
@@ -32,10 +32,10 @@ $item-height: 40px;
       border-right: 4px solid transparent;
       border-top: 4px solid $color-gray-4;
 
-      height: 0; 
+      height: 0;
       position: absolute;
       right: 16px;
-      width: 0; 
+      width: 0;
       top: 46%;
       z-index: 2;
     }
@@ -68,7 +68,7 @@ $item-height: 40px;
 
       &:hover {
         background-color: $color-hit;
-        color: $color-white; 
+        color: $color-white;
       }
     }
   }
@@ -90,7 +90,7 @@ $item-height: 40px;
       color: $color-white;
 
       &:hover {
-        border-color: $color-gray-3; 
+        border-color: $color-gray-3;
 
         &:after {
           border-top: 4px solid $color-white;

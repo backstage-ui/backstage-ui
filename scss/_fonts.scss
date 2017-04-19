@@ -37,5 +37,16 @@
           @extend %font-#{$size};
           line-height: $line-height-long-text;
         }
+
+        &--long-bold {
+          @extend %font-#{$size};
+          line-height: $line-height-long-text;
+          font-weight: bold;
+        }
+
+        &--bold {
+          @extend %font-#{$size};
+          font-weight: bold;
+        }
     }
 }

@@ -1,5 +1,3 @@
-$open-sans: 'Open Sans', sans-serif;
-
 // Basic button
 
 .bs-ui-button {
@@ -9,7 +7,7 @@ $open-sans: 'Open Sans', sans-serif;
     box-sizing: border-box;
     color: #333;
     cursor: pointer;
-    font-family: $open-sans;
+    font-family: $font-default;
     font-size: 12px;
     font-weight: bold;
     line-height: 1.33;

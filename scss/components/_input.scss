@@ -10,13 +10,12 @@
     position: relative;
 
     &__field {
+        @extend %font-14;
         background-color: $color-white;
         border: solid 2px $color-gray-4;
         border-radius: 4px;
         box-sizing: border-box;
         color: $color-gray-8;
-        font-family: $font-default;
-        font-size: 14px;
         height: 40px;
         padding: 7px 8px 8px 8px;
         outline: 0;

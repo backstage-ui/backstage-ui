@@ -5,26 +5,35 @@
  */
 
 @mixin placeholder-style {
-  &::-webkit-input-placeholder { /* WebKit browsers */
-    @content
-  }
-  &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    @content
-  }
-  &::-moz-placeholder { /* Mozilla Firefox 19+ */
-    @content
-  }
-  &:-ms-input-placeholder { /* Internet Explorer 10+ */
-    @content
-  }
+    // sass-lint:disable no-vendor-prefixes
+    &::-webkit-input-placeholder { /* WebKit browsers */
+        @content;
+    }
+
+    // sass-lint:disable no-vendor-prefixes
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        @content;
+    }
+
+    // sass-lint:disable no-vendor-prefixes
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        @content;
+    }
+
+    // sass-lint:disable no-vendor-prefixes
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+        @content;
+    }
 }
 
 @mixin font-smoothing($value: on) {
-  @if $value == on {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  } @else {
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
-  }
+    @if $value == on {
+        // sass-lint:disable no-vendor-prefixes
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    } @else {
+        // sass-lint:disable no-vendor-prefixes
+        -moz-osx-font-smoothing: auto;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
 }

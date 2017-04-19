@@ -6,3 +6,6 @@ build:
 
 setup:
 	yarn
+
+lint:
+	@yarn run lint

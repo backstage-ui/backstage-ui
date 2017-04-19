@@ -5,35 +5,33 @@
  */
 
 .bs-styleguide {
-  &__body {
-    @extend %font-14;
-    padding-left: 300px;
-    padding-top: 70px;
-  }
+    &__body {
+        @extend %font-14;
+        padding-left: 300px;
+        padding-top: 70px;
+    }
 }
 
 .bs-styleguide-page {
+    &__title {
+        border-bottom: 1px solid $color-gray-4;
+        margin-bottom: $spacer-y-2;
+        padding-bottom: $spacer-y-0;
+    }
 
-  &__title {
-    margin-bottom: $spacer-y-2;
-    padding-bottom: $spacer-y-0;
-    border-bottom: 1px solid $color-gray-4;
-  }
+    &__subtitle {
+        margin-bottom: $spacer-y-1;
+    }
 
-  &__subtitle {
-    margin-bottom: $spacer-y-1;
-  }
+    &__body {
+        margin: $spacer-y-4 $spacer-x-4;
+    }
 
-  &__body {
-    margin: $spacer-y-4 $spacer-x-4;
-    margin: 40px;
-  }
+    &__section {
+        margin-top: $spacer-y-4;
+    }
 
-  &__section {
-    margin-top: $spacer-y-4;
-  }
-
-  &__lead {
-    margin-bottom: $spacer-y-2;
-  }
+    &__lead {
+        margin-bottom: $spacer-y-2;
+    }
 }

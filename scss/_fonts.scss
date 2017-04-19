@@ -34,19 +34,19 @@
         line-height: $line-height;
 
         &--long {
-          @extend %font-#{$size};
-          line-height: $line-height-long-text;
+            @extend %font-#{$size};
+            line-height: $line-height-long-text;
         }
 
         &--long-bold {
-          @extend %font-#{$size};
-          line-height: $line-height-long-text;
-          font-weight: bold;
+            @extend %font-#{$size};
+            font-weight: bold;
+            line-height: $line-height-long-text;
         }
 
         &--bold {
-          @extend %font-#{$size};
-          font-weight: bold;
+            @extend %font-#{$size};
+            font-weight: bold;
         }
     }
 }

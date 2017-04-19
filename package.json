@@ -1,9 +1,11 @@
 {
   "devDependencies": {
-    "node-sass": "^4.5.2"
+    "node-sass": "^4.5.2",
+    "sass-lint": "^1.10.2"
   },
   "scripts": {
-    "build": "node-sass scss/backstage-ui.scss -o dist"
+    "build": "node-sass scss/backstage-ui.scss -o dist",
+    "lint": "sass-lint -v -q"
   },
   "name": "backstage-ui-styles",
   "description": "Backstage UI frontend reusable components",

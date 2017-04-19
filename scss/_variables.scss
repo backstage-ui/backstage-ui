@@ -10,7 +10,7 @@ $color-white: #fff;
 $color-black: #000;
 
 $color-hit-dark: #044cb3;
-$color-hit: #0669De;
+$color-hit: #0669de;
 $color-hit-light: #3192e7;
 
 $color-blue-darker: #405e80;
@@ -75,7 +75,7 @@ $font-size-56: 3.5rem;
 $font-size-68: 4.25rem;
 
 $letter-spacing-10: 0.015625rem;
-$letter-spacing-12: 0rem;
+$letter-spacing-12: 0;
 $letter-spacing-14: -0.015625rem;
 $letter-spacing-16: -0.03125rem;
 $letter-spacing-18: 0.037rem;
@@ -94,7 +94,7 @@ $line-height-long-text-10: 0;  // no defined
 $line-height-long-text-12: 0;  // no defined
 $line-height-long-text-14: 1.25rem;
 $line-height-long-text-16: 1.5rem;
-$line-height-long-text-18: 1.750rem;
+$line-height-long-text-18: 1.75rem;
 $line-height-long-text-20: 1.75rem;
 $line-height-long-text-26: 2rem;
 $line-height-long-text-34: 3rem;
@@ -110,7 +110,7 @@ $line-height-10: 0.75rem;
 $line-height-12: 1rem;
 $line-height-14: 1rem;
 $line-height-16: 1.25rem;
-$line-height-18: 1.500rem;
+$line-height-18: 1.5rem;
 $line-height-20: 1.5rem;
 $line-height-26: 1.75rem;
 $line-height-34: 2.5rem;
@@ -119,70 +119,70 @@ $line-height-56: 3.75rem;
 $line-height-68: 4.5rem;
 
 $font-sizes: (
-  68: (
-    font-size: $font-size-68,
-    letter-spacing: $letter-spacing-68,
-    line-height-long-text: $line-height-long-text-68,
-    line-height: $line-height-68,
-  ),
-  56: (
-    font-size: $font-size-56,
-    letter-spacing: $letter-spacing-56,
-    line-height-long-text: $line-height-long-text-56,
-    line-height: $line-height-56,
-  ),
-  42: (
-    font-size: $font-size-42,
-    letter-spacing: $letter-spacing-42,
-    line-height-long-text: $line-height-long-text-42,
-    line-height: $line-height-42,
-  ),
-  34: (
-    font-size: $font-size-34,
-    letter-spacing: $letter-spacing-34,
-    line-height-long-text: $line-height-long-text-34,
-    line-height: $line-height-34,
-  ),
-  26: (
-    font-size: $font-size-26,
-    letter-spacing: $letter-spacing-26,
-    line-height-long-text: $line-height-long-text-26,
-    line-height: $line-height-26,
-  ),
-  20: (
-    font-size: $font-size-20,
-    letter-spacing: $letter-spacing-20,
-    line-height-long-text: $line-height-long-text-20,
-    line-height: $line-height-20,
-  ),
-  18: (
-    font-size: $font-size-18,
-    letter-spacing: $letter-spacing-18,
-    line-height-long-text: $line-height-long-text-18,
-    line-height: $line-height-18,
-  ),
-  16: (
-    font-size: $font-size-16,
-    letter-spacing: $letter-spacing-16,
-    line-height-long-text: $line-height-long-text-16,
-    line-height: $line-height-16,
-  ),
-  14: (
-    font-size: $font-size-14,
-    letter-spacing: $letter-spacing-14,
-    line-height-long-text: $line-height-long-text-14,
-    line-height: $line-height-14,
-  ),
-  12: (
-    font-size: $font-size-12,
-    letter-spacing: $letter-spacing-12,
-    line-height-long-text: $line-height-long-text-12,
-    line-height: $line-height-12,
-  ),
-  10: (
-    font-size: $font-size-10,
-    letter-spacing: $letter-spacing-10,
-    line-height-long-text: $line-height-long-text-10,
-    line-height: $line-height-10,
-  ),
+    68: (
+        font-size: $font-size-68,
+        letter-spacing: $letter-spacing-68,
+        line-height-long-text: $line-height-long-text-68,
+        line-height: $line-height-68,
+    ),
+    56: (
+        font-size: $font-size-56,
+        letter-spacing: $letter-spacing-56,
+        line-height-long-text: $line-height-long-text-56,
+        line-height: $line-height-56,
+    ),
+    42: (
+        font-size: $font-size-42,
+        letter-spacing: $letter-spacing-42,
+        line-height-long-text: $line-height-long-text-42,
+        line-height: $line-height-42,
+    ),
+    34: (
+        font-size: $font-size-34,
+        letter-spacing: $letter-spacing-34,
+        line-height-long-text: $line-height-long-text-34,
+        line-height: $line-height-34,
+    ),
+    26: (
+        font-size: $font-size-26,
+        letter-spacing: $letter-spacing-26,
+        line-height-long-text: $line-height-long-text-26,
+        line-height: $line-height-26,
+    ),
+    20: (
+        font-size: $font-size-20,
+        letter-spacing: $letter-spacing-20,
+        line-height-long-text: $line-height-long-text-20,
+        line-height: $line-height-20,
+    ),
+    18: (
+        font-size: $font-size-18,
+        letter-spacing: $letter-spacing-18,
+        line-height-long-text: $line-height-long-text-18,
+        line-height: $line-height-18,
+    ),
+    16: (
+        font-size: $font-size-16,
+        letter-spacing: $letter-spacing-16,
+        line-height-long-text: $line-height-long-text-16,
+        line-height: $line-height-16,
+    ),
+    14: (
+        font-size: $font-size-14,
+        letter-spacing: $letter-spacing-14,
+        line-height-long-text: $line-height-long-text-14,
+        line-height: $line-height-14,
+    ),
+    12: (
+        font-size: $font-size-12,
+        letter-spacing: $letter-spacing-12,
+        line-height-long-text: $line-height-long-text-12,
+        line-height: $line-height-12,
+    ),
+    10: (
+        font-size: $font-size-10,
+        letter-spacing: $letter-spacing-10,
+        line-height-long-text: $line-height-long-text-10,
+        line-height: $line-height-10,
+    ),
 )

@@ -5,41 +5,39 @@
  */
 
 .bs-ui-drawer {
+    background-color: $color-white;
+    border-right: 1px solid $color-gray-3;
     box-sizing: border-box;
-    border-right: 1px solid #ddd;
-    background-color: white;
-    position: fixed;
-    width: 300px;
-    left: 0;
-    top: 71px;
-    margin: 0;
     height: 100%;
-    padding-bottom: 60px;
-    background-color: #fff;
-    z-index: 999;
+    left: 0;
+    margin: 0;
     overflow-y: auto;
-
+    padding-bottom: 60px;
+    position: fixed;
+    top: 71px;
+    width: 300px;
+    z-index: 999;
 }
 
 .bs-ui-menu {
+    color: $color-gray-8;
     list-style: none;
-    text-decoration: none;
-    color: #333;
-    margin-top: 1.5rem;
     margin-left: 1rem;
+    margin-top: 1.5rem;
     padding: 0;
+    text-decoration: none;
 
     &__title {
         font-weight: bold;
     }
+
     &__item {
-        margin-top: 1.5rem;
         margin-left: 1rem;
+        margin-top: 1.5rem;
 
-    }
-
-    &__item a {
-        text-decoration: none;
-        color: #333;
+        a {
+            color: $color-gray-8;
+            text-decoration: none;
+        }
     }
 }

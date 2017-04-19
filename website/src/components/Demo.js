@@ -33,7 +33,7 @@ export default class Demo extends Component {
             <PrismCode className="language-html">{this.props.code}</PrismCode>
           </pre>
         </div>
-        <div className="code-sample__content">
+        <div style={this.props.style} className="code-sample__content">
           <div className="code-sample__description">{this.props.children}</div>
           <div className="code-sample__render" dangerouslySetInnerHTML={{__html:this.props.code}}/>
         </div>

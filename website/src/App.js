@@ -18,6 +18,7 @@ import GetStarted from './components/pages/GetStarted';
 import Input from './components/pages/forms/Input';
 import Button from './components/pages/forms/Button';
 import Controls from './components/pages/forms/Controls';
+import Dropdown from './components/pages/forms/Dropdown';
 
 import SideMenu from './components/SideMenu';
 import Header from './components/Header';
@@ -37,6 +38,7 @@ class App extends Component {
               <Route path="/input" component={Input}/>
               <Route path="/button" component={Button}/>
               <Route path="/controls" component={Controls}/>
+              <Route path="/dropdown" component={Dropdown}/>
             </div>
           </div>
         </div>

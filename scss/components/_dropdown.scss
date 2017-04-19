@@ -1,0 +1,122 @@
+@import '../_base.scss';
+
+$item-height: 40px;
+
+.bs-ui-dropdown {
+  color: $color-gray-8;
+  cursor: pointer;
+  font-family: $font-default;
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  user-select: none; 
+
+  &__item {
+    background-color: $color-white;
+    border: solid 2px $color-gray-4;
+    border-radius: 4px;
+    line-height: $item-height;
+    padding: 0 14px;
+
+    &:hover {
+      border-color: $color-gray-5; 
+
+      &:after {
+        border-top: 4px solid $color-gray-5;
+      }
+    }
+
+    &:after {
+      content: " ";
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid $color-gray-4;
+
+      height: 0; 
+      position: absolute;
+      right: 16px;
+      width: 0; 
+      top: 46%;
+      z-index: 2;
+    }
+  }
+
+  &__list {
+    background-color: $color-white;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+    color: $color-gray-5;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    top: 0;
+    transition: max-height 0.1s;
+    z-index: 3;
+
+    &-item {
+      line-height: $item-height;
+      padding-left: 16px;
+
+      &--selected {
+        color: $color-gray-8;
+      }
+
+      &:hover {
+        background-color: $color-hit;
+        color: $color-white; 
+      }
+    }
+  }
+
+  &--open {
+    .bs-ui-dropdown__list {
+      max-height: 200px;
+      padding: 8px 0;
+      visibility: visible;
+    }
+  }
+
+  &--disabled {
+    cursor: default;
+
+    .bs-ui-dropdown__item {
+      background-color: $color-gray-3;
+      border-color: $color-gray-3;
+      color: $color-white;
+
+      &:hover {
+        border-color: $color-gray-3; 
+
+        &:after {
+          border-top: 4px solid $color-white;
+        }
+      }
+
+      &:after {
+        border-top: 4px solid $color-white;
+      }
+    }
+  }
+
+  &--small {
+    font-size: 14px;
+
+    .bs-ui-dropdown {
+      &__item, &__list-item {
+        line-height: 32px;
+      }
+    }
+  }
+
+  &--open-up {
+    .bs-ui-dropdown__list {
+      bottom: 0;
+      top: auto;
+    }
+  }
+}

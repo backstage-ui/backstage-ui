@@ -1,9 +1,6 @@
 # backstage-ui
 Backstage UI frontend reusable components
 
-```
-cd website
-
-yarn
-yarn start
+```sh
+cd website && yarn && yarn start
 ```

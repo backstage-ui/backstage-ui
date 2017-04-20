@@ -1,6 +1,27 @@
 /*
-  line height definitions above should to be
-  used in a long text context
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2016, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
  */
 /*
   line height definitions above should to be
@@ -11,29 +32,59 @@
   used in a long text context
  */
 /*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
   line height definitions above should to be
   used in a long text context
  */
 /*
-  this each will create all classes
-  .font-<size>, .font-<size>--bold,
-  .font-<size>--long-bold, .font-<size>--long,
-  based on _variables.scss@$font-sizes.
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+    this each will create all classes
+    .font-<size>, .font-<size>--bold,
+    .font-<size>--long-bold, .font-<size>--long,
+    based on _variables.scss@$font-sizes.
 
-  IE: .font-10, .font-10--bold, .font-10--long,
-      .font-10--long-bold, .font-12,
-      .font-12--bold, font-12--long,
-      .font-12--long-bold, .font-14,
-      .font-14--bold, font-14--long,
-      .font-14--long-bold, etc
+    IE: .font-10, .font-10--bold, .font-10--long,
+        .font-10--long-bold, .font-12,
+        .font-12--bold, font-12--long,
+        .font-12--long-bold, .font-14,
+        .font-14--bold, font-14--long,
+        .font-14--long-bold, etc
 
 */
-.bs-ui-form-control__label {
+.bs-ui-dropdown {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+
+.bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
+
+.bs-ui-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .bs-ui-button {
+    font-weight: bold; }
 
 .bs-ui-form-control {
   position: relative; }
@@ -43,8 +94,6 @@
     border-radius: 4px;
     box-sizing: border-box;
     color: #333;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
     height: 40px;
     padding: 7px 8px 8px 8px;
     outline: 0;
@@ -78,6 +127,11 @@
     display: block;
     margin-bottom: 10px; }
 
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
 .bs-ui-button {
   border-radius: 4px;
   background-color: transparent;
@@ -85,10 +139,6 @@
   box-sizing: border-box;
   color: #333;
   cursor: pointer;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.33;
   outline: 0;
   padding: 8px 16px;
   text-decoration: none;
@@ -170,8 +220,24 @@
     padding: 14px 16px; }
 
 /*
-  line height definitions above should to be
-  used in a long text context
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
  */
 /*
   line height definitions above should to be
@@ -182,29 +248,59 @@
   used in a long text context
  */
 /*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
   line height definitions above should to be
   used in a long text context
  */
 /*
-  this each will create all classes
-  .font-<size>, .font-<size>--bold,
-  .font-<size>--long-bold, .font-<size>--long,
-  based on _variables.scss@$font-sizes.
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+    this each will create all classes
+    .font-<size>, .font-<size>--bold,
+    .font-<size>--long-bold, .font-<size>--long,
+    based on _variables.scss@$font-sizes.
 
-  IE: .font-10, .font-10--bold, .font-10--long,
-      .font-10--long-bold, .font-12,
-      .font-12--bold, font-12--long,
-      .font-12--long-bold, .font-14,
-      .font-14--bold, font-14--long,
-      .font-14--long-bold, etc
+    IE: .font-10, .font-10--bold, .font-10--long,
+        .font-10--long-bold, .font-12,
+        .font-12--bold, font-12--long,
+        .font-12--long-bold, .font-14,
+        .font-14--bold, font-14--long,
+        .font-14--long-bold, etc
 
 */
-.bs-ui-form-control__label {
+.bs-ui-dropdown {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+
+.bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem;
   -webkit-font-smoothing: antialiased; }
+
+.bs-ui-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .bs-ui-button {
+    font-weight: bold; }
 
 .bs-ui-switch {
   cursor: pointer; }
@@ -258,7 +354,7 @@
 .bs-ui-checkbox {
   position: relative;
   cursor: pointer;
-  padding-left: 10px; }
+  padding-left: 18px; }
   .bs-ui-checkbox input {
     visibility: hidden; }
   .bs-ui-checkbox input:before {
@@ -271,7 +367,7 @@
     border-radius: 4px;
     background-color: #fff;
     border: solid 2px #ccc;
-    top: -3px;
+    top: -4px;
     left: 0;
     z-index: 5;
     transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
@@ -288,7 +384,7 @@
     content: ' ';
     position: absolute;
     border-radius: 2px;
-    top: 0;
+    top: -1px;
     left: 7px;
     width: 8px;
     height: 15px;
@@ -297,13 +393,13 @@
     transform: rotateZ(37deg);
     z-index: 10; }
   .bs-ui-checkbox--small {
-    padding-left: 2px; }
+    padding-left: 8px; }
     .bs-ui-checkbox--small input:before {
       height: 16px;
       width: 16px;
-      top: 2px; }
+      top: 0; }
     .bs-ui-checkbox--small input[type=checkbox]:checked:after {
-      top: 4px;
+      top: 2px;
       left: 5px;
       width: 6px;
       height: 11px; }
@@ -344,3 +440,159 @@
       top: 2px; }
     .bs-ui-radio--small input[type=radio]:checked:before {
       border-width: 5px; }
+
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+    this each will create all classes
+    .font-<size>, .font-<size>--bold,
+    .font-<size>--long-bold, .font-<size>--long,
+    based on _variables.scss@$font-sizes.
+
+    IE: .font-10, .font-10--bold, .font-10--long,
+        .font-10--long-bold, .font-12,
+        .font-12--bold, font-12--long,
+        .font-12--long-bold, .font-14,
+        .font-14--bold, font-14--long,
+        .font-14--long-bold, etc
+
+*/
+.bs-ui-dropdown {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+
+.bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+
+.bs-ui-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  -webkit-font-smoothing: antialiased; }
+  .bs-ui-button {
+    font-weight: bold; }
+
+.bs-ui-dropdown {
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  user-select: none; }
+  .bs-ui-dropdown__item {
+    background-color: #fff;
+    border: solid 2px #ccc;
+    border-radius: 4px;
+    line-height: 40px;
+    padding: 0 14px; }
+    .bs-ui-dropdown__item:hover {
+      border-color: #999; }
+      .bs-ui-dropdown__item:hover:after {
+        border-top: 4px solid #999; }
+    .bs-ui-dropdown__item:after {
+      content: " ";
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid #ccc;
+      height: 0;
+      position: absolute;
+      right: 16px;
+      width: 0;
+      top: 46%;
+      z-index: 2; }
+  .bs-ui-dropdown__list {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+    color: #999;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    top: 0;
+    transition: max-height 0.1s;
+    z-index: 3; }
+    .bs-ui-dropdown__list-item {
+      line-height: 40px;
+      padding-left: 16px; }
+      .bs-ui-dropdown__list-item--selected {
+        color: #333; }
+      .bs-ui-dropdown__list-item:hover {
+        background-color: #0669De;
+        color: #fff; }
+  .bs-ui-dropdown--open .bs-ui-dropdown__list {
+    max-height: 200px;
+    padding: 8px 0;
+    visibility: visible; }
+  .bs-ui-dropdown--disabled {
+    cursor: default; }
+    .bs-ui-dropdown--disabled .bs-ui-dropdown__item {
+      background-color: #ddd;
+      border-color: #ddd;
+      color: #fff; }
+      .bs-ui-dropdown--disabled .bs-ui-dropdown__item:hover {
+        border-color: #ddd; }
+        .bs-ui-dropdown--disabled .bs-ui-dropdown__item:hover:after {
+          border-top: 4px solid #fff; }
+      .bs-ui-dropdown--disabled .bs-ui-dropdown__item:after {
+        border-top: 4px solid #fff; }
+  .bs-ui-dropdown--small .bs-ui-dropdown__item, .bs-ui-dropdown--small .bs-ui-dropdown__list-item {
+    line-height: 32px; }
+  .bs-ui-dropdown--open-up .bs-ui-dropdown__list {
+    bottom: 0;
+    top: auto; }

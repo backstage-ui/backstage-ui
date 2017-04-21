@@ -27,11 +27,11 @@
     $line-height: map-get($props, line-height);
 
     %font-#{$size} {
+        @include font-smoothing(on);
         font-family: $font-default;
         font-size: $font-size;
         letter-spacing: $letter-spacing;
         line-height: $line-height;
-        -webkit-font-smoothing: antialiased;
 
         &--long {
           @extend %font-#{$size};

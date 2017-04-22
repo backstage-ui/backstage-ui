@@ -5,18 +5,18 @@
  */
 
 .bs-header-bar {
+    background-color: $color-white;
+    box-shadow: 0 1px 3px 0 rgba($color-black, .2);
+    color: $color-black;
     height: 70px;
-    padding-top: 20px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 499;
 
     &__brand {
-        background-color: $color-white;
-        box-shadow: 0 1px 3px 0 rgba($color-black, .2);
-        color: $color-black;
         height: 70px;
-        padding: 0 30px;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 499;
+        padding-top: 20px;
     }
 }

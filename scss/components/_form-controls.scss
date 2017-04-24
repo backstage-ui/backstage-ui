@@ -20,6 +20,16 @@
         &[type='checkbox'] {
             display: none;
         }
+
+        &:checked {
+            + .bs-ui-switch__lever {
+                background-color: $color-hit;
+            }
+
+            + .bs-ui-switch__lever:after {
+                left: 22px;
+            }
+        }
     }
 
     &:hover {

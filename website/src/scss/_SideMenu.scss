@@ -33,11 +33,15 @@
 
     &__item {
         margin-left: 1rem;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
 
         a {
             color: $color-gray-8;
             text-decoration: none;
+
+            &:hover {
+                color: $color-hit;
+            }
         }
     }
 }

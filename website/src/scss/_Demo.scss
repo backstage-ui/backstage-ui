@@ -32,6 +32,10 @@
             color: $color-hit;
             transition: color ease-in-out .2s;
         }
+
+        &:hover {
+            color: $color-hit;
+        }
     }
 
     &__content {

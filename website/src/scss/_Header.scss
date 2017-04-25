@@ -5,18 +5,26 @@
  */
 
 .bs-header-bar {
+    align-items: center;
     background-color: $color-white;
     box-shadow: 0 1px 3px 0 rgba($color-black, .2);
+    box-sizing: border-box;
     color: $color-black;
+    display: flex;
     height: 70px;
+    justify-content: space-between;
     padding: 0 30px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 499;
 
-    &__brand {
-        height: 70px;
-        padding-top: 20px;
+    &__github {
+        @extend %font-14;
+
+        a {
+            color: $color-hit;
+            text-decoration: none;
+        }
     }
 }

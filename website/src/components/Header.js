@@ -18,5 +18,10 @@ export default () => (
         <img src={logo} alt="Backstage" />
       </Link>
     </div>
+    <div className="bs-header-bar__github">
+      <a target="_blank" href="https://github.com/backstage-ui/backstage-ui">
+        See project on github
+      </a>
+    </div>
   </div>
 )

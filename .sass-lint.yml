@@ -42,3 +42,4 @@ rules:
   attribute-quotes: 2
   trailing-semicolon: 2
   force-attribute-nesting: 2
+  zero-unit: 2

@@ -16,20 +16,34 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       Lorem ipsum dolor sit amet.
     </p>
-    <Demo code={`<div class="bs-ui-form-control">
+    <Demo title="Basic usage" code={`<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Basic field with label and placeholder</label>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Dsiabled field</label>
+  <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control">
   <label class="bs-ui-form-control__label">My Field</label>
-  <input type="text" class="bs-ui-form-control__field"/>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
 </div>`}/>
-    <Demo code={`<div class="bs-ui-form-control">
-  <input type="text" placeholder="Just a placeholder" class="bs-ui-form-control__field"/>
-</div>`}/>
-    <Demo code={`<div class="bs-ui-form-control bs-ui-form-control--error">
+    <Demo title="Validation" code={`<div class="bs-ui-form-control bs-ui-form-control--error">
+  <label class="bs-ui-form-control__label">My Field</label>
   <input type="text" placeholder="Just a placeholder" class="bs-ui-form-control__field" value="invalid"/>
-  <p class="bs-ui-form-control__field-error">This field is required.</p>
-</div>`}/>
-    <Demo code={`<div class="bs-ui-form-control bs-ui-form-control--required">
+  <p class="bs-ui-form-control__field-error">Error message.</p>
+</div>
+<div class="bs-ui-form-control bs-ui-form-control--required">
   <label class="bs-ui-form-control__label">My Field</label>
   <input type="text" placeholder="Required field" class="bs-ui-form-control__field"/>
+</div>`}/>
+    <Demo title="Sizes" code={`<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Medium size</label>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control bs-ui-form-control--small">
+  <label class="bs-ui-form-control__label">Small size</label>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
 </div>`}/>
   </Page>
 );

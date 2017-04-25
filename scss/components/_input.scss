@@ -7,6 +7,7 @@
 @import '../_base.scss';
 
 .bs-ui-form-control {
+    margin: 32px 0;
     position: relative;
 
     &__field {
@@ -53,6 +54,16 @@
             left: -12px;
             position: absolute;
             top: 0;
+        }
+    }
+
+    &--small {
+        .bs-ui-form-control__field {
+            height: 32px;
+        }
+
+        .bs-ui-form-control__label {
+            @extend %font-12;
         }
     }
 

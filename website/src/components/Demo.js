@@ -34,7 +34,7 @@ export default class Demo extends Component {
           </pre>
         </div>
         <div style={this.props.style} className="code-sample__content">
-          <div className="code-sample__description">{this.props.children}</div>
+          {this.props.children? <div className="code-sample__description">{this.props.children}</div>: null}
           <div className="code-sample__render" dangerouslySetInnerHTML={{__html:this.props.code}}/>
         </div>
       </section>

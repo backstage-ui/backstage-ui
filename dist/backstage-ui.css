@@ -71,7 +71,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -289,7 +289,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -514,7 +514,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -604,3 +604,28 @@
   .bs-ui-dropdown--open-up .bs-ui-dropdown__list {
     bottom: 0;
     top: auto; }
+
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-breadcrumb {
+  color: #666;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 8px; }
+  .bs-ui-breadcrumb__item a {
+    color: #0669de;
+    text-decoration: none; }
+    .bs-ui-breadcrumb__item a:hover {
+      color: #044cb3; }
+  .bs-ui-breadcrumb__item:first-child:before {
+    display: none; }
+  .bs-ui-breadcrumb__item:before {
+    content: 'keyboard_arrow_right';
+    float: left;
+    font-family: 'Material Icons';
+    font-size: 18px;
+    padding: 0 8px; }

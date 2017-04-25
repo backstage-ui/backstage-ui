@@ -19,6 +19,7 @@ import Input from './components/pages/forms/Input';
 import Button from './components/pages/forms/Button';
 import Controls from './components/pages/forms/Controls';
 import Dropdown from './components/pages/forms/Dropdown';
+import Breadcrumbs from './components/pages/Breadcrumbs';
 
 import SideMenu from './components/SideMenu';
 import Header from './components/Header';
@@ -36,6 +37,7 @@ class App extends Component {
               <Route path="/getting-started" component={GetStarted}/>
               <Route path="/typography" component={Typography}/>
               <Route path="/input" component={Input}/>
+              <Route path="/breadcrumbs" component={Breadcrumbs}/>
               <Route path="/button" component={Button}/>
               <Route path="/controls" component={Controls}/>
               <Route path="/dropdown" component={Dropdown}/>

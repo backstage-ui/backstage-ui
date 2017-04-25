@@ -9,7 +9,7 @@
   },
   "name": "backstage-ui-styles",
   "description": "Backstage UI frontend reusable components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/backstage-ui/backstage-ui.git"

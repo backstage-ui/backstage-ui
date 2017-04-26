@@ -71,7 +71,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -107,6 +107,8 @@
       border-color: #999; }
     .bs-ui-form-control__field:focus {
       border-color: #0669de; }
+  .bs-ui-form-control textarea.bs-ui-form-control__field {
+    height: 200px; }
   .bs-ui-form-control--error .bs-ui-form-control__field {
     border-color: #e83f26;
     color: #e83f26; }
@@ -289,7 +291,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -514,7 +516,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumb {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -610,20 +612,20 @@
  *
  * License: MIT
  */
-.bs-ui-breadcrumb {
+.bs-ui-breadcrumbs {
   color: #666;
   display: flex;
   list-style-type: none;
-  padding: 0;
-  margin: 8px; }
-  .bs-ui-breadcrumb__item a {
+  margin: 24px;
+  padding: 0; }
+  .bs-ui-breadcrumbs__item a {
     color: #0669de;
     text-decoration: none; }
-    .bs-ui-breadcrumb__item a:hover {
+    .bs-ui-breadcrumbs__item a:hover {
       color: #044cb3; }
-  .bs-ui-breadcrumb__item:first-child:before {
+  .bs-ui-breadcrumbs__item:first-child:before {
     display: none; }
-  .bs-ui-breadcrumb__item:before {
+  .bs-ui-breadcrumbs__item:before {
     content: 'keyboard_arrow_right';
     float: left;
     font-family: 'Material Icons';

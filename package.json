@@ -1,4 +1,5 @@
 {
+  "version": "0.0.6",
   "devDependencies": {
     "node-sass": "^4.5.2",
     "sass-lint": "^1.10.2"
@@ -9,7 +10,6 @@
   },
   "name": "backstage-ui-styles",
   "description": "Backstage UI frontend reusable components",
-  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/backstage-ui/backstage-ui.git"

@@ -25,8 +25,8 @@ export default () => (
   <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
 </div>
 <div class="bs-ui-form-control">
-  <label class="bs-ui-form-control__label">My Field</label>
-  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+  <label class="bs-ui-form-control__label">Textarea</label>
+  <textarea placeholder="Placeholder" class="bs-ui-form-control__field"></textarea>
 </div>`}/>
     <Demo title="Validation" code={`<div class="bs-ui-form-control bs-ui-form-control--error">
   <label class="bs-ui-form-control__label">My Field</label>
@@ -44,6 +44,18 @@ export default () => (
 <div class="bs-ui-form-control bs-ui-form-control--small">
   <label class="bs-ui-form-control__label">Small size</label>
   <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+</div>`}/>
+    <Demo title="HTML5 inputs" code={`<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Password</label>
+  <input type="password" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Email</label>
+  <input type="email" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Number</label>
+  <input type="number" placeholder="Placeholder" class="bs-ui-form-control__field"/>
 </div>`}/>
   </Page>
 );

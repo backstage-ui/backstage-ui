@@ -32,6 +32,12 @@
         }
     }
 
+    textarea {
+        &.bs-ui-form-control__field {
+            height: 200px;
+        }
+    }
+
     &--error {
         .bs-ui-form-control__field {
             border-color: $color-critical;

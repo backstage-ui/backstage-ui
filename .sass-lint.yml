@@ -43,3 +43,4 @@ rules:
   trailing-semicolon: 2
   force-attribute-nesting: 2
   zero-unit: 2
+  nesting-depth: 0

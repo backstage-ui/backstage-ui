@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
  *
@@ -63,7 +64,7 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown {
+.bs-ui-dropdown, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -81,7 +82,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -283,7 +284,7 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown {
+.bs-ui-dropdown, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -301,7 +302,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -508,7 +509,7 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown {
+.bs-ui-dropdown, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -526,7 +527,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -631,3 +632,98 @@
     font-family: 'Material Icons';
     font-size: 18px;
     padding: 0 8px; }
+
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-table {
+  border-collapse: collapse; }
+
+.empty {
+  color: #999;
+  text-align: center; }
+
+@media all and (max-width: 560px) {
+  .bs-ui-table,
+  .bs-ui-table td,
+  .bs-ui-table th,
+  .bs-ui-table tbody,
+  .bs-ui-table thead,
+  .bs-ui-table tfoot,
+  .bs-ui-table tr {
+    display: block; }
+  .bs-ui-table thead {
+    display: none; }
+  .bs-ui-table tr {
+    border-bottom: 1px solid #ddd;
+    padding: 12px; }
+    .bs-ui-table tr:first-child {
+      border-top: 1px solid #ddd; }
+  .bs-ui-table td {
+    border: 0;
+    color: #181818;
+    overflow: hidden;
+    position: relative; }
+    .bs-ui-table td a {
+      color: #666;
+      display: inline-block;
+      padding: 0; }
+    .bs-ui-table td a:before {
+      color: #999;
+      content: attr(data-title);
+      display: inline-block;
+      margin-right: 3px;
+      position: relative;
+      text-transform: uppercase; }
+    .bs-ui-table td:first-child {
+      font-weight: bold; }
+      .bs-ui-table td:first-child a {
+        color: #181818; }
+      .bs-ui-table td:first-child a:before {
+        display: none; }
+      .bs-ui-table td:first-child a:empty {
+        display: inline-block; }
+      .bs-ui-table td:first-child a:empty:before {
+        color: #ddd;
+        content: 'Dado não informado';
+        display: inline-block; }
+      .bs-ui-table td:first-child:not(:only-child) a {
+        padding-bottom: 8px; }
+      .bs-ui-table td:first-child thead {
+        background: #eee; }
+  .bs-ui-table tbody td {
+    padding: 0; }
+    .bs-ui-table tbody td > a,
+    .bs-ui-table tbody td > span {
+      display: block; }
+  .bs-ui-table tbody tr:hover {
+    background: #e5f1ff; }
+  .bs-ui-table tbody tr.selected {
+    background: #405e80; } }
+
+@media all and (min-width: 560px) {
+  .bs-ui-table {
+    text-align: left; }
+    .bs-ui-table tr {
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #ddd; }
+    .bs-ui-table th {
+      background-color: #eee;
+      color: #666;
+      padding: 10px 10px 10px 20px; }
+    .bs-ui-table td {
+      color: #666;
+      padding: 11px 11px 11px 20px; } }
+
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-heading {
+  align-items: center;
+  background: #eee;
+  display: flex;
+  justify-content: space-between; }

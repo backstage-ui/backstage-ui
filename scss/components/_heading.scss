@@ -4,9 +4,9 @@
  * License: MIT
  */
 
-.bs-ui-heading{
-    background: #eee;
+.bs-ui-heading {
+    align-items: center;
+    background: $color-gray-2;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }

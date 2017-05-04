@@ -14,6 +14,7 @@ export default () => (
       <li className="bs-ui-menu__item"><Link to="/">Home</Link></li>
       <li className="bs-ui-menu__item"><Link to="/getting-started">Get Started</Link></li>
       <li className="bs-ui-menu__item"><Link to="/typography">Typography</Link></li>
+      <li className="bs-ui-menu__item"><Link to="/table">Table</Link></li>
       <li className="bs-ui-menu__item">
         <p className="bs-ui-menu__title">Forms</p>
         <ul className="bs-ui-menu">

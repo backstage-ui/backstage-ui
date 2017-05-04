@@ -51,9 +51,11 @@
                 color: $color-gray-6;
                 display: inline-block;
                 padding: 0;
+                text-decoration: none;
             }
 
-            a:before {
+            a:before,
+            span:before {
                 color: $color-gray-5;
                 content: attr(data-title);
                 display: inline-block;
@@ -69,7 +71,8 @@
                     color: $color-gray-9;
                 }
 
-                a:before {
+                a:before,
+                span:before {
                     display: none;
                 }
 
@@ -122,6 +125,12 @@
 @media all and (min-width: 560px) {
     .bs-ui-table {
         text-align: left;
+        width: 100%;
+
+        a {
+            color: $color-gray-6;
+            text-decoration: none;
+        }
 
         tr {
             border-bottom: 1px solid $color-gray-3;
@@ -137,6 +146,19 @@
         td {
             color: $color-gray-6;
             padding: 11px 11px 11px 20px;
+        }
+
+        tbody {
+            tr {
+                &:hover {
+                    background: $color-blue-lighter;
+                }
+
+                // FIXME
+                &.selected {
+                    background: $color-blue-darker;
+                }
+            }
         }
     }
 }

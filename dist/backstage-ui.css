@@ -669,8 +669,10 @@
     .bs-ui-table td a {
       color: #666;
       display: inline-block;
-      padding: 0; }
-    .bs-ui-table td a:before {
+      padding: 0;
+      text-decoration: none; }
+    .bs-ui-table td a:before,
+    .bs-ui-table td span:before {
       color: #999;
       content: attr(data-title);
       display: inline-block;
@@ -681,7 +683,8 @@
       font-weight: bold; }
       .bs-ui-table td:first-child a {
         color: #181818; }
-      .bs-ui-table td:first-child a:before {
+      .bs-ui-table td:first-child a:before,
+      .bs-ui-table td:first-child span:before {
         display: none; }
       .bs-ui-table td:first-child a:empty {
         display: inline-block; }
@@ -705,7 +708,11 @@
 
 @media all and (min-width: 560px) {
   .bs-ui-table {
-    text-align: left; }
+    text-align: left;
+    width: 100%; }
+    .bs-ui-table a {
+      color: #666;
+      text-decoration: none; }
     .bs-ui-table tr {
       border-bottom: 1px solid #ddd;
       border-top: 1px solid #ddd; }
@@ -715,7 +722,11 @@
       padding: 10px 10px 10px 20px; }
     .bs-ui-table td {
       color: #666;
-      padding: 11px 11px 11px 20px; } }
+      padding: 11px 11px 11px 20px; }
+    .bs-ui-table tbody tr:hover {
+      background: #e5f1ff; }
+    .bs-ui-table tbody tr.selected {
+      background: #405e80; } }
 
 /*
  * Copyright (c) 2017, Globo.com (https://github.com/globocom)

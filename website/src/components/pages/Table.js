@@ -49,16 +49,16 @@ export default () => (
   </thead>
   <tbody>
     <tr>
-      <td><a data-title="Name:" href="/lorem">Lorem</a></td>
-      <td><a data-title="Date:" href="/lorem">1</a></td>
+      <td><a data-title="Name:" href="#/table/lorem">Lorem</a></td>
+      <td><a data-title="Date:" href="#/table/lorem">1</a></td>
     </tr>
     <tr>
-      <td><a data-title="Name:" href="/ipsum">Ipsum</a></td>
-      <td><a data-title="Date:" href="/ipsum">5</a></td>
+      <td><a data-title="Name:" href="#/table/ipsum">Ipsum</a></td>
+      <td><a data-title="Date:" href="#/table/ipsum">5</a></td>
     </tr>
     <tr>
-      <td><a data-title="Name:" href="/dolor">Dolor</a></td>
-      <td><a data-title="Date:" href="/dolor">2</a></td>
+      <td><a data-title="Name:" href="#/table/dolor">Dolor</a></td>
+      <td><a data-title="Date:" href="#/table/dolor">2</a></td>
     </tr>
   </tbody>
 </table>`}/>

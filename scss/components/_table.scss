@@ -129,6 +129,9 @@
 
         a {
             color: $color-gray-6;
+            display: block;
+            margin: -10px -10px -10px -20px;
+            padding: 10px 10px 10px 20px;
             text-decoration: none;
         }
 
@@ -145,7 +148,7 @@
 
         td {
             color: $color-gray-6;
-            padding: 11px 11px 11px 20px;
+            padding: 10px 10px 10px 20px;
         }
 
         tbody {

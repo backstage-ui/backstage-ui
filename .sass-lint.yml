@@ -44,3 +44,6 @@ rules:
   force-attribute-nesting: 2
   zero-unit: 2
   nesting-depth: 0
+  force-element-nesting: 2
+  space-before-brace: 2
+  space-after-colon: 2

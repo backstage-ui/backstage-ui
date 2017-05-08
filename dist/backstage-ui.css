@@ -712,6 +712,9 @@
     width: 100%; }
     .bs-ui-table a {
       color: #666;
+      display: block;
+      margin: -10px -10px -10px -20px;
+      padding: 10px 10px 10px 20px;
       text-decoration: none; }
     .bs-ui-table tr {
       border-bottom: 1px solid #ddd;
@@ -722,7 +725,7 @@
       padding: 10px 10px 10px 20px; }
     .bs-ui-table td {
       color: #666;
-      padding: 11px 11px 11px 20px; }
+      padding: 10px 10px 10px 20px; }
     .bs-ui-table tbody tr:hover {
       background: #e5f1ff; }
     .bs-ui-table tbody tr.selected {

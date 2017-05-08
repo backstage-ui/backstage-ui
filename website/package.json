@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "eslint": "^3.19.0",
     "npm-run-all": "^4.0.2",
     "react-scripts": "0.9.5"
   },
@@ -25,7 +26,8 @@
     "deploy": "gh-pages -d build",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./*.js src/"
   },
   "homepage": "https://backstage-ui.github.io/backstage-ui"
 }

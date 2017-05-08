@@ -8,7 +8,8 @@
 import React from "react";
 
 import Demo from "../../Demo";
-import Page from "../../Page"
+import Page from "../../Page";
+
 
 export default () => {
   const openedStyle = {

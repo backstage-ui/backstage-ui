@@ -28,4 +28,4 @@ export default () => (
       <li className="bs-ui-menu__item"><Link to="/tabs">Tabs</Link></li>
     </ul>
   </div>
-)
+);

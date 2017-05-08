@@ -10,13 +10,13 @@ import {PrismCode} from "react-prism";
 
 export default class Demo extends Component {
   constructor(props) {
-    super(props)
-    this.state = {codeVisible: false}
+    super(props);
+    this.state = {codeVisible: false};
   }
 
   onSourceClick = (event) => {
     event.preventDefault();
-    this.setState({codeVisible: !this.state.codeVisible})
+    this.setState({codeVisible: !this.state.codeVisible});
   }
 
   render() {
@@ -38,6 +38,6 @@ export default class Demo extends Component {
           <div className="code-sample__render" dangerouslySetInnerHTML={{__html:this.props.code}}/>
         </div>
       </section>
-    )
+    );
   }
 }

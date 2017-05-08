@@ -4,36 +4,37 @@
  * License: MIT
  */
 
-import React, { Component } from 'react';
-import '../node_modules/prismjs/prism.js'
-import '../node_modules/prismjs/themes/prism.css';
+import React, {Component} from "react";
+import "../node_modules/prismjs/prism.js";
+import "../node_modules/prismjs/themes/prism.css";
 
-import { HashRouter as Router, Route } from 'react-router-dom';
+import {HashRouter as Router, Route} from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
-import Home from './components/pages/Home';
-import Typography from './components/pages/Typography';
-import GetStarted from './components/pages/GetStarted';
-import Input from './components/pages/forms/Input';
-import Button from './components/pages/forms/Button';
-import Controls from './components/pages/forms/Controls';
-import Dropdown from './components/pages/forms/Dropdown';
-import Breadcrumbs from './components/pages/Breadcrumbs';
-import Table from './components/pages/Table';
+import Home from "./components/pages/Home";
+import Typography from "./components/pages/Typography";
+import GetStarted from "./components/pages/GetStarted";
+import Input from "./components/pages/forms/Input";
+import Button from "./components/pages/forms/Button";
+import Controls from "./components/pages/forms/Controls";
+import Dropdown from "./components/pages/forms/Dropdown";
+import Breadcrumbs from "./components/pages/Breadcrumbs";
+import Table from "./components/pages/Table";
 
-import SideMenu from './components/SideMenu';
-import Header from './components/Header';
+import SideMenu from "./components/SideMenu";
+import Header from "./components/Header";
+
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className='bs-styleguide'>
+        <div className="bs-styleguide">
           <Header/>
-          <div className='bs-styleguide__body'>
+          <div className="bs-styleguide__body">
             <SideMenu/>
-            <div className='bs-styleguide__content'>
+            <div className="bs-styleguide__content">
               <Route path="/" exact component={Home}/>
               <Route path="/getting-started" component={GetStarted}/>
               <Route path="/typography" component={Typography}/>

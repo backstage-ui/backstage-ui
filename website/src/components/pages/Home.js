@@ -20,4 +20,4 @@ export default () => (
     </p>
     <Link to="/" className="bs-ui-button bs-ui-button--black">Get Started</Link>
   </Page>
-)
+);

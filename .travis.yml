@@ -7,4 +7,5 @@ node_js:
   - "7"
   - stable
 script:
+  - make setup
   - make lint

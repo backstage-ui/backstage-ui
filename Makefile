@@ -11,3 +11,8 @@ setup:
 lint:
 	@yarn run lint
 	@cd website && yarn run lint
+
+unit:
+	@echo "not implemented yet"
+
+test: lint unit

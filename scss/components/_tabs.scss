@@ -1,0 +1,62 @@
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
+.bs-ui-tabs {
+    @extend %font-16;
+    list-style-type: none;
+    padding-left: 0;
+
+    &:after {
+        background-color: $color-gray-4;
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100%;
+    }
+
+    &__tab {
+        color: $color-gray-6;
+        cursor: pointer;
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        text-decoration: none;
+
+        &--active {
+            color: $color-gray-8;
+
+            &:after {
+                background-color: $color-gray-8;
+                bottom: -2px;
+                content: '';
+                display: block;
+                height: 4px;
+                left: 0;
+                position: absolute;
+                width: 100%;
+            }
+        }
+    }
+
+    &.bs-ui-tabs--large {
+        @extend %font-20;
+
+        .bs-ui-tabs__tab {
+            padding-bottom: 23px;
+        }
+    }
+
+    &.bs-ui-tabs--small {
+        @extend %font-14;
+
+        .bs-ui-tabs__tab {
+            padding-bottom: 16px;
+        }
+    }
+}

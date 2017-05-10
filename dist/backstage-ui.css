@@ -64,7 +64,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown, .empty {
+.bs-ui-tabs.bs-ui-tabs--large {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem; }
+
+.bs-ui-dropdown, .bs-ui-tabs, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -72,7 +80,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -284,7 +292,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown, .empty {
+.bs-ui-tabs.bs-ui-tabs--large {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem; }
+
+.bs-ui-dropdown, .bs-ui-tabs, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -292,7 +308,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -509,7 +525,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown, .empty {
+.bs-ui-tabs.bs-ui-tabs--large {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem; }
+
+.bs-ui-dropdown, .bs-ui-tabs, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -517,7 +541,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -632,6 +656,45 @@
     font-family: 'Material Icons';
     font-size: 18px;
     padding: 0 8px; }
+
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-tabs {
+  list-style-type: none;
+  padding-left: 0; }
+  .bs-ui-tabs:after {
+    background-color: #ccc;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%; }
+  .bs-ui-tabs__tab {
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-decoration: none; }
+    .bs-ui-tabs__tab--active {
+      color: #333; }
+      .bs-ui-tabs__tab--active:after {
+        background-color: #333;
+        bottom: -2px;
+        content: '';
+        display: block;
+        height: 4px;
+        left: 0;
+        position: absolute;
+        width: 100%; }
+  .bs-ui-tabs.bs-ui-tabs--large .bs-ui-tabs__tab {
+    padding-bottom: 23px; }
+  .bs-ui-tabs.bs-ui-tabs--small .bs-ui-tabs__tab {
+    padding-bottom: 16px; }
 
 /*
  * Copyright (c) 2017, Globo.com (https://github.com/globocom)

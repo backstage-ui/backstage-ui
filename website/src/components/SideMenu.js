@@ -16,6 +16,7 @@ export default () => (
       <li className="bs-ui-menu__item"><Link to="/breadcrumbs">Breadcrumbs</Link></li>
       <li className="bs-ui-menu__item"><Link to="/typography">Typography</Link></li>
       <li className="bs-ui-menu__item"><Link to="/table">Table</Link></li>
+      <li className="bs-ui-menu__item"><Link to="/tabs">Tabs</Link></li>
       <li className="bs-ui-menu__item">
         <p className="bs-ui-menu__title">Forms</p>
         <ul className="bs-ui-menu">
@@ -25,7 +26,6 @@ export default () => (
           <li className="bs-ui-menu__item"><Link to="/dropdown">Dropdown</Link></li>
         </ul>
       </li>
-      <li className="bs-ui-menu__item"><Link to="/tabs">Tabs</Link></li>
     </ul>
   </div>
 );

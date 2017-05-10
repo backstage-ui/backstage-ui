@@ -17,19 +17,19 @@ export default () => (
     <p className="bs-styleguide-page__lead">
     </p>
     <Demo title="Regular size" code={`<div class="bs-ui-tabs">
-  <a href="#" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Second Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Third Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Second Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Third Tab</a>
 </div>`}/>
     <Demo title="Large size" code={`<div class="bs-ui-tabs bs-ui-tabs--large">
-  <a href="#" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Second Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Third Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Second Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Third Tab</a>
 </div>`}/>
     <Demo title="Small size" code={`<div class="bs-ui-tabs bs-ui-tabs--small">
-  <a href="#" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Second Tab</a>
-  <a href="#" class="bs-ui-tabs__tab">Third Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab bs-ui-tabs__tab--active">First Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Second Tab</a>
+  <a href="#/tabs" class="bs-ui-tabs__tab">Third Tab</a>
 </div>`}/>
   </Page>
 );

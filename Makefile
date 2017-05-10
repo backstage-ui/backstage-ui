@@ -2,6 +2,9 @@ run:
 	@cd website && yarn start
 
 build:
+	@yarn build
+
+build-website:
 	@cd website && yarn build && yarn build-css
 
 setup:

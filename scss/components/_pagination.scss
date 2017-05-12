@@ -1,0 +1,50 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
+.bs-ui-pagination {
+    @extend %font-12;
+    display: block;
+    margin: 30px auto auto;
+    overflow: hidden;
+    padding-bottom: 40px;
+    text-align: center;
+
+    &.bs-ui-pagination--empty-results {
+        margin-top: 290px;
+    }
+
+    .bs-ui-pagination--arrow {
+        color: $color-gray-5;
+        cursor: pointer;
+        vertical-align: middle;
+
+        &.bs-ui-pagination--disabled {
+            color: $color-gray-4;
+            cursor: text;
+        }
+    }
+
+    li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .bs-ui-pagination--previous {
+        padding-right: 10px;
+    }
+
+    .bs-ui-pagination--next {
+        padding-left: 10px;
+    }
+
+    .bs-ui-pagination--current {
+        input {
+            text-align: center;
+            width: 50px;
+        }
+    }
+}

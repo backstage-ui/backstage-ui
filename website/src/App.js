@@ -20,6 +20,7 @@ import Button from "./components/pages/forms/Button";
 import Controls from "./components/pages/forms/Controls";
 import Dropdown from "./components/pages/forms/Dropdown";
 import Breadcrumbs from "./components/pages/Breadcrumbs";
+import Pagination from "./components/pages/Pagination";
 import Table from "./components/pages/Table";
 import Tabs from "./components/pages/Tabs";
 
@@ -44,6 +45,7 @@ class App extends Component {
               <Route path="/button" component={Button}/>
               <Route path="/controls" component={Controls}/>
               <Route path="/dropdown" component={Dropdown}/>
+              <Route path="/pagination" component={Pagination}/>
               <Route path="/tabs" component={Tabs}/>
               <Route path="/table" component={Table}/>
             </div>

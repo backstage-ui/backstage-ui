@@ -90,7 +90,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -318,7 +318,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -551,7 +551,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -804,3 +804,34 @@
   background: #eee;
   display: flex;
   justify-content: space-between; }
+
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-pagination {
+  display: block;
+  margin: 30px auto auto;
+  overflow: hidden;
+  padding-bottom: 40px;
+  text-align: center; }
+  .bs-ui-pagination.bs-ui-pagination--empty-results {
+    margin-top: 290px; }
+  .bs-ui-pagination .bs-ui-pagination--arrow {
+    color: #999;
+    cursor: pointer;
+    vertical-align: middle; }
+    .bs-ui-pagination .bs-ui-pagination--arrow.bs-ui-pagination--disabled {
+      color: #ccc;
+      cursor: text; }
+  .bs-ui-pagination li {
+    display: inline-block;
+    vertical-align: middle; }
+  .bs-ui-pagination .bs-ui-pagination--previous {
+    padding-right: 10px; }
+  .bs-ui-pagination .bs-ui-pagination--next {
+    padding-left: 10px; }
+  .bs-ui-pagination .bs-ui-pagination--current input {
+    text-align: center;
+    width: 50px; }

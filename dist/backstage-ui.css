@@ -80,7 +80,11 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
+<<<<<<< HEAD
 .bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
+=======
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
+>>>>>>> Adds Notification component
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -308,7 +312,11 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
+<<<<<<< HEAD
 .bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
+=======
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
+>>>>>>> Adds Notification component
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -541,7 +549,11 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
+<<<<<<< HEAD
 .bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
+=======
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
+>>>>>>> Adds Notification component
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -806,10 +818,47 @@
   justify-content: space-between; }
 
 /*
+<<<<<<< HEAD
+=======
+ * Copyright (c) 2016, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
  *
  * License: MIT
  */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+/*
+>>>>>>> Adds Notification component
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+<<<<<<< HEAD
 .bs-ui-pagination {
   display: block;
   margin: 30px auto auto;
@@ -835,3 +884,75 @@
   .bs-ui-pagination .bs-ui-pagination--current input {
     text-align: center;
     width: 50px; }
+=======
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+  line height definitions above should to be
+  used in a long text context
+ */
+/*
+    this each will create all classes
+    .font-<size>, .font-<size>--bold,
+    .font-<size>--long-bold, .font-<size>--long,
+    based on _variables.scss@$font-sizes.
+
+    IE: .font-10, .font-10--bold, .font-10--long,
+        .font-10--long-bold, .font-12,
+        .font-12--bold, font-12--long,
+        .font-12--long-bold, .font-14,
+        .font-14--bold, font-14--long,
+        .font-14--long-bold, etc
+
+*/
+.bs-ui-dropdown, .empty {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.03125rem;
+  line-height: 1.25rem; }
+
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: -0.01562rem;
+  line-height: 1rem; }
+  .bs-ui-button {
+    font-weight: bold; }
+
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  line-height: 1rem; }
+
+.bs-ui-notification {
+  align-items: center;
+  background-color: rgba(24, 24, 24, 0.95);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 500ms ease; }
+  .bs-ui-notification--error {
+    background-color: #e83f26; }
+    .bs-ui-notification--error .bs-ui-notification__close {
+      color: #f6f6f6; }
+  .bs-ui-notification--success {
+    background-color: #527c2b; }
+  .bs-ui-notification--show {
+    opacity: 1; }
+  .bs-ui-notification__text {
+    padding: 4px; }
+  .bs-ui-notification__close {
+    cursor: pointer; }
+>>>>>>> Adds Notification component

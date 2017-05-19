@@ -11,7 +11,6 @@ import "../node_modules/prismjs/themes/prism.css";
 import {HashRouter as Router, Route} from "react-router-dom";
 
 import "./App.css";
-
 import Home from "./components/pages/Home";
 import Typography from "./components/pages/Typography";
 import GetStarted from "./components/pages/GetStarted";
@@ -23,6 +22,7 @@ import Breadcrumbs from "./components/pages/Breadcrumbs";
 import Pagination from "./components/pages/Pagination";
 import Table from "./components/pages/Table";
 import Tabs from "./components/pages/Tabs";
+import Notification from './components/pages/Notification';
 
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
@@ -48,6 +48,7 @@ class App extends Component {
               <Route path="/pagination" component={Pagination}/>
               <Route path="/tabs" component={Tabs}/>
               <Route path="/table" component={Table}/>
+              <Route path="/notification" component={Notification}/>
             </div>
           </div>
         </div>

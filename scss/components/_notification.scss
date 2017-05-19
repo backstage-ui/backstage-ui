@@ -1,0 +1,51 @@
+/*
+ * Copyright (c) 2016, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+@import '../_base.scss';
+
+.bs-ui-notification {
+    @extend %font-14;
+
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.95);
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    transition: opacity 500ms ease;
+
+    &--error {
+        background-color: $color-critical;
+
+        .bs-ui-notification__close {
+            color: $color-gray-1;
+        }
+    }
+
+    &--success {
+        background-color: $color-success-dark;
+    }
+
+    &--show {
+        opacity: 1;
+    }
+
+    &__text {
+        padding: 4px;
+    }
+
+    &__close:before {
+        content: "close";
+        cursor: pointer;
+        display: block;
+        font-family: 'Material Icons';
+        font-size: 24px;
+        font-style: normal;
+    }
+}

@@ -80,11 +80,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-<<<<<<< HEAD
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
-=======
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
->>>>>>> Adds Notification component
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -312,11 +308,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-<<<<<<< HEAD
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
-=======
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
->>>>>>> Adds Notification component
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -549,11 +541,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-<<<<<<< HEAD
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small {
-=======
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
->>>>>>> Adds Notification component
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -818,8 +806,37 @@
   justify-content: space-between; }
 
 /*
-<<<<<<< HEAD
-=======
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-pagination {
+  display: block;
+  margin: 30px auto auto;
+  overflow: hidden;
+  padding-bottom: 40px;
+  text-align: center; }
+  .bs-ui-pagination.bs-ui-pagination--empty-results {
+    margin-top: 290px; }
+  .bs-ui-pagination .bs-ui-pagination--arrow {
+    color: #999;
+    cursor: pointer;
+    vertical-align: middle; }
+    .bs-ui-pagination .bs-ui-pagination--arrow.bs-ui-pagination--disabled {
+      color: #ccc;
+      cursor: text; }
+  .bs-ui-pagination li {
+    display: inline-block;
+    vertical-align: middle; }
+  .bs-ui-pagination .bs-ui-pagination--previous {
+    padding-right: 10px; }
+  .bs-ui-pagination .bs-ui-pagination--next {
+    padding-left: 10px; }
+  .bs-ui-pagination .bs-ui-pagination--current input {
+    text-align: center;
+    width: 50px; }
+
+/*
  * Copyright (c) 2016, Globo.com (https://github.com/globocom)
  *
  * License: MIT
@@ -853,38 +870,10 @@
  * License: MIT
  */
 /*
->>>>>>> Adds Notification component
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
  *
  * License: MIT
  */
-<<<<<<< HEAD
-.bs-ui-pagination {
-  display: block;
-  margin: 30px auto auto;
-  overflow: hidden;
-  padding-bottom: 40px;
-  text-align: center; }
-  .bs-ui-pagination.bs-ui-pagination--empty-results {
-    margin-top: 290px; }
-  .bs-ui-pagination .bs-ui-pagination--arrow {
-    color: #999;
-    cursor: pointer;
-    vertical-align: middle; }
-    .bs-ui-pagination .bs-ui-pagination--arrow.bs-ui-pagination--disabled {
-      color: #ccc;
-      cursor: text; }
-  .bs-ui-pagination li {
-    display: inline-block;
-    vertical-align: middle; }
-  .bs-ui-pagination .bs-ui-pagination--previous {
-    padding-right: 10px; }
-  .bs-ui-pagination .bs-ui-pagination--next {
-    padding-left: 10px; }
-  .bs-ui-pagination .bs-ui-pagination--current input {
-    text-align: center;
-    width: 50px; }
-=======
 /*
   line height definitions above should to be
   used in a long text context
@@ -907,7 +896,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-dropdown, .empty {
+.bs-ui-tabs.bs-ui-tabs--large {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.04688rem;
+  line-height: 1.5rem; }
+
+.bs-ui-dropdown, .bs-ui-tabs, .empty {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -915,7 +912,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-notification {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -925,7 +922,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table {
+.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -942,6 +939,7 @@
   padding: 12px;
   position: absolute;
   opacity: 0;
+  width: 100%;
   transition: opacity 500ms ease; }
   .bs-ui-notification--error {
     background-color: #e83f26; }
@@ -953,6 +951,10 @@
     opacity: 1; }
   .bs-ui-notification__text {
     padding: 4px; }
-  .bs-ui-notification__close {
-    cursor: pointer; }
->>>>>>> Adds Notification component
+  .bs-ui-notification__close:before {
+    content: "close";
+    cursor: pointer;
+    display: block;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-style: normal; }

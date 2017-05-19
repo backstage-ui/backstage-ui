@@ -22,7 +22,7 @@ import Breadcrumbs from "./components/pages/Breadcrumbs";
 import Pagination from "./components/pages/Pagination";
 import Table from "./components/pages/Table";
 import Tabs from "./components/pages/Tabs";
-import Notification from './components/pages/Notification';
+import Notification from "./components/pages/Notification";
 
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";

@@ -10,15 +10,14 @@
     @extend %font-14;
 
     align-items: center;
-    background-color: rgba(24, 24, 24, 0.95);
     color: $color-white;
     display: flex;
     justify-content: space-between;
+    opacity: 0;
     padding: 12px;
     position: absolute;
-    opacity: 0;
-    width: 100%;
     transition: opacity 500ms ease;
+    width: 100%;
 
     &--error {
         background-color: $color-critical;
@@ -41,7 +40,7 @@
     }
 
     &__close:before {
-        content: "close";
+        content: 'close';
         cursor: pointer;
         display: block;
         font-family: 'Material Icons';

@@ -932,15 +932,14 @@
 
 .bs-ui-notification {
   align-items: center;
-  background-color: rgba(24, 24, 24, 0.95);
   color: #fff;
   display: flex;
   justify-content: space-between;
+  opacity: 0;
   padding: 12px;
   position: absolute;
-  opacity: 0;
-  width: 100%;
-  transition: opacity 500ms ease; }
+  transition: opacity 500ms ease;
+  width: 100%; }
   .bs-ui-notification--error {
     background-color: #e83f26; }
     .bs-ui-notification--error .bs-ui-notification__close {
@@ -952,7 +951,7 @@
   .bs-ui-notification__text {
     padding: 4px; }
   .bs-ui-notification__close:before {
-    content: "close";
+    content: 'close';
     cursor: pointer;
     display: block;
     font-family: 'Material Icons';

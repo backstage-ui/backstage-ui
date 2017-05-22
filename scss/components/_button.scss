@@ -55,12 +55,6 @@
         &:active {
             background-color: $color-gray-6;
         }
-
-        &.disabled,
-        &.disabled:hover {
-            background-color: $color-gray-3;
-            box-shadow: none;
-        }
     }
 
     &.bs-ui-button--background-red {
@@ -74,12 +68,6 @@
 
         &:active {
             background-color: $color-critical-light;
-        }
-
-        &.disabled,
-        &.disabled:hover {
-            background-color: $color-gray-3;
-            box-shadow: none;
         }
     }
 
@@ -95,12 +83,6 @@
         &:active {
             background-color: $color-hit-light;
         }
-
-        &.disabled,
-        &.disabled:hover {
-            background-color: $color-gray-3;
-            box-shadow: none;
-        }
     }
 
     &.bs-ui-button--black {
@@ -112,12 +94,6 @@
 
         &:active {
             color: $color-gray-6;
-        }
-
-        &.disabled,
-        &.disabled:hover {
-            background-color: $color-gray-3;
-            box-shadow: none;
         }
     }
 
@@ -131,12 +107,6 @@
         &:active {
             color: $color-critical-light;
         }
-
-        &.disabled,
-        &.disabled:hover {
-            background-color: $color-gray-3;
-            box-shadow: none;
-        }
     }
 
     &.bs-ui-button--blue {
@@ -149,11 +119,17 @@
         &:active {
             color: $color-hit-light;
         }
+    }
 
-        &.disabled,
-        &.disabled:hover {
+    &.bs-ui-button--disabled {
+        background-color: $color-gray-3;
+        box-shadow: none;
+        color: $color-gray-5;
+        cursor: default;
+
+        &:hover {
             background-color: $color-gray-3;
-            box-shadow: none;
+            color: $color-gray-5;
         }
     }
 

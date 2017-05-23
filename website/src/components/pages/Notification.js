@@ -19,7 +19,7 @@ export default () => (
     </p>
     <Demo code={`<div style="position: relative; height: 60px">
   <div class="bs-ui-notification bs-ui-notification--show bs-ui-notification--success">
-    <span class="bs-ui-notification__text">Documented created with success</span>
+    <span class="bs-ui-notification__text">Document created with success</span>
     <i class="bs-ui-notification__close"></i>
   </div>
 </div>`}/>

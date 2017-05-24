@@ -22,13 +22,16 @@
 
     .ic {
         font-size: 20px;
-        margin: -2px 0;
+        margin: -4px 0;
         position: relative;
         vertical-align: middle;
     }
 
     span {
+        bottom: 1px;
+        line-height: 1px;
         margin-left: 8px;
+        position: relative;
         vertical-align: middle;
     }
 

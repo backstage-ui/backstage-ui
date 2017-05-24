@@ -15,7 +15,7 @@ export default () => (
     <h2 className="bs-styleguide-page__subtitle">Usage</h2>
     <Demo code={`<button class="bs-ui-button bs-ui-button--background-black">Button</button>
 <button class="bs-ui-button">Button</button>`}>
-      <p>There are two kinds of buttons: with background, to be used as primary actions and withoout background, fo secundary actions.</p>
+      <p>There are two kinds of buttons: with background, to be used as primary actions and withoout background, to secundary actions.</p>
     </Demo>
     <h2 className="bs-styleguide-page__subtitle">Colors</h2>
     <Demo code={`<button class="bs-ui-button bs-ui-button--background-black">Button</button>
@@ -28,5 +28,8 @@ export default () => (
     <Demo code={`<button class="bs-ui-button bs-ui-button--background-black bs-ui-button--large">Button</button>
 <button class="bs-ui-button bs-ui-button--background-black">Button</button>
 <button class="bs-ui-button bs-ui-button--background-black bs-ui-button--small">Button</button>`}/>
+    <h2 className="bs-styleguide-page__subtitle">Icons</h2>
+    <Demo code={`<button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">cloud_upload</i><span>Button</span></button>
+<button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">cloud_upload</i></button>`}/>
   </Page>
 );

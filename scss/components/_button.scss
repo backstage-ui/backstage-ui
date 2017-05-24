@@ -36,8 +36,6 @@
         }
     }
 
-
-
     &:hover {
         color: $color-gray-9;
     }
@@ -162,11 +160,23 @@
 
     &.bs-ui-button--small {
         font-size: 12px;
-        padding: 8px 16px;
+        padding: 8px;
+
+        span {
+            line-height: 2px;
+            padding: 0 8px;
+            vertical-align: middle;
+        }
     }
 
     &.bs-ui-button--large {
         font-size: 16px;
-        padding: 14px 16px;
+        padding: 14px;
+
+        span {
+            line-height: 2px;
+            padding: 0 2px;
+            vertical-align: middle;
+        }
     }
 }

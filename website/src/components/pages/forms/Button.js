@@ -29,7 +29,7 @@ export default () => (
 <button class="bs-ui-button bs-ui-button--background-black">Button</button>
 <button class="bs-ui-button bs-ui-button--background-black bs-ui-button--small">Button</button>`}/>
     <h2 className="bs-styleguide-page__subtitle">Icons</h2>
-    <Demo code={`<button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">cloud_upload</i><span>Button</span></button>
+    <Demo code={`<button class="bs-ui-button bs-ui-button--background-black"><span><i class="material-icons ic">cloud_upload</i>Button</span></button>
 <button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">cloud_upload</i></button>
 <button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">more_horiz</i></button>`}/>
   </Page>

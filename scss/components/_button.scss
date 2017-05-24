@@ -15,10 +15,29 @@
     color: $color-gray-8;
     cursor: pointer;
     outline: 0;
-    padding: 12px 16px;
+    padding: 12px;
     text-decoration: none;
     text-transform: uppercase;
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
+
+    .ic {
+        font-size: 20px;
+        margin: -4px 0;
+        vertical-align: middle;
+    }
+
+    span {
+        line-height: 2px;
+        padding: 0 4px;
+        position: relative;
+        vertical-align: middle;
+
+        .ic {
+            margin-right: 8px;
+        }
+    }
+
+
 
     &:hover {
         color: $color-gray-9;

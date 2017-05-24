@@ -20,6 +20,17 @@
     text-transform: uppercase;
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
 
+    .ic {
+        position: relative;
+        bottom: 1px;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+
+    span{
+        margin-left: 8px;
+    }
+
     &:hover {
         color: $color-gray-9;
     }

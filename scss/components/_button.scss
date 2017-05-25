@@ -27,9 +27,8 @@
     }
 
     span {
-        line-height: 2px;
+        line-height: 0;
         padding: 0 4px;
-        vertical-align: middle;
 
         .ic {
             margin-right: 8px;
@@ -163,9 +162,8 @@
         padding: 8px;
 
         span {
-            line-height: 2px;
+            line-height: 0;
             padding: 0 8px;
-            vertical-align: middle;
         }
     }
 
@@ -174,9 +172,8 @@
         padding: 14px;
 
         span {
-            line-height: 2px;
+            line-height: 0;
             padding: 0 2px;
-            vertical-align: middle;
         }
     }
 }

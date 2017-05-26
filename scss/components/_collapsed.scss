@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
+.bs-ui-collapsed {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+
+    .bs-ui-options {
+        margin-top: 8px;
+	}
+}

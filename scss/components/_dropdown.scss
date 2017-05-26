@@ -5,10 +5,6 @@
  */
 
 
-@import '../_base.scss';
-
-$item-height: 40px;
-
 .bs-ui-dropdown {
     @extend %font-16;
     color: $color-gray-8;
@@ -21,8 +17,8 @@ $item-height: 40px;
         background-color: $color-white;
         border: solid 2px $color-gray-4;
         border-radius: 4px;
-        line-height: $item-height;
-        padding: 0 14px;
+        line-height: 20px;
+        padding: 8px 14px;
 
         &:hover {
             border-color: $color-gray-5;
@@ -43,46 +39,6 @@ $item-height: 40px;
             top: 46%;
             width: 0;
             z-index: 2;
-        }
-    }
-
-    &__list {
-        background-color: $color-white;
-        border-radius: 2px;
-        box-shadow: 0 1px 4px 0 rgba($color-black, .4);
-        color: $color-gray-5;
-        list-style: none;
-        margin: 0;
-        max-height: 0;
-        overflow: hidden;
-        overflow-y: auto;
-        position: absolute;
-        top: 0;
-        transition: max-height 0.1s;
-        visibility: hidden;
-        width: 100%;
-        z-index: 3;
-
-        &-item {
-            line-height: $item-height;
-            padding-left: 16px;
-
-            &--selected {
-                color: $color-gray-8;
-            }
-
-            &:hover {
-                background-color: $color-hit;
-                color: $color-white;
-            }
-        }
-    }
-
-    &--open {
-        .bs-ui-dropdown__list {
-            max-height: 200px;
-            padding: 8px 0;
-            visibility: visible;
         }
     }
 
@@ -111,18 +67,21 @@ $item-height: 40px;
     &--small {
         @extend %font-14;
 
-        .bs-ui-dropdown {
-            &__item,
-            &__list-item {
-                line-height: 32px;
-            }
+        .bs-ui-dropdown__item {
+            line-height: 16px;
+        }
+
+        .bs-ui-options__item {
+            @extend %font-14;
         }
     }
 
-    &--open-up {
-        .bs-ui-dropdown__list {
-            bottom: 0;
-            top: auto;
-        }
+    .bs-ui-options--open {
+        top: 0;
+    }
+
+    .bs-ui-options--open-up {
+        bottom: 0;
+        top: auto;
     }
 }

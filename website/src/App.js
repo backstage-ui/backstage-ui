@@ -23,6 +23,7 @@ import Pagination from "./components/pages/Pagination";
 import Table from "./components/pages/Table";
 import Tabs from "./components/pages/Tabs";
 import Notification from "./components/pages/Notification";
+import Options from "./components/pages/forms/Options";
 
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
@@ -49,6 +50,7 @@ class App extends Component {
               <Route path="/tabs" component={Tabs}/>
               <Route path="/table" component={Table}/>
               <Route path="/notification" component={Notification}/>
+              <Route path="/options" component={Options}/>
             </div>
           </div>
         </div>

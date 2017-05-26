@@ -1,0 +1,128 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
+.bs-ui-options {
+    @extend %font-16;
+    background-color: $color-white;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px 0 rgba($color-black, .4);
+    color: $color-gray-8;
+    cursor: pointer;
+    height: auto;
+    list-style: none;
+    margin: 0;
+    min-width: 200px;
+    position: absolute;
+    transition: max-height 0.1s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 3;
+
+    &__avatar {
+        border-radius: 50%;
+        height: 40px;
+        margin-right: 8px;
+        vertical-align: middle;
+        width: 40px;
+    }
+
+    &__header {
+        border-bottom: 1px solid $color-gray-4;
+        padding: 16px;
+    }
+
+    &__icon {
+        font-size: 20px;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    &__item {
+        padding: 8px 16px;
+        text-align: left;
+        white-space: nowrap;
+
+        a {
+            align-items: center;
+            display: inline-flex;
+            width: 100%;
+        }
+
+        &--selected {
+            background-color: $color-gray-2;
+        }
+
+        &--divider {
+            border-top: 2px solid $color-gray-4;
+        }
+
+        &:hover {
+            background-color: $color-hit;
+            color: $color-white;
+
+            .bs-ui-options__list-item-label {
+                color: $color-white;
+            }
+        }
+    }
+
+    &__label {
+        color: $color-gray-8;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    &__list {
+        max-height: 342px;
+        overflow: auto;
+        padding: 8px 0;
+
+    }
+
+    &__subtitle {
+        @extend %font-14;
+        color: $color-gray-5;
+        margin-top: 4px;
+        overflow: hidden;
+    }
+
+    &__title {
+        @extend %font-26;
+    }
+
+    &--left {
+        left: 0;
+    }
+
+    &--open {
+        visibility: visible;
+    }
+
+    &--right {
+        right: 0;
+    }
+
+    &--small {
+        @extend %font-14;
+
+        .bs-ui-options__title {
+            @extend %font-20;
+        }
+
+        .bs-ui-options__subtitle {
+            @extend %font-12;
+        }
+
+        .bs-ui-options__avatar {
+            height: 32px;
+            margin-right: 8px;
+            vertical-align: middle;
+            width: 32px;
+        }
+    }
+}

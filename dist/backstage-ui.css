@@ -64,7 +64,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-tabs.bs-ui-tabs--large {
+.bs-ui-options__title {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.75rem; }
+
+.bs-ui-tabs.bs-ui-tabs--large, .bs-ui-options--small .bs-ui-options__title {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -72,7 +80,7 @@
   letter-spacing: -0.04688rem;
   line-height: 1.5rem; }
 
-.bs-ui-dropdown, .bs-ui-tabs, .empty {
+.bs-ui-dropdown, .bs-ui-tabs, .empty, .bs-ui-options {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -80,7 +88,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-dropdown--small .bs-ui-options__item, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification, .bs-ui-options__subtitle, .bs-ui-options--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -90,7 +98,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination, .bs-ui-options--small .bs-ui-options__subtitle {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -168,7 +176,10 @@
   transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
   .bs-ui-button .ic {
     font-size: 20px;
+    margin: 0 -4px;
     vertical-align: middle; }
+    .bs-ui-button .ic--left {
+      margin: 0 8px 0 0; }
   .bs-ui-button:hover {
     color: #181818; }
   .bs-ui-button:active {
@@ -224,9 +235,15 @@
       background-color: #ddd;
       color: #999; }
   .bs-ui-button.bs-ui-button--small {
+    font-size: 12px;
     height: 32px; }
+    .bs-ui-button.bs-ui-button--small .ic {
+      margin: 0 -8px; }
   .bs-ui-button.bs-ui-button--large {
+    font-size: 16px;
     height: 48px; }
+    .bs-ui-button.bs-ui-button--large .ic {
+      margin: 0 -2px; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
@@ -288,7 +305,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-tabs.bs-ui-tabs--large {
+.bs-ui-options__title {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.75rem; }
+
+.bs-ui-tabs.bs-ui-tabs--large, .bs-ui-options--small .bs-ui-options__title {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -296,7 +321,7 @@
   letter-spacing: -0.04688rem;
   line-height: 1.5rem; }
 
-.bs-ui-dropdown, .bs-ui-tabs, .empty {
+.bs-ui-dropdown, .bs-ui-tabs, .empty, .bs-ui-options {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -304,7 +329,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-dropdown--small .bs-ui-options__item, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification, .bs-ui-options__subtitle, .bs-ui-options--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -314,7 +339,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination, .bs-ui-options--small .bs-ui-options__subtitle {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -466,95 +491,6 @@
  *
  * License: MIT
  */
-/*
- * Copyright (c) 2013, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-/*
- * Copyright (c) 2013, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-/*
- * Copyright (c) 2013, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
- * Copyright (c) 2013, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-/*
- * Copyright (c) 2013, Globo.com (https://github.com/globocom)
- *
- * License: MIT
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-  line height definitions above should to be
-  used in a long text context
- */
-/*
-    this each will create all classes
-    .font-<size>, .font-<size>--bold,
-    .font-<size>--long-bold, .font-<size>--long,
-    based on _variables.scss@$font-sizes.
-
-    IE: .font-10, .font-10--bold, .font-10--long,
-        .font-10--long-bold, .font-12,
-        .font-12--bold, font-12--long,
-        .font-12--long-bold, .font-14,
-        .font-14--bold, font-14--long,
-        .font-14--long-bold, etc
-
-*/
-.bs-ui-tabs.bs-ui-tabs--large {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: -0.04688rem;
-  line-height: 1.5rem; }
-
-.bs-ui-dropdown, .bs-ui-tabs, .empty {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  letter-spacing: -0.03125rem;
-  line-height: 1.25rem; }
-
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.875rem;
-  letter-spacing: -0.01562rem;
-  line-height: 1rem; }
-  .bs-ui-button {
-    font-weight: bold; }
-
-.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0;
-  line-height: 1rem; }
-
 .bs-ui-dropdown {
   color: #333;
   cursor: pointer;
@@ -565,8 +501,8 @@
     background-color: #fff;
     border: solid 2px #ccc;
     border-radius: 4px;
-    line-height: 40px;
-    padding: 0 14px; }
+    line-height: 20px;
+    padding: 8px 14px; }
     .bs-ui-dropdown__item:hover {
       border-color: #999; }
       .bs-ui-dropdown__item:hover:after {
@@ -582,34 +518,6 @@
       top: 46%;
       width: 0;
       z-index: 2; }
-  .bs-ui-dropdown__list {
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
-    color: #999;
-    list-style: none;
-    margin: 0;
-    max-height: 0;
-    overflow: hidden;
-    overflow-y: auto;
-    position: absolute;
-    top: 0;
-    transition: max-height 0.1s;
-    visibility: hidden;
-    width: 100%;
-    z-index: 3; }
-    .bs-ui-dropdown__list-item {
-      line-height: 40px;
-      padding-left: 16px; }
-      .bs-ui-dropdown__list-item--selected {
-        color: #333; }
-      .bs-ui-dropdown__list-item:hover {
-        background-color: #0669de;
-        color: #fff; }
-  .bs-ui-dropdown--open .bs-ui-dropdown__list {
-    max-height: 200px;
-    padding: 8px 0;
-    visibility: visible; }
   .bs-ui-dropdown--disabled {
     cursor: default; }
     .bs-ui-dropdown--disabled .bs-ui-dropdown__item {
@@ -622,9 +530,11 @@
           border-top: 4px solid #fff; }
       .bs-ui-dropdown--disabled .bs-ui-dropdown__item:after {
         border-top: 4px solid #fff; }
-  .bs-ui-dropdown--small .bs-ui-dropdown__item, .bs-ui-dropdown--small .bs-ui-dropdown__list-item {
-    line-height: 32px; }
-  .bs-ui-dropdown--open-up .bs-ui-dropdown__list {
+  .bs-ui-dropdown--small .bs-ui-dropdown__item {
+    line-height: 16px; }
+  .bs-ui-dropdown .bs-ui-options--open {
+    top: 0; }
+  .bs-ui-dropdown .bs-ui-options--open-up {
     bottom: 0;
     top: auto; }
 
@@ -892,7 +802,15 @@
         .font-14--long-bold, etc
 
 */
-.bs-ui-tabs.bs-ui-tabs--large {
+.bs-ui-options__title {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.75rem; }
+
+.bs-ui-tabs.bs-ui-tabs--large, .bs-ui-options--small .bs-ui-options__title {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -900,7 +818,7 @@
   letter-spacing: -0.04688rem;
   line-height: 1.5rem; }
 
-.bs-ui-dropdown, .bs-ui-tabs, .empty {
+.bs-ui-dropdown, .bs-ui-tabs, .empty, .bs-ui-options {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -908,7 +826,7 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification {
+.bs-ui-button, .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-dropdown--small, .bs-ui-dropdown--small .bs-ui-options__item, .bs-ui-breadcrumbs, .bs-ui-tabs.bs-ui-tabs--small, .bs-ui-notification, .bs-ui-options__subtitle, .bs-ui-options--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -918,7 +836,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination, .bs-ui-options--small .bs-ui-options__subtitle {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -953,3 +871,90 @@
     font-family: 'Material Icons';
     font-size: 24px;
     font-style: normal; }
+
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-options {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+  color: #333;
+  cursor: pointer;
+  height: auto;
+  list-style: none;
+  margin: 0;
+  min-width: 200px;
+  position: absolute;
+  transition: max-height 0.1s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 3; }
+  .bs-ui-options__avatar {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 40px; }
+  .bs-ui-options__header {
+    border-bottom: 1px solid #ccc;
+    padding: 16px; }
+  .bs-ui-options__icon {
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: middle; }
+  .bs-ui-options__item {
+    padding: 8px 16px;
+    text-align: left;
+    white-space: nowrap; }
+    .bs-ui-options__item a {
+      align-items: center;
+      display: inline-flex;
+      width: 100%; }
+    .bs-ui-options__item--selected {
+      background-color: #eee; }
+    .bs-ui-options__item--divider {
+      border-top: 2px solid #ccc; }
+    .bs-ui-options__item:hover {
+      background-color: #0669de;
+      color: #fff; }
+      .bs-ui-options__item:hover .bs-ui-options__list-item-label {
+        color: #fff; }
+  .bs-ui-options__label {
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .bs-ui-options__list {
+    max-height: 342px;
+    overflow: auto;
+    padding: 8px 0; }
+  .bs-ui-options__subtitle {
+    color: #999;
+    margin-top: 4px;
+    overflow: hidden; }
+  .bs-ui-options--left {
+    left: 0; }
+  .bs-ui-options--open {
+    visibility: visible; }
+  .bs-ui-options--right {
+    right: 0; }
+  .bs-ui-options--small .bs-ui-options__avatar {
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 32px; }
+
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+.bs-ui-collapsed {
+  cursor: pointer;
+  display: inline;
+  position: relative; }
+  .bs-ui-collapsed .bs-ui-options {
+    margin-top: 8px; }

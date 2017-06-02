@@ -22,7 +22,12 @@ export default () => (
   <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
 </div>
 <div class="bs-ui-form-control">
-  <label class="bs-ui-form-control__label">Dsiabled field</label>
+  <label class="bs-ui-form-control__label">Disabeld field</label>
+  <p class="bs-ui-form-control__description">Field auxiliary description</p>
+  <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
+</div>
+<div class="bs-ui-form-control">
+  <label class="bs-ui-form-control__label">Disabeld field</label>
   <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
 </div>
 <div class="bs-ui-form-control">

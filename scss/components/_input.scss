@@ -32,6 +32,12 @@
         }
     }
 
+    &__description {
+        color: $color-gray-5;
+        @extend %font-12;
+        margin: 4px 0 8px;
+    }
+
     textarea {
         &.bs-ui-form-control__field {
             height: 200px;

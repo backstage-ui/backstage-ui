@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "gh-pages": "^0.12.0",
-    "node-sass": "^4.5.2",
+    "node-sass": "^4.5.3",
     "prismjs": "^1.6.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

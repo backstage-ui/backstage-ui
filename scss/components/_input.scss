@@ -33,8 +33,8 @@
     }
 
     &__description {
-        color: $color-gray-5;
         @extend %font-12;
+        color: $color-gray-5;
         margin: 4px 0 8px;
     }
 

@@ -90,7 +90,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -116,6 +116,9 @@
       border-color: #999; }
     .bs-ui-form-control__field:focus {
       border-color: #0669de; }
+  .bs-ui-form-control__description {
+    color: #999;
+    margin: 4px 0 8px; }
   .bs-ui-form-control textarea.bs-ui-form-control__field {
     height: 200px; }
   .bs-ui-form-control--error .bs-ui-form-control__field {
@@ -156,20 +159,16 @@
   box-sizing: border-box;
   color: #333;
   cursor: pointer;
+  height: 40px;
+  line-height: 20px;
   outline: 0;
-  padding: 12px;
+  padding: 0 16px;
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
   .bs-ui-button .ic {
     font-size: 20px;
-    margin: -4px 0;
     vertical-align: middle; }
-  .bs-ui-button span {
-    line-height: 0;
-    padding: 0 4px; }
-    .bs-ui-button span .ic {
-      margin-right: 8px; }
   .bs-ui-button:hover {
     color: #181818; }
   .bs-ui-button:active {
@@ -225,17 +224,9 @@
       background-color: #ddd;
       color: #999; }
   .bs-ui-button.bs-ui-button--small {
-    font-size: 12px;
-    padding: 8px; }
-    .bs-ui-button.bs-ui-button--small span {
-      line-height: 0;
-      padding: 0 8px; }
+    height: 32px; }
   .bs-ui-button.bs-ui-button--large {
-    font-size: 16px;
-    padding: 14px; }
-    .bs-ui-button.bs-ui-button--large span {
-      line-height: 0;
-      padding: 0 2px; }
+    height: 48px; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
@@ -323,7 +314,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -556,7 +547,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
@@ -927,7 +918,7 @@
   .bs-ui-button {
     font-weight: bold; }
 
-.bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
+.bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-table, .bs-ui-pagination {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;

@@ -920,7 +920,7 @@
     .bs-ui-options__item:hover {
       background-color: #0669de;
       color: #fff; }
-      .bs-ui-options__item:hover .bs-ui-options__list-item-label {
+      .bs-ui-options__item:hover .bs-ui-options__label {
         color: #fff; }
   .bs-ui-options__label {
     color: #333;

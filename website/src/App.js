@@ -24,7 +24,7 @@ import Table from "./components/pages/Table";
 import Tabs from "./components/pages/Tabs";
 import Notification from "./components/pages/Notification";
 import Options from "./components/pages/forms/Options";
-
+import ActionBar from "./components/pages/ActionBar";
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
 
@@ -40,17 +40,18 @@ class App extends Component {
             <div className="bs-styleguide__content">
               <Route path="/" exact component={Home}/>
               <Route path="/getting-started" component={GetStarted}/>
-              <Route path="/typography" component={Typography}/>
-              <Route path="/input" component={Input}/>
+              <Route path="/actionbar" component={ActionBar}/>
               <Route path="/breadcrumbs" component={Breadcrumbs}/>
               <Route path="/button" component={Button}/>
               <Route path="/controls" component={Controls}/>
               <Route path="/dropdown" component={Dropdown}/>
-              <Route path="/pagination" component={Pagination}/>
-              <Route path="/tabs" component={Tabs}/>
-              <Route path="/table" component={Table}/>
+              <Route path="/input" component={Input}/>
               <Route path="/notification" component={Notification}/>
               <Route path="/options" component={Options}/>
+              <Route path="/pagination" component={Pagination}/>
+              <Route path="/table" component={Table}/>
+              <Route path="/tabs" component={Tabs}/>
+              <Route path="/typography" component={Typography}/>
             </div>
           </div>
         </div>

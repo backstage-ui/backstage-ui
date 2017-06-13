@@ -1,0 +1,23 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+
+@import '../_base.scss';
+
+
+.bs-ui-action-bar {
+    @include align-items(center);
+    @include flexbox;
+    @include justify-content(space-between);
+    background: $color-white;
+    box-shadow: 0 1px 2px 0 rgba($color-black, 0.2);
+    height: 75px;
+    padding: 0 24px;
+
+    &__action + &__action {
+        margin-left: 16px;
+    }
+}

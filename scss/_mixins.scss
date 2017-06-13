@@ -51,3 +51,35 @@
     white-space: nowrap;
     word-wrap: normal;
 }
+
+// Flexbox display
+@mixin flexbox {
+    display: -webkit-box;
+    // sass-lint:disable no-duplicate-properties
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+// Axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | space-between | space-around
+@mixin justify-content($justify) {
+    -moz-justify-content: $justify;
+    // sass-lint:disable no-misspelled-properties
+    -ms-flex-pack: $justify;
+    -ms-justify-content: $justify;
+    -webkit-justify-content: $justify;
+    justify-content: $justify;
+}
+
+// Cross-axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | baseline | stretch
+@mixin align-items($align) {
+    -moz-align-items: $align;
+    -ms-align-items: $align;
+    -webkit-align-items: $align;
+    align-items: $align;
+}

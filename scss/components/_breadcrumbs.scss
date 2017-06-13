@@ -28,6 +28,7 @@
         }
 
         &:before {
+            -moz-font-feature-settings: 'liga';
             content: 'keyboard_arrow_right';
             float: left;
             font-family: 'Material Icons';

@@ -25,6 +25,8 @@
 
     &__body {
         margin: $spacer-y-4 $spacer-x-4;
+        line-height: 20px;
+        letter-spacing: -0.25px;
     }
 
     &__section {

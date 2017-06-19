@@ -40,11 +40,10 @@
     }
 
     &__close:before {
+        @include material-icon;
         content: 'close';
         cursor: pointer;
         display: block;
-        font-family: 'Material Icons';
         font-size: 24px;
-        font-style: normal;
     }
 }

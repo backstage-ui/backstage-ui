@@ -37,3 +37,17 @@
         -webkit-font-smoothing: subpixel-antialiased;
     }
 }
+
+@mixin material-icon {
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+}

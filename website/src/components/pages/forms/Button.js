@@ -35,14 +35,17 @@ export default () => (
 <button class="bs-ui-button bs-ui-button--background-black">medium</button>
 <button class="bs-ui-button bs-ui-button--background-black bs-ui-button--small">small</button>`} title="Sizes"/>
 
-    <h2 className="bs-styleguide-page__subtitle">Icons</h2>
+    <h2 className="bs-styleguide-page__subtitle">Icons and Labels</h2>
+    <p className="bs-styleguide-page__lead">
+      You can use a button with or without an icon. In case of a button with icon and label, it must pass a message in the most clear and objective way.
+    </p>
     <Demo code={`<button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
 <button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">cloud_upload</i></button>`} title="Background"/>
 
     <Demo code={`<button class="bs-ui-button bs-ui-button--black"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
 <button class="bs-ui-button bs-ui-button--black"><i class="material-icons ic">cloud_upload</i></button>`} title="Flat"/>
 
-    <h2 className="bs-styleguide-page__subtitle">Group buttons</h2>
+    <h2 className="bs-styleguide-page__subtitle">Collapsed buttons</h2>
 
     <h3 className="bs-styleguide-page__subtitle">Alignment</h3>
     <Demo style={{height: "200px"}} code={`<div class="bs-ui-collapsed bs-ui-collapsed__button">

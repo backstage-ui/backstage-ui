@@ -49,9 +49,9 @@ export default () => (
     <Demo code={`<button class="bs-ui-button bs-ui-button--black"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
 <button class="bs-ui-button bs-ui-button--black"><i class="material-icons ic">cloud_upload</i></button>`} />
 
-    <h2 className="bs-styleguide-page__subtitle">Collapsed buttons</h2>
+    <h2 className="bs-styleguide-page__subtitle">Collapsed button</h2>
     <p className="bs-styleguide-page__lead">
-      You can align a collapsed button in the left or in the right side of page.
+      Group of actions collapsed in a list.
     </p>
     <Demo style={{height: "200px"}} code={`<div class="bs-ui-collapsed bs-ui-collapsed__button">
   <button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">more_horiz</i></button>
@@ -62,16 +62,7 @@ export default () => (
       <div class="bs-ui-options__item" key="proxima-nova">Proxima Nova</div>
     </div>
   </div>
-</div>
-<div class="bs-ui-collapsed bs-ui-collapsed__button" style="float: right">
-    <button class="bs-ui-button bs-ui-button--background-black"><i class="material-icons ic">more_horiz</i></button>
-  <div class="bs-ui-options bs-ui-options--right bs-ui-options--open">
-    <div class="bs-ui-options__list">
-      <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
-      <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
-      <div class="bs-ui-options__item" key="proxima-nova">Proxima Nova</div>
-    </div>
-  </div>
 </div>`} />
+
   </Page>
 );

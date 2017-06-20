@@ -46,7 +46,7 @@ export default () => (
     <Demo code={`<button class="bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
 <button class="bs-ui-button bs-ui-button--background"><i class="material-icons ic">cloud_upload</i></button>`} />
 
-    <Demo code={`<button class="bs-ui-button bs-ui-button--secondary"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
+    <Demo code={`<button class="bs-ui-button bs-ui-button"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
 <button class="bs-ui-button bs-ui-button--black"><i class="material-icons ic">cloud_upload</i></button>`} />
 
     <h2 className="bs-styleguide-page__subtitle">Collapsed button</h2>

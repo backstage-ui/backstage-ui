@@ -47,3 +47,4 @@ rules:
   force-element-nesting: 2
   space-before-brace: 2
   space-after-colon: 2
+  no-vendor-prefixes: 2

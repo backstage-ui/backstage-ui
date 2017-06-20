@@ -14,7 +14,7 @@
     @include justify-content(space-between);
     background: $color-white;
     box-shadow: 0 1px 2px 0 rgba($color-black, 0.2);
-    height: 75px;
+    height: 72px;
     padding: 0 24px;
 
     &__action + &__action {

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.0.14",
   "devDependencies": {
     "node-sass": "^4.5.3",
     "sass-lint": "^1.10.2"

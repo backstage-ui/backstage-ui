@@ -11,40 +11,45 @@
     margin: 30px auto auto;
     overflow: hidden;
     padding-bottom: 40px;
+    padding-left: 0;
     text-align: center;
 
-    &.bs-ui-pagination--empty-results {
+    &--empty-results {
         margin-top: 290px;
     }
 
-    .bs-ui-pagination--arrow {
+    &__arrow {
         color: $color-gray-5;
         cursor: pointer;
         vertical-align: middle;
-
-        &.bs-ui-pagination--disabled {
-            color: $color-gray-4;
-            cursor: text;
-        }
     }
 
-    li {
-        display: inline-block;
-        vertical-align: middle;
+    &--disabled {
+        color: $color-gray-4;
+        cursor: text;
     }
 
-    .bs-ui-pagination--previous {
+    &__previous {
         padding-right: 10px;
     }
 
-    .bs-ui-pagination--next {
+    &__next {
         padding-left: 10px;
     }
 
-    .bs-ui-pagination--current {
-        input {
-            text-align: center;
-            width: 50px;
-        }
+    &__current {
+        vertical-align: middle;
+    }
+
+    &__input {
+        text-align: center;
+        width: 50px;
+    }
+
+    &__current,
+    &__input,
+    &__next,
+    &__previous {
+        display: inline-block;
     }
 }

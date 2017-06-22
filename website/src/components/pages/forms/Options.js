@@ -29,7 +29,7 @@ export default () => {
 
       <h2 className="bs-styleguide-page__subtitle">Default</h2>
       <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--open">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
@@ -40,7 +40,7 @@ export default () => {
 `} title="Default" />
 
       <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--open">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item"  key="helvetica">Helvetica</div>
@@ -51,7 +51,7 @@ export default () => {
 `} title="Divider" />
 
     <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--open">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__header">
       <div class="bs-ui-options__title">Select Type</div>
       <div class="bs-ui-options__subtitle">You can change anytime!</div>
@@ -66,7 +66,7 @@ export default () => {
 `} title="Title & Subtitle" />
 
       <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--small bs-ui-options--open">
+  <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__header">
       <div class="bs-ui-options__title">Select Type</div>
       <div class="bs-ui-options__subtitle">You can change anytime!</div>
@@ -82,7 +82,7 @@ export default () => {
 
       <h2 className="bs-styleguide-page__subtitle">Avatar</h2>
       <Demo style={{height: "200px"}} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--open">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
         <img class="bs-ui-options__avatar" src="bs-logo.png">
@@ -102,7 +102,7 @@ export default () => {
 `} title="Default" />
 
       <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--small bs-ui-options--open">
+  <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
         <img class="bs-ui-options__avatar" src="bs-logo.png">
@@ -123,7 +123,7 @@ export default () => {
 
       <h2 className="bs-styleguide-page__subtitle">Icon</h2>
       <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--open">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
         <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>
@@ -140,7 +140,7 @@ export default () => {
 `} title="Default" />
 
       <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
-  <div class="bs-ui-options bs-ui-options--small bs-ui-options--open">
+  <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
         <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>

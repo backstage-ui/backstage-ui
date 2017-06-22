@@ -4,10 +4,6 @@
  * License: MIT
  */
 
-
-@import '../_base.scss';
-
-
 .bs-ui-action-bar {
     @include align-items(center);
     @include flexbox;

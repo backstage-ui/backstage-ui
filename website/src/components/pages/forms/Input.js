@@ -17,22 +17,25 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       Lorem ipsum dolor sit amet.
     </p>
+    <Demo title="Basic usage" code={`
+    <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
+`}/>
     <Demo title="Basic usage" code={`<div class="bs-ui-form-control">
   <label class="bs-ui-form-control__label">Basic field with label and placeholder</label>
   <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field"/>
 </div>
 <div class="bs-ui-form-control">
-  <label class="bs-ui-form-control__label">Disabeld field</label>
+  <label class="bs-ui-form-control__label">Disabled field</label>
   <p class="bs-ui-form-control__description">Field auxiliary description</p>
-  <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field bs-ui-form-control__field--disabled"/>
 </div>
 <div class="bs-ui-form-control">
-  <label class="bs-ui-form-control__label">Disabeld field</label>
-  <input type="text" placeholder="Placeholder" disabled="disabled" class="bs-ui-form-control__field"/>
+  <label class="bs-ui-form-control__label">Disabled field</label>
+  <input type="text" placeholder="Placeholder" class="bs-ui-form-control__field bs-ui-form-control__field--disabled"/>
 </div>
 <div class="bs-ui-form-control">
   <label class="bs-ui-form-control__label">Textarea</label>
-  <textarea placeholder="Placeholder" class="bs-ui-form-control__field"></textarea>
+  <textarea placeholder="Placeholder" class="bs-ui-form-control__textarea"></textarea>
 </div>`}/>
     <Demo title="Validation" code={`<div class="bs-ui-form-control bs-ui-form-control--error">
   <label class="bs-ui-form-control__label">My Field</label>

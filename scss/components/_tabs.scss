@@ -44,7 +44,7 @@
         }
     }
 
-    &.bs-ui-tabs--large {
+    &--large {
         @extend %font-20;
 
         .bs-ui-tabs__tab {
@@ -52,7 +52,7 @@
         }
     }
 
-    &.bs-ui-tabs--small {
+    &--small {
         @extend %font-14;
 
         .bs-ui-tabs__tab {

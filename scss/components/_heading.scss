@@ -9,4 +9,11 @@
     background: $color-gray-2;
     display: flex;
     justify-content: space-between;
+
+    &__title {
+        @extend %font-26;
+        display: inline-block;
+        margin-right: 3px;
+        padding-left: 20px;
+    }
 }

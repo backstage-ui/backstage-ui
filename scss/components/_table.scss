@@ -7,72 +7,41 @@
 .bs-ui-table {
     @extend %font-12;
     border-collapse: collapse;
-}
 
-.empty {
-    @extend %font-16;
-    color: $color-gray-5;
-    text-align: center;
+    &--empty-results {
+        @extend %font-16;
+        color: $color-gray-5;
+        text-align: center;
+    }
 }
 
 @media all and (max-width: 560px) {
     .bs-ui-table {
-
-        &,
-        td,
-        th,
-        tbody,
-        thead,
-        tfoot,
-        tr {
+        &__cell,
+        &__head,
+        &__body,
+        &__header,
+        &__foot,
+        &__row {
             display: block;
         }
 
-        thead {
-            display: none;
-        }
-
-        tr {
-            border-bottom: 1px solid $color-gray-3;
-            padding: 12px;
-
-            &:first-child {
-                border-top: 1px solid $color-gray-3;
-            }
-        }
-
-        td {
+        &__cell {
             border: 0;
             color: $color-gray-9;
             overflow: hidden;
+            padding: 0;
             position: relative;
-
-            a {
-                color: $color-gray-6;
-                display: inline-block;
-                padding: 0;
-                text-decoration: none;
-            }
-
-            a:before,
-            span:before {
-                color: $color-gray-5;
-                content: attr(data-title);
-                display: inline-block;
-                margin-right: 3px;
-                position: relative;
-                text-transform: uppercase;
-            }
 
             &:first-child {
                 font-weight: bold;
 
-                a {
+                .bs-ui-table__link {
                     color: $color-gray-9;
                 }
 
-                a:before,
-                span:before {
+                .bs-ui-table__link:before,
+                .bs-ui-table__cell-content:before {
                     display: none;
                 }
 
@@ -87,37 +56,46 @@
                 }
 
                 &:not(:only-child) {
-                    a {
+                    .bs-ui-table__link {
                         padding-bottom: 8px;
                     }
-                }
-
-                thead {
-                    background: $color-gray-2;
                 }
             }
         }
 
-        tbody {
-            td {
-                padding: 0;
+        &__header {
+            background: $color-gray-2;
+            display: none;
+        }
 
-                & > a,
-                & > span {
-                    display: block;
-                }
+        &__row {
+            border-bottom: 1px solid $color-gray-3;
+            padding: 12px;
+
+            &:first-child {
+                border-top: 1px solid $color-gray-3;
             }
 
-            tr {
-                &:hover {
-                    background: $color-blue-lighter;
-                }
-
-                // FIXME
-                &.selected {
-                    background: $color-blue-darker;
-                }
+            &:hover {
+                background: $color-blue-lighter;
             }
+        }
+
+        &__link {
+            color: $color-gray-6;
+            display: inline-block;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        &__link:before,
+        &__cell-content:before {
+            color: $color-gray-5;
+            content: attr(data-title);
+            display: inline-block;
+            margin-right: 3px;
+            position: relative;
+            text-transform: uppercase;
         }
     }
 }
@@ -127,41 +105,36 @@
         text-align: left;
         width: 100%;
 
-        a {
+        &__link {
             color: $color-gray-6;
             display: block;
             margin: -10px -10px -10px -20px;
             padding: 10px 10px 10px 20px;
             text-decoration: none;
+
+            &:hover {
+                background: $color-blue-lighter;
+            }
         }
 
-        tr {
+        &__row {
             border-bottom: 1px solid $color-gray-3;
             border-top: 1px solid $color-gray-3;
+
+            &:hover {
+                background: $color-blue-lighter;
+            }
         }
 
-        th {
+        &__head {
             background-color: $color-gray-2;
             color: $color-gray-6;
             padding: 10px 10px 10px 20px;
         }
 
-        td {
+        &__cell {
             color: $color-gray-6;
             padding: 10px 10px 10px 20px;
-        }
-
-        tbody {
-            tr {
-                &:hover {
-                    background: $color-blue-lighter;
-                }
-
-                // FIXME
-                &.selected {
-                    background: $color-blue-darker;
-                }
-            }
         }
     }
 }

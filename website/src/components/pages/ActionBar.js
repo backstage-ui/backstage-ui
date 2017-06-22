@@ -19,7 +19,7 @@ export default () => (
     </p>
     <Demo code={`<div class="bs-ui-action-bar">
   <ol class="bs-ui-breadcrumbs">
-    <li class="bs-ui-breadcrumbs__item"><a href="#">Previous</a></li>
+    <li class="bs-ui-breadcrumbs__item"><a href="#" class="bs-ui-breadcrumbs__link">Previous</a></li>
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
@@ -34,7 +34,7 @@ export default () => (
     </p>
     <Demo code={`<div class="bs-ui-action-bar">
   <ol class="bs-ui-breadcrumbs">
-    <li class="bs-ui-breadcrumbs__item"><a href="#">Previous</a></li>
+    <li class="bs-ui-breadcrumbs__item"><a href="#" class="bs-ui-breadcrumbs__link">Previous</a></li>
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
@@ -52,7 +52,7 @@ export default () => (
     </p>
     <Demo style={{height: "200px"}} code={`<div class="bs-ui-action-bar">
   <ol class="bs-ui-breadcrumbs">
-    <li class="bs-ui-breadcrumbs__item"><a href="#">Previous</a></li>
+    <li class="bs-ui-breadcrumbs__item"><a href="#" class="bs-ui-breadcrumbs__link">Previous</a></li>
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
@@ -61,7 +61,7 @@ export default () => (
     <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background-primary"><i class="material-icons ic ic--left">cloud_upload</i>publish</button>
     <div class="bs-ui-action-bar__action bs-ui-collapsed">
       <button class="bs-ui-button bs-ui-button--background"><i class="material-icons ic">more_horiz</i></button>
-      <div class="bs-ui-options bs-ui-options--right bs-ui-options--open">
+      <div class="bs-ui-options bs-ui-collapsed__options bs-ui-collapsed__options--right">
         <div class="bs-ui-options__list">
           <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">cloud_download</i>Unpublish</a></li>
           <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">history</i>History</a></li>

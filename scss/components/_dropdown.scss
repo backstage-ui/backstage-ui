@@ -48,7 +48,7 @@
         .bs-ui-dropdown__item {
             background-color: $color-gray-3;
             border-color: $color-gray-3;
-            color: $color-white;
+            color: $color-gray-6;
 
             &:hover {
                 border-color: $color-gray-3;
@@ -70,18 +70,23 @@
         .bs-ui-dropdown__item {
             line-height: 16px;
         }
+    }
 
-        .bs-ui-options__item {
+    &__options {
+        visibility: hidden;
+
+        &--open {
+            top: 0;
+            visibility: visible;
+        }
+
+        &--open-up {
+            bottom: 0;
+            visibility: visible;
+        }
+
+        &--small {
             @extend %font-14;
         }
-    }
-
-    .bs-ui-options--open {
-        top: 0;
-    }
-
-    .bs-ui-options--open-up {
-        bottom: 0;
-        top: auto;
     }
 }

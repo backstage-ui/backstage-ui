@@ -4,11 +4,8 @@
  * License: MIT
  */
 
-@import '../_base.scss';
-
 .bs-ui-notification {
     @extend %font-14;
-
     align-items: center;
     color: $color-white;
     display: flex;
@@ -19,6 +16,14 @@
     transition: opacity 500ms ease;
     width: 100%;
 
+    &__close:before {
+        @include material-icon;
+        content: 'close';
+        cursor: pointer;
+        display: block;
+        font-size: 24px;
+    }
+
     &--error {
         background-color: $color-critical;
 
@@ -27,23 +32,15 @@
         }
     }
 
-    &--success {
-        background-color: $color-success-dark;
-    }
-
     &--show {
         opacity: 1;
     }
 
-    &__text {
-        padding: 4px;
+    &--success {
+        background-color: $color-success-dark;
     }
 
-    &__close:before {
-        @include material-icon;
-        content: 'close';
-        cursor: pointer;
-        display: block;
-        font-size: 24px;
+    &__text {
+        padding: 4px;
     }
 }

@@ -1,0 +1,87 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+.bs-ui-checkbox {
+    cursor: pointer;
+    padding-left: 18px;
+    position: relative;
+
+    &__input {
+        visibility: hidden;
+
+        &:before {
+            background-color: $color-white;
+            border: solid 2px $color-gray-4;
+            border-radius: 4px;
+            content: ' ';
+            cursor: pointer;
+            height: 24px;
+            left: 0;
+            position: absolute;
+            top: -4px;
+            transition: border-color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1);
+            visibility: visible;
+            width: 24px;
+            z-index: 5;
+        }
+
+        &[type='checkbox']:checked {
+            &:before {
+                background-color: $color-hit;
+                border-color: $color-hit;
+            }
+
+            &:after {
+                border-bottom: 3px solid $color-white;
+                border-radius: 2px;
+                border-right: 3px solid $color-white;
+                content: ' ';
+                height: 15px;
+                left: 8px;
+                position: absolute;
+                top: -1px;
+                transform: rotateZ(37deg);
+                visibility: visible;
+                width: 8px;
+                z-index: 10;
+            }
+        }
+    }
+
+    &:hover {
+        .bs-ui-checkbox__input {
+            &:before {
+                border-color: $color-gray-5;
+            }
+
+            &[type='checkbox']:checked:before {
+                background-color: $color-hit-dark;
+                border-color: $color-hit-dark;
+            }
+        }
+    }
+
+    &--small {
+        padding-left: 8px;
+
+        .bs-ui-checkbox__input:before {
+            height: 16px;
+            top: 0;
+            width: 16px;
+        }
+
+        .bs-ui-checkbox__input {
+            &[type='checkbox']:checked {
+                &:after {
+                    height: 11px;
+                    left: 5px;
+                    top: 2px;
+                    width: 6px;
+                }
+            }
+        }
+    }
+}

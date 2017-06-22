@@ -14,15 +14,6 @@
     padding: 0;
 
     &__item {
-        a {
-            color: $color-hit;
-            text-decoration: none;
-
-            &:hover {
-                color: $color-hit-dark;
-            }
-        }
-
         &:first-child:before {
             display: none;
         }
@@ -33,6 +24,15 @@
             float: left;
             font-size: 18px;
             padding: 0 8px;
+        }
+    }
+
+    &__link {
+        color: $color-hit;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-hit-dark;
         }
     }
 }

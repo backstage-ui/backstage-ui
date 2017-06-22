@@ -4,14 +4,13 @@
  * License: MIT
  */
 
-@import '../_base.scss';
-
 .bs-ui-form-control {
     margin: 32px 0;
     position: relative;
 
-    &__field {
-        @extend %font-14;
+    &__field,
+    &__textarea {
+        @extend %font-16;
         background-color: $color-white;
         border: solid 2px $color-gray-4;
         border-radius: 4px;
@@ -30,6 +29,12 @@
         &:focus {
             border-color: $color-hit;
         }
+
+        &--disabled {
+            background-color: $color-gray-3;
+            border-color: $color-gray-3;
+            pointer-events: none;
+        }
     }
 
     &__description {
@@ -38,10 +43,8 @@
         margin: 4px 0 8px;
     }
 
-    textarea {
-        &.bs-ui-form-control__field {
-            height: 200px;
-        }
+    &__textarea {
+        height: 200px;
     }
 
     &--error {
@@ -71,6 +74,7 @@
 
     &--small {
         .bs-ui-form-control__field {
+            @extend %font-14;
             height: 32px;
         }
 

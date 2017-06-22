@@ -10,7 +10,15 @@
     display: inline;
     position: relative;
 
-    .bs-ui-options {
+    &__options {
         margin-top: 8px;
-	}
+
+        &--left {
+            left: 0;
+        }
+
+        &--right {
+            right: 0;
+        }
+    }
 }

@@ -53,9 +53,9 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       Group of actions collapsed in a list.
     </p>
-    <Demo style={{height: "200px"}} code={`<div class="bs-ui-collapsed bs-ui-collapsed__button">
+    <Demo style={{height: "200px"}} code={`<div class="bs-ui-collapsed">
   <button class="bs-ui-button bs-ui-button--background"><i class="material-icons ic">more_horiz</i></button>
-  <div class="bs-ui-options bs-ui-options--left bs-ui-options--open">
+  <div class="bs-ui-options bs-ui-collapsed__options bs-ui-collapsed__options--left">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>

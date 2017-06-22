@@ -1,0 +1,83 @@
+/*
+ * Copyright (c) 2013, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+.bs-ui-switch {
+    @extend %font-14;
+    cursor: pointer;
+
+    &__input {
+        &[type='checkbox'] {
+            display: none;
+        }
+
+        &:checked {
+            + .bs-ui-switch__lever {
+                background-color: $color-hit;
+            }
+
+            + .bs-ui-switch__lever:after {
+                left: 22px;
+            }
+        }
+    }
+
+    &:hover {
+        .bs-ui-switch__lever {
+            background-color: $color-gray-6;
+        }
+
+        .bs-ui-switch__input {
+            &[type='checkbox']:checked + .bs-ui-switch__lever {
+                background-color: $color-hit-dark;
+            }
+        }
+    }
+
+    &__lever {
+        background-color: $color-gray-5;
+        border-radius: 24px;
+        content: '';
+        display: inline-block;
+        height: $spacer-x-2;
+        margin: 0 6px;
+        position: relative;
+        transition: background .15s cubic-bezier(0, 0, 0.2, 1);
+        user-select: none;
+        vertical-align: middle;
+        width: 44px;
+
+        &:after {
+            background-color: $color-white;
+            border-radius: 20px;
+            content: '';
+            display: inline-block;
+            height: 20px;
+            left: 2px;
+            position: absolute;
+            top: 2px;
+            transition: left .15s cubic-bezier(0, 0, 0.2, 1);
+            width: 20px;
+        }
+    }
+
+    &--small {
+        .bs-ui-switch__lever {
+            height: 16px;
+            width: 28px;
+
+            &:after {
+                height: 12px;
+                width: 12px;
+            }
+        }
+
+        .bs-ui-switch__input {
+            &[type='checkbox']:checked + .bs-ui-switch__lever:after {
+                left: 14px;
+            }
+        }
+    }
+}

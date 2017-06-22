@@ -18,10 +18,13 @@ export default () => (
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sed.
     </p>
     <Demo code={`<ol class="bs-ui-breadcrumbs">
-  <li class="bs-ui-breadcrumbs__item"><a href="#">Dashboard</a></li>
-  <li class="bs-ui-breadcrumbs__item"><a href="#">Item-list</a></li>
+  <li class="bs-ui-breadcrumbs__item">
+    <a href="#" class="bs-ui-breadcrumbs__link">Dashboard</a>
+  </li>
+  <li class="bs-ui-breadcrumbs__item">
+    <a href="#" class="bs-ui-breadcrumbs__link">Item-list</a>
+  </li>
   <li class="bs-ui-breadcrumbs__item">item 1</li>
 </ol>`}/>
   </Page>
 );
-

@@ -22,7 +22,7 @@
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
 
     &:hover {
-            background-color: $color-gray-9;
+        background-color: $color-gray-9;
         }
 
     &:active {
@@ -65,7 +65,6 @@
         }
     }
 
-// Mantém esse código do flat antigo?
     &--black {
         background-color: transparent;
         box-shadow: none;
@@ -146,7 +145,7 @@
 
     &--large {
         font-size: 16px;
-        padding:16px;
+        padding: 16px;
 
         .ic {
             margin: 0 -2px;
@@ -168,7 +167,7 @@
     text-transform: uppercase;
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
 
-        .ic {
+    .ic {
         font-size: 20px;
         margin: 0 -4px;
         vertical-align: middle;
@@ -198,7 +197,7 @@
         }
     }
 
-    &--primary{
+    &--primary {
         color: $color-hit;
 
         &:hover {
@@ -233,7 +232,7 @@
 
     &--large {
         font-size: 16px;
-        padding:16px;
+        padding: 16px;
 
         .ic {
             margin: 0 -2px;

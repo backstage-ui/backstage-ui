@@ -71,22 +71,4 @@
             line-height: 16px;
         }
     }
-
-    &__options {
-        visibility: hidden;
-
-        &--open {
-            top: 0;
-            visibility: visible;
-        }
-
-        &--open-up {
-            bottom: 0;
-            visibility: visible;
-        }
-
-        &--small {
-            @extend %font-14;
-        }
-    }
 }

@@ -30,7 +30,7 @@ export default () => {
 
       <Demo code={`<div class="bs-ui-dropdown">
   <div class="bs-ui-dropdown__item">Helvetica</div>
-  <div class="bs-ui-options bs-ui-dropdown__options">
+  <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
@@ -39,9 +39,9 @@ export default () => {
   </div>
 </div>`} title="Closed" />
 
-    <Demo style={openedStyle} code={`<div class="bs-ui-dropdown">
+    <Demo style={openedStyle} code={`<div class="bs-ui-dropdown ">
   <div class="bs-ui-dropdown__item">Helvetica</div>
-  <div class="bs-ui-options bs-ui-dropdown__options bs-ui-dropdown__options--open">
+  <div class="bs-ui-options bs-ui-options--open-down">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
@@ -57,7 +57,7 @@ export default () => {
 
       <Demo code={`<div class="bs-ui-dropdown bs-ui-dropdown--small">
   <div class="bs-ui-dropdown__item">Helvetica</div>
-  <div class="bs-ui-options bs-ui-dropdown__options bs-ui-dropdown__options--small">
+  <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
@@ -66,9 +66,9 @@ export default () => {
   </div>
 </div>`} title="Small Closed" />
 
-      <Demo style={openedStyle} code={`<div class="bs-ui-dropdown bs-ui-dropdown--small">
+      <Demo style={openedStyle} code={`<div class="bs-ui-dropdown bs-ui-dropdown--small ">
   <div class="bs-ui-dropdown__item">Helvetica</div>
-  <div class="bs-ui-options bs-ui-dropdown__options bs-ui-dropdown__options--small bs-ui-dropdown__options--open">
+  <div class="bs-ui-options bs-ui-options--small bs-ui-options--open-down">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>
@@ -79,12 +79,12 @@ export default () => {
 
       <Demo code={`<div class="bs-ui-dropdown bs-ui-dropdown--small bs-ui-dropdown--disabled">
   <div class="bs-ui-dropdown__item">Disabled</div>
-  <div class="bs-ui-options bs-ui-dropdown__options bs-ui-dropdown__options--small"></div>
+  <div class="bs-ui-options bs-ui-options--small"></div>
 </div>`} title="Small Disabled" />
 
       <Demo style={openUpStyle} code={`<div class="bs-ui-dropdown">
   <div class="bs-ui-dropdown__item">Helvetica</div>
-  <div class="bs-ui-options bs-ui-dropdown__options bs-ui-dropdown__options--open-up">
+  <div class="bs-ui-options bs-ui-options--open-up">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>
       <div class="bs-ui-options__item bs-ui-options__item--selected"  key="helvetica">Helvetica</div>

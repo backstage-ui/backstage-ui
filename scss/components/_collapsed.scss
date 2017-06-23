@@ -9,16 +9,4 @@
     cursor: pointer;
     display: inline;
     position: relative;
-
-    &__options {
-        margin-top: 8px;
-
-        &--left {
-            left: 0;
-        }
-
-        &--right {
-            right: 0;
-        }
-    }
 }

@@ -18,6 +18,7 @@
     position: absolute;
     transition: max-height 0.1s ease-in-out;
     width: 100%;
+    visibility: hidden;
     z-index: 3;
 
     &__avatar {
@@ -92,6 +93,28 @@
 
     &__title {
         @extend %font-26;
+    }
+
+    &--open {
+        margin-top: 8px;
+        right: 0;
+        visibility: visible;
+    }
+
+    &--open-down {
+        top: 0;
+        visibility: visible;
+
+    }
+
+    &--open-up {
+        bottom: 0;
+        visibility: visible;
+    }
+
+    &--left {
+        left: 0;
+        margin-top: 8px;
     }
 
     &--small {

@@ -15,12 +15,19 @@
     box-sizing: border-box;
     color: $color-white;
     cursor: pointer;
-    line-height: 0;
     outline: 0;
     padding: 12px 16px;
     text-decoration: none;
     text-transform: uppercase;
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
+
+    &:hover {
+            background-color: $color-gray-9;
+        }
+
+    &:active {
+        background-color: $color-gray-6;
+    }
 
     .ic {
         font-size: 20px;
@@ -129,8 +136,7 @@
 
     &--small {
         font-size: 12px;
-        line-height: 0;
-        padding: 16px;
+        padding: 8px 16px;
 
         .ic {
             margin: 0 -8px;
@@ -140,8 +146,7 @@
 
     &--large {
         font-size: 16px;
-        line-height: 0;
-        padding: 24px 16px;
+        padding:16px;
 
         .ic {
             margin: 0 -2px;
@@ -157,7 +162,6 @@
     box-sizing: border-box;
     color: $color-gray-8;
     cursor: pointer;
-    line-height: 0;
     outline: 0;
     padding: 12px 16px;
     text-decoration: none;
@@ -220,8 +224,7 @@
 
     &--small {
         font-size: 12px;
-        line-height: 0;
-        padding: 16px;
+        padding: 8px 16px;
 
         .ic {
             margin: 0 -8px;
@@ -230,8 +233,7 @@
 
     &--large {
         font-size: 16px;
-        line-height: 0;
-        padding: 24px 16px;
+        padding:16px;
 
         .ic {
             margin: 0 -2px;

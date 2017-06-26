@@ -34,12 +34,6 @@
         padding: 16px;
     }
 
-    &__icon {
-        font-size: 20px;
-        margin-right: 8px;
-        vertical-align: middle;
-    }
-
     &__item {
         padding: 8px 16px;
         text-align: left;
@@ -51,6 +45,14 @@
 
         &--divider {
             border-top: 2px solid $color-gray-4;
+        }
+
+        &__icon {
+            bottom: 2px;
+            font-size: 20px;
+            margin-right: 8px;
+            position: relative;
+            vertical-align: middle;
         }
 
         &:hover {
@@ -110,6 +112,14 @@
             margin-right: 8px;
             vertical-align: middle;
             width: 32px;
+        }
+
+        .bs-ui-options__item__icon {
+            bottom: 0;
+            font-size: 20px;
+            margin-right: 8px;
+            position: relative;
+            vertical-align: middle;
         }
     }
 }

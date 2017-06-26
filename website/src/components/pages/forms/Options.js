@@ -126,13 +126,13 @@ export default () => {
   <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">delete</i>Delete</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">mode_edit</i>Edit</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">mode_edit</i>Edit</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">add_box</i>Add</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">add_box</i>Add</a>
       </li>
     </div>
   </div>
@@ -143,13 +143,13 @@ export default () => {
   <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">delete</i>Delete</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">mode_edit</i>Edit</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">mode_edit</i>Edit</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__icon">add_box</i>Add</a>
+        <a><i class="material-icons ic bs-ui-options__item__icon">add_box</i>Add</a>
       </li>
     </div>
   </div>

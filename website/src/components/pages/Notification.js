@@ -29,6 +29,15 @@ export default () => (
     <i class="bs-ui-notification__close"></i>
   </div>
 </div>`}/>
+    <Demo code={`<div style="position: relative; height: 60px">
+  <div class="bs-ui-notification bs-ui-notification--float bs-ui-notification--show">
+    <span class="bs-ui-notification__text">
+      New version of the app available, please refresh your browser
+    </span>
+    <a href="#/notification" class="bs-ui-notification__link">Reload</a>
+    <i class="bs-ui-notification__close"></i>
+  </div>
+</div>`}/>
   </Page>
 );
 

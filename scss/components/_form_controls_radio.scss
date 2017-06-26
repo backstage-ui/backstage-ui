@@ -26,13 +26,13 @@
             box-sizing: border-box;
             content: ' ';
             cursor: pointer;
-            height: $spacer-x-2;
+            height: 24px;
             left: 0;
             position: absolute;
             top: -3px;
             transition: border-color .15s cubic-bezier(0, 0, 0.2, 1), border-width .15s cubic-bezier(0, 0, 0.2, 1);
             visibility: visible;
-            width: $spacer-x-2;
+            width: 24px;
             z-index: 5;
         }
     }

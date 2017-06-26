@@ -20,7 +20,7 @@ export default () => (
     </p>
 
     <Demo code={`<button class="bs-ui-button bs-ui-button--primary">primary</button>
-<button class="bs-ui-button bs-ui-button">default</button>
+<button class="bs-ui-button">default</button>
 <button class="bs-ui-button bs-ui-button--alert">alert</button>
 <button class="bs-ui-button bs-ui-button--disabled">disabled</button>`} >
     </Demo>

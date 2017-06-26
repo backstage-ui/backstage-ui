@@ -14,7 +14,7 @@ export default () => (
     <h1 className="bs-styleguide-page__title">Form Controls</h1>
     <h2 className="bs-styleguide-page__subtitle">Switches</h2>
     <p className="bs-styleguide-page__lead">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sed.
+      Used for binary configurations.
     </p>
     <Demo code={`<label class="bs-ui-switch">
   <input type="checkbox" class="bs-ui-switch__input">
@@ -31,7 +31,7 @@ export default () => (
 
     <h2 className="bs-styleguide-page__subtitle">Checkboxes</h2>
     <p className="bs-styleguide-page__lead">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sed.
+      Used in lists that allow multiple selections.
     </p>
     <Demo code={`<div class="bs-ui-input">
   <label class="bs-ui-checkbox">
@@ -53,7 +53,7 @@ export default () => (
 
     <h2 className="bs-styleguide-page__subtitle">Radio buttons</h2>
     <p className="bs-styleguide-page__lead">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sed.
+      Used in lists that allow mutually exclusive selection.
     </p>
     <Demo code={`<div class="bs-ui-input">
   <label class="bs-ui-radio">

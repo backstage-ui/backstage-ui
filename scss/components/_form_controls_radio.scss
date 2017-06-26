@@ -26,14 +26,15 @@
             box-sizing: border-box;
             content: ' ';
             cursor: pointer;
-            height: 24px;
+            height: $spacer-x-2;
             left: 0;
             position: absolute;
             top: -3px;
             transition: border-color .15s cubic-bezier(0, 0, 0.2, 1), border-width .15s cubic-bezier(0, 0, 0.2, 1);
             visibility: visible;
-            width: 24px;
+            width: $spacer-x-2;
             z-index: 5;
+            box-sizing: border-box;
         }
     }
 

@@ -23,7 +23,7 @@ export default () => (
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">mode_edit</i>create</button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic ic--left">mode_edit</i>create</button>
   </div>
 </div>
     `}/>
@@ -38,10 +38,10 @@ export default () => (
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">date_range</i>schedule</button>
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">cloud_done</i>save</button>
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background-primary"><i class="material-icons ic ic--left">cloud_upload</i>publish</button>
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic">more_horiz</i></button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic ic--left">date_range</i>schedule</button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic ic--left">cloud_done</i>save</button>
+    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--primary"><i class="material-icons ic ic--left">cloud_upload</i>publish</button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic">more_horiz</i></button>
   </div>
 </div>
     `}/>
@@ -56,11 +56,11 @@ export default () => (
     <li class="bs-ui-breadcrumbs__item">Current</li>
   </ol>
   <div class="bs-ui-action-bar__actions-group">
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">date_range</i>schedule</button>
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background"><i class="material-icons ic ic--left">cloud_done</i>save</button>
-    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--background-primary"><i class="material-icons ic ic--left">cloud_upload</i>publish</button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic ic--left">date_range</i>schedule</button>
+    <button class="bs-ui-action-bar__action bs-ui-button"><i class="material-icons ic ic--left">cloud_done</i>save</button>
+    <button class="bs-ui-action-bar__action bs-ui-button bs-ui-button--primary"><i class="material-icons ic ic--left">cloud_upload</i>publish</button>
     <div class="bs-ui-action-bar__action bs-ui-collapsed">
-      <button class="bs-ui-button bs-ui-button--background"><i class="material-icons ic">more_horiz</i></button>
+      <button class="bs-ui-button"><i class="material-icons ic">more_horiz</i></button>
       <div class="bs-ui-options bs-ui-collapsed__options bs-ui-collapsed__options--right">
         <div class="bs-ui-options__list">
           <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">cloud_download</i>Unpublish</a></li>

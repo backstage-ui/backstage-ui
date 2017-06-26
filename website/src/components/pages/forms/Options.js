@@ -85,15 +85,15 @@ export default () => {
   <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
         Backstage 1
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
           Backstage 2
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
           Backstage 3
       </li>
     </div>
@@ -105,15 +105,15 @@ export default () => {
   <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
         Backstage 1
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
           Backstage 2
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
           Backstage 3
       </li>
     </div>

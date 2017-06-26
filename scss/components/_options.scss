@@ -20,14 +20,6 @@
     width: 100%;
     z-index: 3;
 
-    &__avatar {
-        border-radius: 50%;
-        height: 40px;
-        margin-right: 8px;
-        vertical-align: middle;
-        width: 40px;
-    }
-
     &__header {
         border-bottom: 1px solid $color-gray-4;
         cursor: default;
@@ -53,6 +45,14 @@
             margin-right: 8px;
             position: relative;
             vertical-align: middle;
+        }
+
+        &__avatar {
+            border-radius: 50%;
+            height: 40px;
+            margin-right: 8px;
+            vertical-align: middle;
+            width: 40px;
         }
 
         &:hover {
@@ -107,7 +107,7 @@
             @extend %font-12;
         }
 
-        .bs-ui-options__avatar {
+        .bs-ui-options__item__avatar {
             height: 32px;
             margin-right: 8px;
             vertical-align: middle;

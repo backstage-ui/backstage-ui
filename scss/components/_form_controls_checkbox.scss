@@ -16,6 +16,7 @@
             background-color: $color-white;
             border: solid 2px $color-gray-4;
             border-radius: 4px;
+            box-sizing: border-box;
             content: ' ';
             cursor: pointer;
             height: $spacer-x-2;
@@ -26,7 +27,6 @@
             visibility: visible;
             width: $spacer-x-2;
             z-index: 5;
-            box-sizing: border-box;
         }
 
         &[type='checkbox']:checked {

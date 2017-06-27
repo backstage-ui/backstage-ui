@@ -50,7 +50,7 @@ export default () => {
 </div>
 `} title="Divider" />
 
-    <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
+    <Demo style={{height: "240px"}} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options">
     <div class="bs-ui-options__header">
       <div class="bs-ui-options__title">Select Type</div>
@@ -81,19 +81,19 @@ export default () => {
 `} title="Small" />
 
       <h2 className="bs-styleguide-page__subtitle">Avatar</h2>
-      <Demo style={{height: "200px"}} code={`<div style="width: 100%; position: relative; ">
+      <Demo style={{height: "220px"}} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
         Backstage 1
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
           Backstage 2
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
           Backstage 3
       </li>
     </div>
@@ -101,19 +101,19 @@ export default () => {
 </div>
 `} title="Default" />
 
-      <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
+      <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
         Backstage 1
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
           Backstage 2
       </li>
       <li class="bs-ui-options__item">
-        <img class="bs-ui-options__item__avatar" src="bs-logo.png">
+        <img class="bs-ui-options__avatar" src="bs-logo.png">
           Backstage 3
       </li>
     </div>
@@ -126,13 +126,13 @@ export default () => {
   <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">delete</i>Delete</a>
+        <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">mode_edit</i>Edit</a>
+        <a><i class="material-icons ic bs-ui-options__icon">mode_edit</i>Edit</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">add_box</i>Add</a>
+        <a><i class="material-icons ic bs-ui-options__icon">add_box</i>Add</a>
       </li>
     </div>
   </div>
@@ -143,13 +143,13 @@ export default () => {
   <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">delete</i>Delete</a>
+        <a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">mode_edit</i>Edit</a>
+        <a><i class="material-icons ic bs-ui-options__icon">mode_edit</i>Edit</a>
       </li>
       <li class="bs-ui-options__item">
-        <a><i class="material-icons ic bs-ui-options__item__icon">add_box</i>Add</a>
+        <a><i class="material-icons ic bs-ui-options__icon">add_box</i>Add</a>
       </li>
     </div>
   </div>

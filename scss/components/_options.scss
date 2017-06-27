@@ -39,22 +39,6 @@
             border-top: 2px solid $color-gray-4;
         }
 
-        &__icon {
-            bottom: 2px;
-            font-size: 20px;
-            margin-right: 8px;
-            position: relative;
-            vertical-align: middle;
-        }
-
-        &__avatar {
-            border-radius: 50%;
-            height: 40px;
-            margin-right: 8px;
-            vertical-align: middle;
-            width: 40px;
-        }
-
         &:hover {
             background-color: $color-hit;
             color: $color-white;
@@ -63,6 +47,22 @@
                 color: $color-white;
             }
         }
+    }
+
+    &__icon {
+        bottom: 2px;
+        font-size: 20px;
+        margin-right: 8px;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        height: 40px;
+        margin-right: 8px;
+        vertical-align: middle;
+        width: 40px;
     }
 
     &__label {
@@ -107,14 +107,14 @@
             @extend %font-12;
         }
 
-        .bs-ui-options__item__avatar {
+        .bs-ui-options__avatar {
             height: 32px;
             margin-right: 8px;
             vertical-align: middle;
             width: 32px;
         }
 
-        .bs-ui-options__item__icon {
+        .bs-ui-options__icon {
             bottom: 0;
             font-size: 20px;
             margin-right: 8px;

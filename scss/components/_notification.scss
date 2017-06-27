@@ -7,6 +7,7 @@
 .bs-ui-notification {
     @extend %font-14;
     align-items: center;
+    background-color: $color-gray-9;
     color: $color-white;
     display: flex;
     justify-content: space-between;
@@ -15,6 +16,21 @@
     position: absolute;
     transition: opacity 500ms ease;
     width: 100%;
+
+    &--float {
+        border-radius: 4px;
+        box-shadow: 0 1px 3px 0 rgba($color-black, 0.25);
+        max-width: 480px;
+    }
+
+    &__link {
+        color: $color-hit-light;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 0 16px 0 auto;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 
     &__close:before {
         @include material-icon;
@@ -41,6 +57,7 @@
     }
 
     &__text {
+        margin: 0 16px 0 0;
         padding: 4px;
     }
 }

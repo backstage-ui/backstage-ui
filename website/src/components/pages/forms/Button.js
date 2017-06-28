@@ -47,11 +47,11 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       You can use a button with or without an icon. In case of a button with icon and label, it must pass a message in the most clear and objective way.
     </p>
-    <Demo code={`<button class="bs-ui-button"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
-<button class="bs-ui-button"><i class="material-icons ic">cloud_upload</i></button>`} />
+    <Demo code={`<button class="bs-ui-button"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>upload</button>
+<button class="bs-ui-button"><i class="material-icons bs-ui-button__icon">cloud_upload</i></button>`} />
 
-    <Demo code={`<button class="bs-ui-flat-button"><i class="material-icons ic ic--left">cloud_upload</i>upload</button>
-<button class="bs-ui-flat-button"><i class="material-icons ic">cloud_upload</i></button>`} />
+    <Demo code={`<button class="bs-ui-flat-button"><i class="material-icons bs-ui-flat-button__icon bs-ui-flat-button__icon--left">cloud_upload</i>upload</button>
+<button class="bs-ui-flat-button"><i class="material-icons bs-ui-flat-button__icon">cloud_upload</i></button>`} />
 
     <h2 className="bs-styleguide-page__subtitle">Collapsed button</h2>
     <p className="bs-styleguide-page__lead">
@@ -59,7 +59,7 @@ export default () => (
     </p>
 
     <Demo style={{height: "200px"}} code={`<div class="bs-ui-collapsed">
-  <button class="bs-ui-button"><i class="material-icons ic">more_horiz</i></button>
+  <button class="bs-ui-button"><i class="material-icons bs-ui-button__icon">more_horiz</i></button>
   <div class="bs-ui-options bs-ui-collapsed__options bs-ui-collapsed__options--left">
     <div class="bs-ui-options__list">
       <div class="bs-ui-options__item" key="haas-grotesk">Haas Grotesk</div>

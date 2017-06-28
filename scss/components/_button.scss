@@ -29,7 +29,7 @@
         background-color: $color-gray-6;
     }
 
-    .ic {
+    &__icon {
         font-size: 20px;
         margin: 0 -4px;
         vertical-align: middle;
@@ -137,7 +137,7 @@
         font-size: 12px;
         padding: 8px 16px;
 
-        .ic {
+        .bs-ui-button__icon {
             margin: 0 -8px;
         }
 
@@ -147,7 +147,7 @@
         font-size: 16px;
         padding: 16px;
 
-        .ic {
+        .bs-ui-button__icon {
             margin: 0 -2px;
         }
     }
@@ -167,7 +167,7 @@
     text-transform: uppercase;
     transition: color .15s cubic-bezier(0, 0, 0.2, 1), background-color .15s cubic-bezier(0, 0, 0.2, 1);
 
-    .ic {
+    &__icon {
         font-size: 20px;
         margin: 0 -4px;
         vertical-align: middle;
@@ -225,7 +225,7 @@
         font-size: 12px;
         padding: 8px 16px;
 
-        .ic {
+        .bs-ui-flat-button__icon {
             margin: 0 -8px;
         }
     }
@@ -234,7 +234,7 @@
         font-size: 16px;
         padding: 16px;
 
-        .ic {
+        .bs-ui-flat-button__icon {
             margin: 0 -2px;
         }
     }

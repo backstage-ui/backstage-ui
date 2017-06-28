@@ -50,7 +50,7 @@ export default () => {
 </div>
 `} title="Divider" />
 
-    <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
+    <Demo style={{height: "240px"}} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options">
     <div class="bs-ui-options__header">
       <div class="bs-ui-options__title">Select Type</div>
@@ -81,7 +81,7 @@ export default () => {
 `} title="Small" />
 
       <h2 className="bs-styleguide-page__subtitle">Avatar</h2>
-      <Demo style={{height: "200px"}} code={`<div style="width: 100%; position: relative; ">
+      <Demo style={{height: "220px"}} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">
@@ -101,7 +101,7 @@ export default () => {
 </div>
 `} title="Default" />
 
-      <Demo style={openedStyle} code={`<div style="width: 100%; position: relative; ">
+      <Demo style={maxHeight} code={`<div style="width: 100%; position: relative; ">
   <div class="bs-ui-options bs-ui-options--small">
     <div class="bs-ui-options__list">
       <li class="bs-ui-options__item">

@@ -63,9 +63,9 @@ export default () => (
       <button class="bs-ui-button"><i class="material-icons bs-ui-button__icon">more_horiz</i></button>
       <div class="bs-ui-options bs-ui-collapsed__options bs-ui-collapsed__options--right">
         <div class="bs-ui-options__list">
-          <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">cloud_download</i>Unpublish</a></li>
-          <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">history</i>History</a></li>
-          <li class="bs-ui-options__item"><a><i class="material-icons ic bs-ui-options__icon">delete</i>Delete</a></li>
+          <li class="bs-ui-options__item"><a><i class="material-icons bs-ui-options__icon">cloud_download</i>Unpublish</a></li>
+          <li class="bs-ui-options__item"><a><i class="material-icons bs-ui-options__icon">history</i>History</a></li>
+          <li class="bs-ui-options__item"><a><i class="material-icons bs-ui-options__icon">delete</i>Delete</a></li>
         </div>
       </div>
     </div>

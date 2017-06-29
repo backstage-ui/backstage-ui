@@ -12,13 +12,15 @@
 
     &__options {
         margin-top: 8px;
+        visibility: hidden;
+
+        &--open {
+            right: 0;
+            visibility: visible;
+        }
 
         &--left {
             left: 0;
-        }
-
-        &--right {
-            right: 0;
         }
     }
 }

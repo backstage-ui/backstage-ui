@@ -78,14 +78,14 @@
   letter-spacing: -0.03125rem;
   line-height: 1.25rem; }
 
-.bs-ui-button, .bs-ui-breadcrumbs, .bs-ui-dropdown--small, .bs-ui-dropdown__options--small, .bs-ui-form-control--small .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-switch, .bs-ui-notification, .bs-ui-options__subtitle, .bs-ui-options--small, .bs-ui-tabs--small {
+.bs-ui-button, .bs-ui-flat-button, .bs-ui-breadcrumbs, .bs-ui-dropdown--small, .bs-ui-dropdown__options--small, .bs-ui-form-control--small .bs-ui-form-control__field, .bs-ui-form-control__label, .bs-ui-switch, .bs-ui-notification, .bs-ui-options__subtitle, .bs-ui-options--small, .bs-ui-tabs--small {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   letter-spacing: -0.01562rem;
   line-height: 1rem; }
-  .bs-ui-button {
+  .bs-ui-button, .bs-ui-flat-button {
     font-weight: bold; }
 
 .bs-ui-form-control__description, .bs-ui-form-control--small .bs-ui-form-control__label, .bs-ui-options--small .bs-ui-options__subtitle, .bs-ui-pagination, .bs-ui-table {
@@ -164,60 +164,75 @@
  * License: MIT
  */
 .bs-ui-button {
-  background-color: transparent;
+  background-color: #333;
   border: 0;
   border-radius: 4px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
-  color: #333;
+  color: #fff;
   cursor: pointer;
-  height: 40px;
-  line-height: 20px;
   outline: 0;
-  padding: 0 16px;
+  padding: 12px 16px;
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
-  .bs-ui-button .ic {
+  .bs-ui-button:hover {
+    background-color: #181818; }
+  .bs-ui-button:active {
+    background-color: #666; }
+  .bs-ui-button__icon {
     font-size: 20px;
     margin: 0 -4px;
     vertical-align: middle; }
-    .bs-ui-button .ic--left {
+    .bs-ui-button__icon--left {
       margin: 0 8px 0 0; }
-  .bs-ui-button--background, .bs-ui-button--background-black {
-    background-color: #333;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
-    color: #fff; }
-    .bs-ui-button--background:hover, .bs-ui-button--background-black:hover {
-      background-color: #181818; }
-    .bs-ui-button--background:active, .bs-ui-button--background-black:active {
-      background-color: #666; }
-  .bs-ui-button--background-alert, .bs-ui-button--background-red {
-    background-color: #e83f26;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
-    color: #fff; }
-    .bs-ui-button--background-alert:hover, .bs-ui-button--background-red:hover {
+  .bs-ui-button--alert, .bs-ui-button--background-red {
+    background-color: #e83f26; }
+    .bs-ui-button--alert:hover, .bs-ui-button--background-red:hover {
       background-color: #bc2e1e; }
-    .bs-ui-button--background-alert:active, .bs-ui-button--background-red:active {
+    .bs-ui-button--alert:active, .bs-ui-button--background-red:active {
       background-color: #ee6a50; }
-  .bs-ui-button--background-primary, .bs-ui-button--background-blue {
-    background-color: #0669de;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
-    color: #fff; }
-    .bs-ui-button--background-primary:hover, .bs-ui-button--background-blue:hover {
+  .bs-ui-button--primary, .bs-ui-button--background-blue {
+    background-color: #0669de; }
+    .bs-ui-button--primary:hover, .bs-ui-button--background-blue:hover {
       background-color: #044cb3; }
-    .bs-ui-button--background-primary:active, .bs-ui-button--background-blue:active {
+    .bs-ui-button--primary:active, .bs-ui-button--background-blue:active {
       background-color: #3192e7; }
-  .bs-ui-button--alert, .bs-ui-button--red {
+  .bs-ui-button--black {
+    background-color: transparent;
+    box-shadow: none;
+    color: #333; }
+    .bs-ui-button--black:hover {
+      background-color: transparent;
+      box-shadow: none;
+      color: #181818; }
+    .bs-ui-button--black:active {
+      background-color: transparent;
+      box-shadow: none;
+      color: #666; }
+  .bs-ui-button--red {
+    background-color: transparent;
+    box-shadow: none;
     color: #e83f26; }
-    .bs-ui-button--alert:hover, .bs-ui-button--red:hover {
+    .bs-ui-button--red:hover {
+      background-color: transparent;
+      box-shadow: none;
       color: #bc2e1e; }
-    .bs-ui-button--alert:active, .bs-ui-button--red:active {
+    .bs-ui-button--red:active {
+      background-color: transparent;
+      box-shadow: none;
       color: #ee6a50; }
-  .bs-ui-button--primary, .bs-ui-button--blue {
+  .bs-ui-button--blue {
+    background-color: transparent;
+    box-shadow: none;
     color: #0669de; }
-    .bs-ui-button--primary:hover, .bs-ui-button--blue:hover {
+    .bs-ui-button--blue:hover {
+      background-color: transparent;
+      box-shadow: none;
       color: #044cb3; }
-    .bs-ui-button--primary:active, .bs-ui-button--blue:active {
+    .bs-ui-button--blue:active {
+      background-color: transparent;
+      box-shadow: none;
       color: #3192e7; }
   .bs-ui-button--disabled {
     background-color: #ddd;
@@ -229,13 +244,66 @@
       color: #999; }
   .bs-ui-button--small {
     font-size: 12px;
-    height: 32px; }
-    .bs-ui-button--small .ic {
+    padding: 8px 16px; }
+    .bs-ui-button--small .bs-ui-button__icon {
       margin: 0 -8px; }
   .bs-ui-button--large {
     font-size: 16px;
-    height: 48px; }
-    .bs-ui-button--large .ic {
+    padding: 16px; }
+    .bs-ui-button--large .bs-ui-button__icon {
+      margin: 0 -2px; }
+
+.bs-ui-flat-button {
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  outline: 0;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
+  .bs-ui-flat-button__icon {
+    font-size: 20px;
+    margin: 0 -4px;
+    vertical-align: middle; }
+    .bs-ui-flat-button__icon--left {
+      margin: 0 8px 0 0; }
+  .bs-ui-flat-button:hover {
+    color: #181818; }
+  .bs-ui-flat-button:active {
+    color: #666; }
+  .bs-ui-flat-button--alert {
+    color: #e83f26; }
+    .bs-ui-flat-button--alert:hover {
+      color: #bc2e1e; }
+    .bs-ui-flat-button--alert:active {
+      color: #ee6a50; }
+  .bs-ui-flat-button--primary {
+    color: #0669de; }
+    .bs-ui-flat-button--primary:hover {
+      color: #044cb3; }
+    .bs-ui-flat-button--primary:active {
+      color: #3192e7; }
+  .bs-ui-flat-button--disabled {
+    background-color: #ddd;
+    box-shadow: none;
+    color: #999;
+    cursor: default; }
+    .bs-ui-flat-button--disabled:hover {
+      background-color: #ddd;
+      color: #999; }
+  .bs-ui-flat-button--small {
+    font-size: 12px;
+    padding: 8px 16px; }
+    .bs-ui-flat-button--small .bs-ui-flat-button__icon {
+      margin: 0 -8px; }
+  .bs-ui-flat-button--large {
+    font-size: 16px;
+    padding: 16px; }
+    .bs-ui-flat-button--large .bs-ui-flat-button__icon {
       margin: 0 -2px; }
 
 /*
@@ -248,11 +316,13 @@
   display: inline;
   position: relative; }
   .bs-ui-collapsed__options {
-    margin-top: 8px; }
+    margin-top: 8px;
+    visibility: hidden; }
+    .bs-ui-collapsed__options--open {
+      right: 0;
+      visibility: visible; }
     .bs-ui-collapsed__options--left {
       left: 0; }
-    .bs-ui-collapsed__options--right {
-      right: 0; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
@@ -324,6 +394,7 @@
       background-color: #fff;
       border: solid 2px #ccc;
       border-radius: 4px;
+      box-sizing: border-box;
       content: ' ';
       cursor: pointer;
       height: 24px;
@@ -341,6 +412,7 @@
       border-bottom: 3px solid #fff;
       border-radius: 2px;
       border-right: 3px solid #fff;
+      box-sizing: border-box;
       content: ' ';
       height: 15px;
       left: 8px;
@@ -538,6 +610,7 @@
  */
 .bs-ui-notification {
   align-items: center;
+  background-color: #181818;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -546,6 +619,17 @@
   position: absolute;
   transition: opacity 500ms ease;
   width: 100%; }
+  .bs-ui-notification--float {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+    max-width: 480px; }
+  .bs-ui-notification__link {
+    color: #3192e7;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 16px 0 auto;
+    text-decoration: none;
+    text-transform: uppercase; }
   .bs-ui-notification__close:before {
     -moz-font-feature-settings: 'liga';
     -moz-osx-font-smoothing: grayscale;
@@ -571,6 +655,7 @@
   .bs-ui-notification--success {
     background-color: #527c2b; }
   .bs-ui-notification__text {
+    margin: 0 16px 0 0;
     padding: 4px; }
 
 /*
@@ -591,20 +676,10 @@
   transition: max-height 0.1s ease-in-out;
   width: 100%;
   z-index: 3; }
-  .bs-ui-options__avatar {
-    border-radius: 50%;
-    height: 40px;
-    margin-right: 8px;
-    vertical-align: middle;
-    width: 40px; }
   .bs-ui-options__header {
     border-bottom: 1px solid #ccc;
     cursor: default;
     padding: 16px; }
-  .bs-ui-options__icon {
-    font-size: 20px;
-    margin-right: 8px;
-    vertical-align: middle; }
   .bs-ui-options__item {
     padding: 8px 16px;
     text-align: left;
@@ -618,6 +693,18 @@
       color: #fff; }
       .bs-ui-options__item:hover .bs-ui-options__label {
         color: #fff; }
+  .bs-ui-options__icon {
+    bottom: 2px;
+    font-size: 20px;
+    margin-right: 8px;
+    position: relative;
+    vertical-align: middle; }
+  .bs-ui-options__avatar {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 40px; }
   .bs-ui-options__label {
     color: #333;
     overflow: hidden;
@@ -628,6 +715,7 @@
     display: inline-flex;
     width: 100%; }
   .bs-ui-options__list {
+    margin: 0;
     max-height: 342px;
     overflow: auto;
     padding: 8px 0; }
@@ -640,6 +728,12 @@
     margin-right: 8px;
     vertical-align: middle;
     width: 32px; }
+  .bs-ui-options--small .bs-ui-options__icon {
+    bottom: 0;
+    font-size: 20px;
+    margin-right: 8px;
+    position: relative;
+    vertical-align: middle; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
@@ -742,8 +836,6 @@
       margin: -10px -10px -10px -20px;
       padding: 10px 10px 10px 20px;
       text-decoration: none; }
-      .bs-ui-table__link:hover {
-        background: #e5f1ff; }
     .bs-ui-table__row {
       border-bottom: 1px solid #ddd;
       border-top: 1px solid #ddd; }

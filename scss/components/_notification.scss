@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     opacity: 0;
-    padding: 12px;
     position: absolute;
     transition: opacity 500ms ease;
     width: 100%;
@@ -32,12 +31,16 @@
         text-transform: uppercase;
     }
 
-    &__close:before {
-        @include material-icon;
-        content: 'close';
-        cursor: pointer;
-        display: block;
-        font-size: 24px;
+    &__close {
+        padding-right: 12px;
+
+        &:before {
+            @include material-icon;
+            content: 'close';
+            cursor: pointer;
+            display: block;
+            font-size: 24px;
+        }
     }
 
     &--error {
@@ -58,6 +61,6 @@
 
     &__text {
         margin: 0 16px 0 0;
-        padding: 4px;
+        padding: 16px;
     }
 }

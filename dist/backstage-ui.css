@@ -615,7 +615,6 @@
   display: flex;
   justify-content: space-between;
   opacity: 0;
-  padding: 12px;
   position: absolute;
   transition: opacity 500ms ease;
   width: 100%; }
@@ -630,22 +629,24 @@
     margin: 0 16px 0 auto;
     text-decoration: none;
     text-transform: uppercase; }
-  .bs-ui-notification__close:before {
-    -moz-font-feature-settings: 'liga';
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    text-transform: none;
-    white-space: nowrap;
-    word-wrap: normal;
-    content: 'close';
-    cursor: pointer;
-    display: block;
-    font-size: 24px; }
+  .bs-ui-notification__close {
+    padding-right: 12px; }
+    .bs-ui-notification__close:before {
+      -moz-font-feature-settings: 'liga';
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      text-transform: none;
+      white-space: nowrap;
+      word-wrap: normal;
+      content: 'close';
+      cursor: pointer;
+      display: block;
+      font-size: 24px; }
   .bs-ui-notification--error {
     background-color: #e83f26; }
     .bs-ui-notification--error .bs-ui-notification__close {
@@ -656,7 +657,7 @@
     background-color: #527c2b; }
   .bs-ui-notification__text {
     margin: 0 16px 0 0;
-    padding: 4px; }
+    padding: 16px; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)

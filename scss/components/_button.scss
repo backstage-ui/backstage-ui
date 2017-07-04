@@ -136,7 +136,7 @@
     }
 
     &--large {
-        @extend %font-16--bold;
+        font-size: 16px;
         padding: 16px;
 
         .bs-ui-button__icon {
@@ -153,7 +153,7 @@
     }
 
     &--small {
-        @extend %font-12--bold;
+        font-size: 12px;
         padding: 8px 16px;
 
         .bs-ui-button__icon {
@@ -242,7 +242,7 @@
     }
 
     &--large {
-        @extend %font-16--bold;
+        font-size: 16px;
         padding: 16px;
 
         .bs-ui-button__icon {
@@ -259,7 +259,7 @@
     }
 
     &--small {
-        @extend %font-12--bold;
+        font-size: 12px;
         padding: 8px 16px;
 
         .bs-ui-button__icon {

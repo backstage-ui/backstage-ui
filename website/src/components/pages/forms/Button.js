@@ -49,11 +49,11 @@ export default () => (
     <p className="bs-styleguide-page__lead">
       You can use a button with or without an icon. In case of a button with icon and label, it must pass a message in the most clear and objective way.
     </p>
-    <Demo code={`<button class="bs-ui-button bs-ui-button--large"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>upload</button>
+    <Demo code={`<button class="bs-ui-button bs-ui-button--large"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>Large</button>
 <button class="bs-ui-button bs-ui-button--large"><i class="material-icons bs-ui-button__icon">cloud_upload</i></button>
-<button class="bs-ui-button"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>upload</button>
+<button class="bs-ui-button"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>Medium</button>
 <button class="bs-ui-button"><i class="material-icons bs-ui-button__icon">cloud_upload</i></button>
-<button class="bs-ui-button bs-ui-button--small"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>upload</button>
+<button class="bs-ui-button bs-ui-button--small"><i class="material-icons bs-ui-button__icon bs-ui-button__icon--left">cloud_upload</i>small</button>
 <button class="bs-ui-button bs-ui-button--small"><i class="material-icons bs-ui-button__icon">cloud_upload</i></button>
 
 `} title="Default" />

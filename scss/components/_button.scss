@@ -31,11 +31,13 @@
 
     &__icon {
         font-size: 20px;
-        margin: 0 -4px;
+        margin: -3px -6px;
+        position: relative;
+        top: -2px;
         vertical-align: middle;
 
         &--left {
-            margin: 0 8px 0 0;
+            margin: -3px 8px -3px 0;
         }
     }
 
@@ -133,23 +135,39 @@
         }
     }
 
-    &--small {
-        font-size: 12px;
-        padding: 8px 16px;
-
-        .bs-ui-button__icon {
-            margin: 0 -8px;
-        }
-
-    }
-
     &--large {
-        font-size: 16px;
+        @extend %font-16--bold;
         padding: 16px;
 
         .bs-ui-button__icon {
-            margin: 0 -2px;
+            font-size: 20px;
+            margin: -4px -2px;
+            position: relative;
+            top: -3px;
+            vertical-align: middle;
         }
+
+        .bs-ui-button__icon--left {
+            margin-right: 12px;
+        }
+    }
+
+    &--small {
+        @extend %font-12--bold;
+        padding: 8px 16px;
+
+        .bs-ui-button__icon {
+            font-size: 18px;
+            margin: -4px -10px;
+            position: relative;
+            top: -2px;
+            vertical-align: middle;
+        }
+
+        .bs-ui-button__icon--left {
+            margin: -3px 8px -3px 0;
+        }
+
     }
 }
 
@@ -169,11 +187,13 @@
 
     &__icon {
         font-size: 20px;
-        margin: 0 -4px;
+        margin: -3px -6px;
+        position: relative;
+        top: -2px;
         vertical-align: middle;
 
         &--left {
-            margin: 0 8px 0 0;
+            margin: -3px 8px -3px 0;
         }
     }
 
@@ -221,23 +241,38 @@
         }
     }
 
-    &--small {
-        font-size: 12px;
-        padding: 8px 16px;
-
-        .bs-ui-flat-button__icon {
-            margin: 0 -8px;
-        }
-    }
-
     &--large {
-        font-size: 16px;
+        @extend %font-16--bold;
         padding: 16px;
 
-        .bs-ui-flat-button__icon {
-            margin: 0 -2px;
+        .bs-ui-button__icon {
+            font-size: 20px;
+            margin: -4px -2px;
+            position: relative;
+            top: -3px;
+            vertical-align: middle;
+        }
+
+        .bs-ui-button__icon--left {
+            margin-right: 12px;
         }
     }
 
+        &--small {
+        @extend %font-12--bold;
+        padding: 8px 16px;
+
+        .bs-ui-button__icon {
+            font-size: 18px;
+            margin: -4px -10px;
+            position: relative;
+            top: -2px;
+            vertical-align: middle;
+        }
+
+        .bs-ui-button__icon--left {
+            margin: -3px 8px -3px 0;
+        }
+    }
 }
 

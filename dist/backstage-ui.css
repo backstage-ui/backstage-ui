@@ -120,7 +120,7 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   height: 72px;
   padding: 0 24px; }
-  .bs-ui-action-bar__action + .bs-ui-action-bar__action {
+  .bs-ui-action-bar__action {
     margin-left: 16px; }
 
 /*
@@ -182,10 +182,12 @@
     background-color: #666; }
   .bs-ui-button__icon {
     font-size: 20px;
-    margin: 0 -4px;
+    margin: -3px -6px;
+    position: relative;
+    top: -2px;
     vertical-align: middle; }
     .bs-ui-button__icon--left {
-      margin: 0 8px 0 0; }
+      margin: -3px 8px -3px 0; }
   .bs-ui-button--alert, .bs-ui-button--background-red {
     background-color: #e83f26; }
     .bs-ui-button--alert:hover, .bs-ui-button--background-red:hover {
@@ -242,16 +244,28 @@
     .bs-ui-button--disabled:hover {
       background-color: #ddd;
       color: #999; }
-  .bs-ui-button--small {
-    font-size: 12px;
-    padding: 8px 16px; }
-    .bs-ui-button--small .bs-ui-button__icon {
-      margin: 0 -8px; }
   .bs-ui-button--large {
     font-size: 16px;
     padding: 16px; }
     .bs-ui-button--large .bs-ui-button__icon {
-      margin: 0 -2px; }
+      font-size: 20px;
+      margin: -4px -2px;
+      position: relative;
+      top: -3px;
+      vertical-align: middle; }
+    .bs-ui-button--large .bs-ui-button__icon--left {
+      margin-right: 12px; }
+  .bs-ui-button--small {
+    font-size: 12px;
+    padding: 8px 16px; }
+    .bs-ui-button--small .bs-ui-button__icon {
+      font-size: 18px;
+      margin: -4px -10px;
+      position: relative;
+      top: -2px;
+      vertical-align: middle; }
+    .bs-ui-button--small .bs-ui-button__icon--left {
+      margin: -3px 8px -3px 0; }
 
 .bs-ui-flat-button {
   background: none;
@@ -267,10 +281,12 @@
   transition: color 0.15s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s cubic-bezier(0, 0, 0.2, 1); }
   .bs-ui-flat-button__icon {
     font-size: 20px;
-    margin: 0 -4px;
+    margin: -3px -6px;
+    position: relative;
+    top: -2px;
     vertical-align: middle; }
     .bs-ui-flat-button__icon--left {
-      margin: 0 8px 0 0; }
+      margin: -3px 8px -3px 0; }
   .bs-ui-flat-button:hover {
     color: #181818; }
   .bs-ui-flat-button:active {
@@ -295,16 +311,28 @@
     .bs-ui-flat-button--disabled:hover {
       background-color: #ddd;
       color: #999; }
-  .bs-ui-flat-button--small {
-    font-size: 12px;
-    padding: 8px 16px; }
-    .bs-ui-flat-button--small .bs-ui-flat-button__icon {
-      margin: 0 -8px; }
   .bs-ui-flat-button--large {
     font-size: 16px;
     padding: 16px; }
-    .bs-ui-flat-button--large .bs-ui-flat-button__icon {
-      margin: 0 -2px; }
+    .bs-ui-flat-button--large .bs-ui-button__icon {
+      font-size: 20px;
+      margin: -4px -2px;
+      position: relative;
+      top: -3px;
+      vertical-align: middle; }
+    .bs-ui-flat-button--large .bs-ui-button__icon--left {
+      margin-right: 12px; }
+  .bs-ui-flat-button--small {
+    font-size: 12px;
+    padding: 8px 16px; }
+    .bs-ui-flat-button--small .bs-ui-button__icon {
+      font-size: 18px;
+      margin: -4px -10px;
+      position: relative;
+      top: -2px;
+      vertical-align: middle; }
+    .bs-ui-flat-button--small .bs-ui-button__icon--left {
+      margin: -3px 8px -3px 0; }
 
 /*
  * Copyright (c) 2013, Globo.com (https://github.com/globocom)
